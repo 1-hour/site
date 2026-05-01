@@ -14,7 +14,11 @@ pnpm --version
 
 echo "==> Installing framework dependencies..."
 cd framework
-pnpm install --frozen-lockfile
+# Remove lockfile if it's corrupted/empty
+if [ ! -s pnpm-lock.yaml ] 2>/dev/null; then
+  rm -f pnpm-lock.yaml
+fi
+pnpm install --frozen-lockfile --prefer-offline
 
 echo "==> Building static site..."
 CONTENT_DIR=../content pnpm build
