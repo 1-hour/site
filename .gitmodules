@@ -1,0 +1,6 @@
+[submodule "framework"]
+	path = framework
+	url = https://github.com/jiusanzhou/tutorial-kit.git
+[submodule "content"]
+	path = content
+	url = https://github.com/jiusanzhou/1hour-guide-content.git

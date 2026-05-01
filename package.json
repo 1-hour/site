@@ -1,0 +1,13 @@
+{
+  "name": "1hour-guide-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site deployment for 1hour.guide",
+  "scripts": {
+    "install:framework": "cd framework && pnpm install",
+    "build": "cd framework && CONTENT_DIR=../content pnpm build && cd .. && rm -rf out && cp -r framework/out ./out",
+    "preview": "cd framework/out && python3 -m http.server 8000",
+    "update:content": "cd content && git pull origin main && cd .. && git add content && git commit -m 'Bump content'",
+    "update:framework": "cd framework && git pull origin main && cd .. && git add framework && git commit -m 'Bump framework'"
+  }
+}
