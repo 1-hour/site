@@ -1,6 +1,6 @@
 [submodule "framework"]
 	path = framework
-	url = https://github.com/jiusanzhou/tutorial-kit.git
+	url = https://github.com/1-hour/tutorial-kit.git
 [submodule "content"]
 	path = content
-	url = https://github.com/jiusanzhou/1hour-guide-content.git
+	url = https://github.com/1-hour/content.git
