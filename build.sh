@@ -15,6 +15,26 @@ set -euo pipefail
 echo "==> Ensuring submodules are initialized..."
 git submodule update --init --recursive
 
+# Sanitize MDX before build (defense-in-depth: avoid CF build failure on
+# common LLM output issues like ASCII " in <Answer>...</Answer> or "<" in
+# paragraphs).
+if command -v python3 >/dev/null 2>&1 && [ -d content/tutorials ]; then
+  python3 - <<'PY'
+import re, pathlib
+root = pathlib.Path("content")
+for f in sorted(root.glob("tutorials/*/*.mdx")):
+    s = f.read_text(encoding="utf-8")
+    o = s
+    s = re.sub(r"(<Answer>)(.*?)(</Answer>)",
+               lambda m: m.group(1) + m.group(2).replace("`","").replace('"',"") + m.group(3),
+               s, flags=re.DOTALL)
+    s = s.replace('"<"', "left-arrow symbol").replace('">"', "right-arrow symbol")
+    if s != o:
+        f.write_text(s, encoding="utf-8")
+        print(f"sanitized: {f}")
+PY
+fi
+
 echo "==> Checking pnpm..."
 if ! command -v pnpm >/dev/null 2>&1; then
   echo "pnpm not found, installing..."
