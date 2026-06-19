@@ -1,0 +1,11 @@
+{
+  "name": "og-gen",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "puppeteer-core": "^23.0.0",
+    "yaml": "^2.5.0",
+    "gray-matter": "^4.0.3"
+  }
+}

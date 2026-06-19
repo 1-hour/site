@@ -49,12 +49,29 @@ git checkout main
 git pull --ff-only origin main
 
 cd "$SITE_DIR"
-if git diff --quiet -- content; then
-  echo "▶ site 仓库 submodule pointer 已是最新，跳过"
+
+# 2b) regenerate OG images for any new/changed tutorials and commit them
+if [ -x "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" ] && command -v node >/dev/null 2>&1; then
+  echo "▶ [site] generating OG images..."
+  (cd scripts/og-gen && [ -d node_modules ] || npm install --silent)
+  node scripts/og-gen/generate.js || echo "WARN: og-gen failed, continuing"
+  if ! git diff --quiet -- framework/public/og 2>/dev/null; then
+    git add framework/public/og
+    git commit -m "chore: regenerate og images" || true
+  fi
+fi
+
+if git diff --quiet HEAD -- content framework/public/og 2>/dev/null; then
+  echo "▶ site 仓库无变更，跳过"
 else
-  echo "▶ [site] bump content -> $CONTENT_HEAD"
-  git add content
-  git commit -m "chore: bump content -> $CONTENT_HEAD"
+  if ! git diff --cached --quiet 2>/dev/null; then
+    : # already committed in step 2b
+  fi
+  if ! git diff --quiet -- content; then
+    echo "▶ [site] bump content -> $CONTENT_HEAD"
+    git add content
+    git commit -m "chore: bump content -> $CONTENT_HEAD"
+  fi
   git push origin main
 fi
 

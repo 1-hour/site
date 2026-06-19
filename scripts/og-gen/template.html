@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="__LOCALE__">
+<head>
+<meta charset="utf-8" />
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1200px; height: 630px; }
+body {
+  font-family: -apple-system, "PingFang SC", "Hiragino Sans GB",
+               "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+  width: 1200px;
+  height: 630px;
+  background: linear-gradient(135deg, #FF6B35 0%, #F7931E 60%, #FFB155 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.bg-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at 30% 40%, #000 50%, transparent 80%);
+}
+.bg-blob {
+  position: absolute; right: -120px; bottom: -120px;
+  width: 520px; height: 520px;
+  background: radial-gradient(circle, rgba(255,255,255,.18) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.frame {
+  position: relative; z-index: 2;
+  padding: 64px 72px;
+  display: flex; flex-direction: column;
+  height: 100%;
+}
+.header {
+  display: flex; align-items: center;
+  gap: 16px; margin-bottom: 32px;
+}
+.brand {
+  display: flex; align-items: center; gap: 14px;
+  font-size: 28px; font-weight: 600; letter-spacing: -0.02em;
+}
+.brand-dot {
+  width: 48px; height: 48px; border-radius: 14px;
+  background: #fff; color: #FF6B35;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.18);
+}
+.category-pill {
+  margin-left: auto;
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.32);
+  backdrop-filter: blur(8px);
+  padding: 10px 22px; border-radius: 999px;
+  font-size: 20px; font-weight: 500; letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.body {
+  flex: 1; display: flex; flex-direction: column;
+  justify-content: center; gap: 24px;
+}
+.duration {
+  font-size: 28px; font-weight: 500; opacity: .82;
+  letter-spacing: -.01em;
+}
+.title {
+  font-size: 76px; font-weight: 800;
+  line-height: 1.1; letter-spacing: -.025em;
+  text-shadow: 0 4px 16px rgba(0,0,0,.12);
+  max-width: 1000px;
+}
+.description {
+  font-size: 28px; font-weight: 400; opacity: .9;
+  line-height: 1.4; max-width: 960px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.footer {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  font-size: 22px; opacity: .85;
+  border-top: 1px solid rgba(255,255,255,.22);
+  padding-top: 22px;
+}
+.footer .url { font-weight: 600; }
+.footer .tags { font-size: 18px; opacity: .75; letter-spacing: .04em; }
+</style>
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="bg-blob"></div>
+<div class="frame">
+  <div class="header">
+    <div class="brand">
+      <div class="brand-dot">1h</div>
+      <span>__BRAND__</span>
+    </div>
+    <div class="category-pill">__CATEGORY__</div>
+  </div>
+  <div class="body">
+    <div class="duration">⏱️ __DURATION_LABEL__</div>
+    <div class="title">__TITLE__</div>
+    <div class="description">__DESCRIPTION__</div>
+  </div>
+  <div class="footer">
+    <span class="url">1hour.guide</span>
+    <span class="tags">__TAGS__</span>
+  </div>
+</div>
+</body>
+</html>

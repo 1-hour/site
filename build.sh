@@ -35,6 +35,17 @@ for f in sorted(root.glob("tutorials/*/*.mdx")):
 PY
 fi
 
+# Generate per-tutorial OG images. Skipped on Cloudflare Builds (no Chrome
+# binary available there); regenerated locally before publish and committed
+# to framework/public/og/ so they ship as static assets.
+if [ -z "${CF_PAGES:-}${CI_NO_OG_GEN:-}" ] && command -v node >/dev/null 2>&1 && [ -x "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" ]; then
+  echo "==> Generating OG images..."
+  (cd scripts/og-gen && [ -d node_modules ] || npm install --silent)
+  node scripts/og-gen/generate.js || echo "WARN: og-gen failed, continuing build"
+else
+  echo "==> Skipping OG image generation (no local Chrome / CI env)"
+fi
+
 echo "==> Checking pnpm..."
 if ! command -v pnpm >/dev/null 2>&1; then
   echo "pnpm not found, installing..."

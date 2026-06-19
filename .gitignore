@@ -4,3 +4,4 @@
 *.log
 .env*
 .wrangler/
+scripts/og-gen/node_modules
