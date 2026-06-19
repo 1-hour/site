@@ -1,0 +1,88 @@
+# 1hour.guide 内容生产队列
+#
+# 巡查每周一 09:00 自动消费此文件的第一个 status:pending 项，
+# 用 distro pipeline 生成教程 → publish.sh 推送 → CF Workers Builds 上线。
+#
+# 编辑此文件来排队新教程。可通过 `git pull` 同步。
+#
+# 字段说明：
+#   slug         必填，kebab-case，对应 tutorials/<slug>/
+#   category     必填，code/ai/design/business/web/mind
+#   topic        必填，给 LLM 的英文主题描述（含具体卖点）
+#   tags         必填，逗号分隔
+#   reference    可选，参考资料 URL，会被抓取喂给 LLM
+#   next_step    可选，推荐的下一篇 slug
+#   difficulty   可选，beginner|intermediate|advanced（默认 beginner）
+#   status       pending | in-progress | published | skipped
+
+queue:
+  # ===== P1 系列：补强已有分类 =====
+
+  - slug: javascript-basics
+    category: code
+    topic: "1 Hour to JavaScript: write your first interactive web page from scratch"
+    tags: "javascript,web,frontend,beginner"
+    next_step: deploy-first-site
+    status: pending
+
+  - slug: typescript-basics
+    category: code
+    topic: "1 Hour to TypeScript: add type safety to a real JavaScript project"
+    tags: "typescript,javascript,types,frontend"
+    next_step: javascript-basics
+    status: pending
+
+  - slug: tailwind-basics
+    category: design
+    topic: "1 Hour to Tailwind CSS: build a beautiful landing page without writing custom CSS"
+    tags: "css,tailwind,frontend,design"
+    next_step: figma-basics
+    status: pending
+
+  - slug: nextjs-1hour
+    category: web
+    topic: "1 Hour to Next.js: ship a full-stack web app with App Router and deploy to Vercel"
+    tags: "nextjs,react,fullstack,vercel"
+    next_step: deploy-first-site
+    status: pending
+
+  - slug: 1hour-newsletter
+    category: business
+    topic: "1 Hour to Your First Newsletter: launch a paid Substack and write your first issue"
+    tags: "newsletter,writing,substack,monetization"
+    next_step: notion-second-brain
+    status: pending
+
+  - slug: pomodoro-deep-work
+    category: mind
+    topic: "1 Hour to Deep Work: build a focused work routine using Pomodoro and timeboxing"
+    tags: "productivity,focus,pomodoro,deep-work"
+    next_step: feynman-technique
+    status: pending
+
+  # ===== P2 系列：高搜索量长尾 =====
+
+  - slug: cloudflare-workers
+    category: web
+    topic: "1 Hour to Cloudflare Workers: deploy your first edge function with KV storage"
+    tags: "cloudflare,workers,edge,serverless"
+    status: pending
+
+  - slug: rag-from-scratch
+    category: ai
+    topic: "1 Hour to Build a RAG App: chat with your own documents using OpenAI embeddings"
+    tags: "ai,rag,openai,embeddings,llm"
+    next_step: langchain-basics
+    status: pending
+
+  - slug: regex-1hour
+    category: code
+    topic: "1 Hour to Regex: master pattern matching with 10 real-world examples"
+    tags: "regex,patterns,strings,programming"
+    status: pending
+
+  - slug: bash-scripting
+    category: code
+    topic: "1 Hour to Bash Scripting: automate your Mac/Linux workflow with a real script"
+    tags: "bash,shell,automation,scripting"
+    status: pending
