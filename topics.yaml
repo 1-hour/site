@@ -400,3 +400,105 @@ queue:
         differentiation: 8
         keyword_demand: 8
       total: 41
+  - slug: ai-video-editing-palmier
+    category: creators
+    audience: 短视频创作者和内容制作者
+    pain_point: 视频剪辑耗时且需要专业技能
+    topic: Create professional videos using AI-powered editing tools in Palmier Pro
+    tags: AI video editing, content creation, macOS
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: palmier-pro
+      original_url: https://github.com/palmier-io/palmier-pro
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-video-production-studio
+    category: creators
+    audience: 视频内容创作者和制作团队
+    pain_point: 视频制作流程复杂需要多种工具配合
+    topic: Build a complete AI video production workflow using OpenMontage system
+    tags: AI video production, content creation, automation
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: OpenMontage
+      original_url: https://github.com/calesthio/OpenMontage
+      added_at: 2026-06-20
+      scores:
+        learnable: 6
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 37
+  - slug: penpot-design-prototype
+    category: design
+    audience: UI/UX设计师和产品经理
+    pain_point: 需要免费且开源的设计工具替代Figma
+    topic: Create a complete app prototype in Penpot with developer handoff
+    tags: Penpot, design, prototype, open-source, collaboration
+    priority: P1
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: penpot
+      original_url: https://github.com/penpot/penpot
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: camloop-virtual-camera-setup
+    category: automation
+    audience: 远程工作者和会议频繁的职场人
+    pain_point: 视频会议中无法自由离开座位
+    topic: Set up CamLoop virtual camera for seamless meeting breaks
+    tags: CamLoop, virtual camera, remote work, meetings, macOS
+    priority: P0
+    status: pending
+    _scout:
+      source: r/SideProject
+      original_title: "Shipped CamLoop: a macOS virtual camera that loops a clip of
+        you so you can step away mid-meeting"
+      original_url: https://old.reddit.com/r/SideProject/comments/1u97irz/shipped_camloop_a_macos_virtual_camera_that_loops/
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 39
+  - slug: chatgpt-google-docs-integration
+    category: ai-tools
+    audience: 职场人士和内容创作者
+    pain_point: 在工作环境中使用AI工具不够隐蔽或便捷
+    topic: Set up ChatGPT integration within Google Docs for seamless workplace AI
+      assistance
+    tags: ChatGPT, Google Docs, workplace productivity, AI integration
+    priority: P0
+    status: pending
+    _scout:
+      source: r/SideProject
+      original_title: "UPDATE: Disguising ChatGPT as a Google Doc"
+      original_url: https://old.reddit.com/r/SideProject/comments/1u4kbym/update_disguising_chatgpt_as_a_google_doc/
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
