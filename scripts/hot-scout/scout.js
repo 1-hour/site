@@ -215,6 +215,97 @@ async function fetchIndieHackers() {
 }
 
 // ============================================================
+// Chinese sources (no cookie required)
+// ============================================================
+
+async function fetchZhihuHot() {
+  // Mobile API works without auth.
+  const r = await fetch('https://api.zhihu.com/topstory/hot-list?limit=30', {
+    headers: { 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15' },
+  });
+  if (!r.ok) throw new Error(`zhihu ${r.status}`);
+  const data = await r.json();
+  const items = data.data || [];
+  return items.map(it => {
+    const t = it.target || {};
+    return {
+      source: 'zhihu-hot',
+      title: t.title || t.title_area?.text || '',
+      desc: (t.excerpt_area?.text || t.excerpt || '').slice(0, 200),
+      url: t.url || `https://www.zhihu.com/question/${t.id}`,
+      score: t.metrics_area?.text || '',
+    };
+  }).filter(x => x.title).slice(0, 25);
+}
+
+async function fetchToutiaoHot() {
+  const r = await fetch('https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc', {
+    headers: { 'User-Agent': UA },
+  });
+  if (!r.ok) throw new Error(`toutiao ${r.status}`);
+  const data = await r.json();
+  const items = data.data || [];
+  return items.map(it => ({
+    source: 'toutiao-hot',
+    title: it.Title,
+    url: it.Url,
+    score: it.HotValue,
+  })).filter(x => x.title).slice(0, 25);
+}
+
+async function fetchBaiduHot() {
+  const r = await fetch('https://top.baidu.com/api/board?platform=wise&tab=realtime', {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (iPhone)',
+      'Referer': 'https://top.baidu.com/',
+    },
+  });
+  if (!r.ok) throw new Error(`baidu ${r.status}`);
+  const data = await r.json();
+  const cards = data.data?.cards || [];
+  const items = [];
+  for (const c of cards) {
+    for (const sub of (c.content || [])) {
+      const inner = sub.content || [sub];
+      for (const it of inner) {
+        if (it.word) items.push({
+          source: 'baidu-hot',
+          title: it.word,
+          desc: (it.desc || '').slice(0, 200),
+          url: it.url || '',
+          score: it.hotScore,
+        });
+      }
+    }
+  }
+  return items.slice(0, 25);
+}
+
+async function fetchSspai() {
+  // sspai (生产力/工具向) RSS — they only support GET, no HEAD
+  try {
+    const feed = await fetchText('https://sspai.com/feed');
+    const entries = [];
+    const reItem = /<item[^>]*>([\s\S]*?)<\/item>/g;
+    let m;
+    while ((m = reItem.exec(feed)) !== null && entries.length < 20) {
+      const block = m[1];
+      const titleMatch = /<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/.exec(block);
+      const linkMatch = /<link>([\s\S]*?)<\/link>/.exec(block);
+      const descMatch = /<description>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/.exec(block);
+      if (!titleMatch) continue;
+      const title = titleMatch[1].replace(/<[^>]+>/g, '').trim();
+      const desc = descMatch ? descMatch[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().slice(0, 200) : '';
+      entries.push({ source: 'sspai', title, url: linkMatch?.[1]?.trim() || '', desc });
+    }
+    return entries;
+  } catch (e) {
+    console.error(`  [skip] sspai: ${e.message}`);
+    return [];
+  }
+}
+
+// ============================================================
 // LLM evaluation
 // ============================================================
 
@@ -254,6 +345,12 @@ Output STRICT JSON array. For each topic include:
 
 verdict rule: accept ONLY when total >= 35 AND every score >= 6 AND audience >= 7.
 
+Special handling for Chinese hot-search items (sources zhihu-hot / toutiao-hot / baidu-hot / sspai):
+  - Most baidu/toutiao items are political/entertainment news → reject (audience score 1-2 for our purposes).
+  - Zhihu hot items mentioning AI tools, productivity, side hustle, AI workflow, ChatGPT/Claude/etc. are GOLD because they show 中文 search demand → score audience and keyword_demand high.
+  - sspai items skew to 生产力/工具/AI → usually fits well, but reject pure product reviews (e.g. "X 评测") that are not learnable.
+  - When the source signal is a Chinese question/topic, propose a tutorial that ANSWERS the question with a hands-on workflow (not just translates the title).
+
 If a candidate is "build with X new framework" or pure dev tooling, reject (audience too small).
 If it's a generic "what is X" article instead of a 60-min hands-on skill, reject.
 If it duplicates an existing tutorial slug, reject (we'll provide the list).
@@ -287,10 +384,10 @@ async function evaluateOneBatch(candidates, existingSlugs, apiKey, baseURL, mode
     `Existing tutorial slugs (do NOT propose duplicates):`,
     existingSlugs.join(', '),
     ``,
-    `Candidates to evaluate (number them):`,
-    ...candidates.map((c, i) => `${i + 1}. [${c.source}] ${c.title}${c.desc ? ' — ' + c.desc.replace(/<[^>]+>/g, '').slice(0, 200) : ''}`),
+    `Candidates to evaluate. Each has an explicit "id" — INCLUDE that id in your output object so we can trace back to the original source.`,
+    ...candidates.map((c, i) => `id=${c._idx ?? (i + 1)}  [${c.source}] ${c.title}${c.desc ? ' — ' + c.desc.replace(/<[^>]+>/g, '').slice(0, 200) : ''}`),
     ``,
-    `Output a JSON array. Use \\u escapes for any unusual characters in strings. No markdown fence, no preamble.`,
+    `For each candidate output a JSON object with all fields from the system prompt PLUS an "id" field that matches the candidate id. Use \\u escapes for any unusual characters in strings. No markdown fence, no preamble.`,
   ].join('\n');
 
   const r = await fetch(`${baseURL}/chat/completions`, {
@@ -390,6 +487,10 @@ async function main() {
     ['github',       fetchGithubTrending],
     ['reddit',       fetchRedditList],
     ['indiehackers', fetchIndieHackers],
+    ['zhihu',        fetchZhihuHot],
+    ['toutiao',      fetchToutiaoHot],
+    ['baidu',        fetchBaiduHot],
+    ['sspai',        fetchSspai],
   ];
   for (const [name, fn] of sources) {
     try {
@@ -435,7 +536,9 @@ async function main() {
 
   console.log(`▶ evaluating ${top.length} with LLM...`);
   const slugs = existingSlugs();
-  const results = await evaluateBatch(top, slugs);
+  // Tag each candidate with index so the LLM verdict can be traced back.
+  const indexed = top.map((c, i) => ({ ...c, _idx: i + 1 }));
+  const results = await evaluateBatch(indexed, slugs);
   console.log(`  got ${results.length} verdicts`);
 
   // mark seen
@@ -468,6 +571,8 @@ async function main() {
   for (const a of accepted) {
     if (!a.proposed_slug || existingSlugSet.has(a.proposed_slug)) continue;
     if (slugs.includes(a.proposed_slug)) continue; // already published
+    // Resolve the original source candidate by id (added by main()).
+    const orig = a.id != null ? top[a.id - 1] : top.find(c => c.title === a.title);
     topics.queue.push({
       slug: a.proposed_slug,
       category: a.proposed_category,
@@ -478,7 +583,9 @@ async function main() {
       priority: a.proposed_priority || 'P2',
       status: 'pending',
       _scout: {
-        source: top.find(c => c.title === a.title)?.source || 'unknown',
+        source: orig?.source || 'unknown',
+        original_title: orig?.title || '',
+        original_url: orig?.url || '',
         added_at: new Date().toISOString().slice(0, 10),
         scores: a.scores,
         total: a.total,

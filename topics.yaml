@@ -290,3 +290,113 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 37
+  - slug: youtube-channel-redesign
+    category: creators
+    audience: YouTube创作者和内容运营者
+    pain_point: 频道页面缺乏吸引力和清晰的内容组织
+    topic: Design an improved YouTube channel layout and navigation system using Figma
+    tags: YouTube优化,频道设计,用户体验,Figma
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-show
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: whatsapp-ai-automation
+    category: automation
+    audience: 电商运营、客服团队、副业创业者
+    pain_point: WhatsApp客服回复效率低，无法24小时在线服务
+    topic: Set up automated WhatsApp AI customer service using API integration
+    tags: WhatsApp,API,automation,customer-service,AI
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: google-ads-ai-optimization
+    category: marketing
+    audience: 广告投放专员、电商运营、营销人员
+    pain_point: Google Ads投放效果差，缺乏数据洞察优化广告
+    topic: Optimize Google Ads campaigns using AI-powered insights and automation
+    tags: Google-Ads,AI,optimization,marketing,ROI
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: offline-ai-dictation-setup
+    category: ai-tools
+    audience: 内容创作者、自媒体人、职场人士
+    pain_point: 需要高效语音转文字但担心隐私泄露或网络依赖
+    topic: Set up private offline AI dictation workflow for content creation and
+      note-taking
+    tags: AI dictation, offline, privacy, voice-to-text, productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: automated-backlink-strategy
+    category: marketing
+    audience: 运营人员、SEO从业者、副业创业者
+    pain_point: 手动建设外链效率低下且难以规模化
+    topic: Build automated backlink generation system for SEO growth
+    tags: backlinks, SEO, automation, link building, growth
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: multi-voice-script-generation
+    category: creators
+    audience: 短视频创作者、播客制作人、自媒体人
+    pain_point: 单人配音内容单调，需要多角色对话但缺乏脚本制作技能
+    topic: Convert text content into professional multi-voice audio scripts for
+      video production
+    tags: voice scripts, multi-voice, content creation, audio production, video
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 41
