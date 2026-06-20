@@ -1,0 +1,11 @@
+{
+  "name": "hot-scout",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "yaml": "^2.5.0",
+    "openai": "^4.70.0"
+  }
+}

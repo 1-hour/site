@@ -5,3 +5,5 @@
 .env*
 .wrangler/
 scripts/og-gen/node_modules
+scripts/hot-scout/node_modules
+scripts/hot-scout/.state.json

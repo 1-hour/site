@@ -20,225 +20,273 @@
 #   status       pending | in-progress | published | skipped
 
 queue:
-  # ================== P0 第 1 梯队：高搜索量 × 高转化 ==================
-
-  # ---- AI 工具实战（蹭工具流量，受众极广）----
-
   - slug: chatgpt-content-30days
     category: ai-tools
     audience: 创作者/运营/自媒体小白
     pain_point: 不会写、写不快、选题枯竭，看着别人日更焦虑
-    topic: "1 Hour to AI Content Calendar: use ChatGPT to plan and draft 30 days of social media content for Xiaohongshu/Twitter, with viral hook formulas and a reusable prompt library"
-    tags: "ai,chatgpt,content,xiaohongshu,创作者"
+    topic: "1 Hour to AI Content Calendar: use ChatGPT to plan and draft 30 days of
+      social media content for Xiaohongshu/Twitter, with viral hook formulas and
+      a reusable prompt library"
+    tags: ai,chatgpt,content,xiaohongshu,创作者
     next_step: chatgpt-prompts
     priority: P0
     status: pending
-
   - slug: midjourney-commercial
     category: design
     audience: 设计师/运营/电商卖家
     pain_point: 商用图找素材贵 + 风格不统一，想用 AI 出图但中文 prompt 没思路
-    topic: "1 Hour to Midjourney for Commercial Use: ship 10 ready-to-use product/banner/cover images with a battle-tested prompt template (中文 prompt cheatsheet included)"
-    tags: "ai,midjourney,design,prompt,商用"
+    topic: "1 Hour to Midjourney for Commercial Use: ship 10 ready-to-use
+      product/banner/cover images with a battle-tested prompt template (中文
+      prompt cheatsheet included)"
+    tags: ai,midjourney,design,prompt,商用
     priority: P0
     status: pending
-
   - slug: claude-prd
     category: product
     audience: 产品经理/产品助理
     pain_point: PRD 写不快、结构散乱、被开发吐槽不清楚
-    topic: "1 Hour to Write a PRD with Claude: from one-sentence idea to a 10-page structured PRD with user stories, acceptance criteria, and edge cases"
-    tags: "ai,claude,prd,产品,product-management"
+    topic: "1 Hour to Write a PRD with Claude: from one-sentence idea to a 10-page
+      structured PRD with user stories, acceptance criteria, and edge cases"
+    tags: ai,claude,prd,产品,product-management
     priority: P0
     status: pending
-
   - slug: ai-customer-service
     category: ai-tools
     audience: 运营/电商客服/小老板
     pain_point: 重复客服问题占用大量时间、半夜没人回复
-    topic: "1 Hour to Build a GPT Customer Service Bot: train on your FAQ, deploy to WeCom/Feishu/website, handle 80% of queries without human"
-    tags: "ai,chatbot,customer-service,wecom,feishu"
+    topic: "1 Hour to Build a GPT Customer Service Bot: train on your FAQ, deploy to
+      WeCom/Feishu/website, handle 80% of queries without human"
+    tags: ai,chatbot,customer-service,wecom,feishu
     priority: P0
     status: pending
-
-  # ---- 职场效率（搜索量大、转化稳）----
-
   - slug: ai-weekly-report
     category: office
     audience: 职场新人/中层管理
     pain_point: 周报写不出亮点、数据不知道怎么呈现、老板看不懂
-    topic: "1 Hour to AI-Powered Weekly Report: turn raw numbers into a dashboard your boss actually reads, with Excel + ChatGPT + a reusable template"
-    tags: "office,excel,ai,reporting,职场"
+    topic: "1 Hour to AI-Powered Weekly Report: turn raw numbers into a dashboard
+      your boss actually reads, with Excel + ChatGPT + a reusable template"
+    tags: office,excel,ai,reporting,职场
     priority: P0
     status: pending
-
   - slug: ppt-makeover
     category: office
     audience: 职场新人/产品/运营
     pain_point: PPT 被嫌弃丑，不会调样式，临时汇报压力大
-    topic: "1 Hour PPT Makeover: turn ugly slides into design-ready ones using 5 layout templates + AI image generation, no design skill required"
-    tags: "ppt,design,office,ai"
+    topic: "1 Hour PPT Makeover: turn ugly slides into design-ready ones using 5
+      layout templates + AI image generation, no design skill required"
+    tags: ppt,design,office,ai
     priority: P0
     status: pending
-
   - slug: resume-ai-rewrite
     category: office
     audience: 求职者/转行者/学生
     pain_point: 简历投了没回音、不知道哪里不行、HR 关键词都不知道
-    topic: "1 Hour to Rewrite Your Resume with AI: pass ATS keyword filters, quantify achievements, tailor for target companies in one session"
-    tags: "resume,ai,job,career,简历"
+    topic: "1 Hour to Rewrite Your Resume with AI: pass ATS keyword filters,
+      quantify achievements, tailor for target companies in one session"
+    tags: resume,ai,job,career,简历
     priority: P0
     status: pending
-
-  # ---- 副业入门（付费意愿强、Zoe 有 autoship 实战经验）----
-
   - slug: xianyu-first-sale
     category: side-hustle
     audience: 副业新手/学生/职场人
     pain_point: 想做副业但不知道从哪开始、闲鱼听说能赚但不会上架虚拟商品
-    topic: "1 Hour to Your First Xianyu Sale: list a digital product (notes/courses/templates), get the first paying customer, and automate fulfillment"
-    tags: "xianyu,side-hustle,virtual-goods,闲鱼,副业"
+    topic: "1 Hour to Your First Xianyu Sale: list a digital product
+      (notes/courses/templates), get the first paying customer, and automate
+      fulfillment"
+    tags: xianyu,side-hustle,virtual-goods,闲鱼,副业
     priority: P0
     status: pending
-
   - slug: xiaohongshu-launch
     category: creators
     audience: 自媒体小白/想转行内容
     pain_point: 想做小红书但起号难、不知道发什么、几条没人看就放弃
-    topic: "1 Hour to Launch Your Xiaohongshu Account: pick a niche, post 3 hook-driven notes, and hit your first 100 followers using the proven start-up formula"
-    tags: "xiaohongshu,creators,small-red,小红书"
+    topic: "1 Hour to Launch Your Xiaohongshu Account: pick a niche, post 3
+      hook-driven notes, and hit your first 100 followers using the proven
+      start-up formula"
+    tags: xiaohongshu,creators,small-red,小红书
     priority: P0
     status: pending
-
   - slug: paid-newsletter
     category: side-hustle
     audience: 内容创作者/独立开发者
     pain_point: 想做付费 newsletter 但不知道平台选什么、第一封怎么写
-    topic: "1 Hour to Your First Paid Newsletter: pick Substack vs Zhubai vs Lemon Squeezy, set up paywall, and ship issue #1 with a ready-to-use template"
-    tags: "newsletter,substack,side-hustle,monetization,付费订阅"
+    topic: "1 Hour to Your First Paid Newsletter: pick Substack vs Zhubai vs Lemon
+      Squeezy, set up paywall, and ship issue #1 with a ready-to-use template"
+    tags: newsletter,substack,side-hustle,monetization,付费订阅
     priority: P0
     status: pending
-
-  # ---- 创作者 / 运营 ----
-
   - slug: viral-headlines
     category: creators
     audience: 自媒体/运营/文案
     pain_point: 标题写不出爆款感、阅读量永远卡在两位数
-    topic: "1 Hour to Master Viral Headlines: 10 proven formulas (curiosity gap, before/after, list, pain-point) with 50 examples and an AI generator template"
-    tags: "headlines,copywriting,creators,viral,标题"
+    topic: "1 Hour to Master Viral Headlines: 10 proven formulas (curiosity gap,
+      before/after, list, pain-point) with 50 examples and an AI generator
+      template"
+    tags: headlines,copywriting,creators,viral,标题
     priority: P0
     status: pending
-
   - slug: short-video-structure
     category: creators
     audience: 自媒体/视频博主新人
     pain_point: 拍出来没人看、不知道前 3 秒怎么抓人、剪辑卡壳
-    topic: "1 Hour to a 60-Second Viral Video: hook formula, 3-act structure, pacing, and the one-take CapCut workflow used by top creators"
-    tags: "video,creators,capcut,short-video,剪映"
+    topic: "1 Hour to a 60-Second Viral Video: hook formula, 3-act structure,
+      pacing, and the one-take CapCut workflow used by top creators"
+    tags: video,creators,capcut,short-video,剪映
     priority: P0
     status: pending
-
-  # ================== P1 第 2 梯队：拓宽场景 ==================
-
   - slug: competitive-analysis
     category: product
     audience: 产品经理/创业者
     pain_point: 竞品调研没框架、写出来像流水账
-    topic: "1 Hour to a Killer Competitive Analysis: use the 5-axis framework (positioning/feature/pricing/UX/community) with a fillable template"
-    tags: "product,competitive-analysis,framework,产品"
+    topic: "1 Hour to a Killer Competitive Analysis: use the 5-axis framework
+      (positioning/feature/pricing/UX/community) with a fillable template"
+    tags: product,competitive-analysis,framework,产品
     priority: P1
     status: pending
-
   - slug: user-interview-1hour
     category: product
     audience: 产品/运营/创业者
     pain_point: 用户访谈聊一小时啥也没问出来、不知道问什么
-    topic: "1 Hour to Run a User Interview: a 60-minute script with 15 proven questions, recording setup, and synthesis template"
-    tags: "user-research,interview,product,产品"
+    topic: "1 Hour to Run a User Interview: a 60-minute script with 15 proven
+      questions, recording setup, and synthesis template"
+    tags: user-research,interview,product,产品
     priority: P1
     status: pending
-
   - slug: notion-okr
     category: office
     audience: 团队负责人/产品/运营
     pain_point: 团队 OKR 散在 Excel/飞书/口头里，对齐不上
-    topic: "1 Hour to a Team OKR System in Notion: 5 linked databases for objectives, key results, weekly check-ins, and quarterly reviews"
-    tags: "notion,okr,office,team-management"
+    topic: "1 Hour to a Team OKR System in Notion: 5 linked databases for
+      objectives, key results, weekly check-ins, and quarterly reviews"
+    tags: notion,okr,office,team-management
     priority: P1
     status: pending
-
   - slug: private-traffic-sop
     category: marketing
     audience: 运营/电商/创业者
     pain_point: 拉到群里就死、不知道怎么活跃、转化路径模糊
-    topic: "1 Hour to a Private Traffic SOP: WeCom/community onboarding flow, 7-day nurture sequence, and conversion checkpoints"
-    tags: "marketing,wecom,community,private-traffic,私域"
+    topic: "1 Hour to a Private Traffic SOP: WeCom/community onboarding flow, 7-day
+      nurture sequence, and conversion checkpoints"
+    tags: marketing,wecom,community,private-traffic,私域
     priority: P1
     status: pending
-
   - slug: xiaohongshu-ads
     category: marketing
     audience: 运营/品牌方/电商
     pain_point: 投薯条不知道怎么投、ROI 看不清、烧钱没效果
-    topic: "1 Hour to Xiaohongshu Ads (薯条): targeting setup, creative test framework, and a ROI dashboard you can copy"
-    tags: "xiaohongshu,ads,marketing,投放,小红书"
+    topic: "1 Hour to Xiaohongshu Ads (薯条): targeting setup, creative test
+      framework, and a ROI dashboard you can copy"
+    tags: xiaohongshu,ads,marketing,投放,小红书
     priority: P1
     status: pending
-
   - slug: cursor-non-coder
     category: ai-tools
     audience: 产品/运营/想入门编程的非技术
     pain_point: 听说 Cursor 很神但不会编程，怕学不会
-    topic: "1 Hour to Cursor for Non-Coders: build your first internal tool (form/dashboard) using natural language, no coding background needed"
-    tags: "cursor,ai,no-code,non-tech,非技术"
+    topic: "1 Hour to Cursor for Non-Coders: build your first internal tool
+      (form/dashboard) using natural language, no coding background needed"
+    tags: cursor,ai,no-code,non-tech,非技术
     priority: P1
     status: pending
-
   - slug: claude-artifacts
     category: ai-tools
     audience: 产品/运营/教师/创作者
     pain_point: 想做交互原型/工具/小游戏但不会代码
-    topic: "1 Hour to Claude Artifacts: build 5 useful tools (calculator, form, quiz, dashboard, game) without writing code"
-    tags: "claude,artifacts,no-code,ai"
+    topic: "1 Hour to Claude Artifacts: build 5 useful tools (calculator, form,
+      quiz, dashboard, game) without writing code"
+    tags: claude,artifacts,no-code,ai
     priority: P1
     status: pending
-
   - slug: gumroad-digital-product
     category: side-hustle
     audience: 创作者/设计师/独立开发者
     pain_point: 有作品想卖海外但不知道平台、收款、定价
-    topic: "1 Hour to Sell Digital Products on Gumroad: setup, pricing strategy, first launch, and how to get paid in CN"
-    tags: "gumroad,digital-product,side-hustle,monetization,海外副业"
+    topic: "1 Hour to Sell Digital Products on Gumroad: setup, pricing strategy,
+      first launch, and how to get paid in CN"
+    tags: gumroad,digital-product,side-hustle,monetization,海外副业
     priority: P1
     status: pending
-
-  # ================== P2 储备：未来 3-6 个月 ==================
-
   - slug: suno-brand-music
     category: creators
     audience: 创作者/品牌/电商
     pain_point: 想给视频/品牌做主题曲但音乐人贵
-    topic: "1 Hour to Brand Music with Suno: prompt patterns for jingles/intros/full tracks, royalty-free for commercial use"
-    tags: "suno,music,ai,branding"
+    topic: "1 Hour to Brand Music with Suno: prompt patterns for jingles/intros/full
+      tracks, royalty-free for commercial use"
+    tags: suno,music,ai,branding
     priority: P2
     status: pending
-
   - slug: figma-prototype
     category: design
     audience: 产品/设计师
     pain_point: 静态稿不够、不会做可点击原型
-    topic: "1 Hour to a Clickable Figma Prototype: page transitions, hover states, components, and shareable links"
-    tags: "figma,prototype,design"
+    topic: "1 Hour to a Clickable Figma Prototype: page transitions, hover states,
+      components, and shareable links"
+    tags: figma,prototype,design
     next_step: figma-basics
     priority: P2
     status: pending
-
   - slug: rag-no-code
     category: ai-tools
     audience: 运营/产品/小老板
     pain_point: 想用自家文档训练 AI 客服/问答，但找不到不写代码的方案
-    topic: "1 Hour to a No-Code RAG Bot: upload your docs, build a chat interface, deploy without writing a single line of code (using Coze/Dify)"
-    tags: "rag,no-code,coze,dify,ai"
+    topic: "1 Hour to a No-Code RAG Bot: upload your docs, build a chat interface,
+      deploy without writing a single line of code (using Coze/Dify)"
+    tags: rag,no-code,coze,dify,ai
     priority: P2
     status: pending
+  - slug: web-design-4min
+    category: design
+    audience: 需要快速搭建网站的内容创作者和运营人员
+    pain_point: 没有设计基础但需要快速做出好看的网站
+    topic: Create a professional website design in 60 minutes using rapid design
+      principles
+    tags: web-design,quick-design,landing-page,visual-design
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-show
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 9
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: typing-practice-site
+    category: office
+    audience: 想提高打字速度的职场人士和内容创作者
+    pain_point: 打字速度慢影响工作效率但练习方式枯燥
+    topic: Build a typing practice website with novel content integration
+    tags: typing,productivity,web-development,skill-building
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-show
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 35
+  - slug: ai-powered-search-workflow
+    category: ai-tools
+    audience: 内容创作者、研究人员、产品经理、运营人员
+    pain_point: 传统搜索效率低，需要大量时间筛选和整理信息
+    topic: Build an AI-powered search and research workflow using GPT-4 for faster
+      information gathering
+    tags: GPT-4, search, research, AI workflow, productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-show
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
