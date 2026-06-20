@@ -51,10 +51,14 @@ TAGS=$(echo "$ITEM_JSON" | jq -r '.tags // ""')
 REF=$(echo "$ITEM_JSON" | jq -r '.reference // ""')
 NEXT_STEP=$(echo "$ITEM_JSON" | jq -r '.next_step // ""')
 DIFF=$(echo "$ITEM_JSON" | jq -r '.difficulty // "beginner"')
+AUDIENCE_VAL=$(echo "$ITEM_JSON" | jq -r '.audience // ""')
+PAIN_VAL=$(echo "$ITEM_JSON" | jq -r '.pain_point // ""')
 INDEX=$(echo "$ITEM_JSON" | jq -r '._index')
 
 echo "▶ 下一个: $SLUG ($CATEGORY)"
 echo "   topic: $TOPIC"
+[ -n "$AUDIENCE_VAL" ] && echo "   audience: $AUDIENCE_VAL"
+[ -n "$PAIN_VAL" ]     && echo "   pain: $PAIN_VAL"
 
 if [ "$DRY_RUN" = "true" ]; then
   echo "[DRY_RUN] 跳过实际生成"
@@ -62,7 +66,8 @@ if [ "$DRY_RUN" = "true" ]; then
 fi
 
 # 1) 生成教程
-DIFFICULTY="$DIFF" "$GEN" "$SLUG" "$CATEGORY" "$TOPIC" "$REF" "$NEXT_STEP" "$TAGS"
+DIFFICULTY="$DIFF" AUDIENCE="$AUDIENCE_VAL" PAIN_POINT="$PAIN_VAL" \
+  "$GEN" "$SLUG" "$CATEGORY" "$TOPIC" "$REF" "$NEXT_STEP" "$TAGS"
 
 # 2) 把 topics.yaml 中该项 status 改为 published
 python3 - <<PY
