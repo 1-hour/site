@@ -502,3 +502,44 @@ queue:
         differentiation: 7
         keyword_demand: 6
       total: 36
+  - slug: slack-ai-coworker-setup
+    category: automation
+    audience: 团队运营者和职场新人
+    pain_point: 团队协作效率低，重复性工作太多
+    topic: Set up AI assistant in Slack for team collaboration and task automation
+    tags: slack,ai-automation,team-collaboration,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: WorkClaw
+      original_url: https://www.producthunt.com/products/workclaw
+      added_at: 2026-06-21
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-video-studio-pixlie
+    category: creators
+    audience: 短视频创作者和自媒体运营者
+    pain_point: 视频制作成本高，技术门槛大
+    topic: Create professional videos from text and images using AI video studio
+      with advanced controls
+    tags: ai-video,content-creation,text-to-video,short-video
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Pixlie
+      original_url: https://www.producthunt.com/products/pixlie
+      added_at: 2026-06-21
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
