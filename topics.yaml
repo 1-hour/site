@@ -381,6 +381,66 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 39
+  - slug: xiaohongshu-zero-to-1k
+    category: marketing
+    audience: 运营/品牌方/小红书新号
+    pain_point: 新号没流量、笔记 0 赞 0 评、不知道怎么破冷启
+    topic: "1 Hour to Grow a Xiaohongshu Account from 0 to 1000 Followers: niche
+      positioning, viral hook formulas, posting cadence, and a 7-day cold-start
+      checklist with ChatGPT-assisted note generation"
+    tags: marketing,xiaohongshu,growth,小红书,冷启动
+    priority: P0
+    status: pending
+  - slug: community-cold-start
+    category: marketing
+    audience: 运营/创业者/课程主理人
+    pain_point: 建了群没人发言、3 天就死、不知道怎么持续活跃
+    topic: "1 Hour to Cold-Start a Community: seed user recruitment, day-1 to day-7
+      activation playbook, content pillars, and 5 reusable engagement scripts
+      that keep the group alive"
+    tags: marketing,community,wecom,社群运营,冷启动
+    priority: P0
+    status: pending
+  - slug: seo-keyword-research-ai
+    category: marketing
+    audience: 内容运营/独立站/出海创业者
+    pain_point: 关键词不会挖、写完没流量、对 SEO 工具一头雾水
+    topic: "1 Hour to AI-Powered Keyword Research: use ChatGPT + free tools to build
+      a 100-keyword content map, score difficulty/intent, and turn it into a
+      3-month publishing calendar"
+    tags: marketing,seo,keyword-research,ai,内容运营
+    priority: P0
+    status: pending
+  - slug: wechat-friend-circle-sop
+    category: marketing
+    audience: 私域运营/微商/个人 IP
+    pain_point: 朋友圈刷屏被屏蔽、转化率低、文案套路被一眼看穿
+    topic: "1 Hour to a WeChat Moments SOP: 7-day content rhythm template, 5 proven
+      post formats (story/proof/CTA/value/interaction), and AI-assisted copy
+      that doesn't feel like ads"
+    tags: marketing,wechat,private-traffic,朋友圈,私域
+    priority: P1
+    status: pending
+  - slug: growth-data-dashboard
+    category: marketing
+    audience: 运营负责人/操盘手/独立创业者
+    pain_point: 数据散在各处、看不懂北极星指标、汇报全靠拍脑袋
+    topic: "1 Hour to Build a Growth Data Dashboard: pick the right north-star
+      metric, set up a free Google Sheets/Notion dashboard with AARRR funnel,
+      and weekly review template"
+    tags: marketing,analytics,growth,dashboard,数据驱动
+    priority: P1
+    status: pending
+  - slug: content-repurpose-1to10
+    category: marketing
+    audience: 自媒体/品牌运营/个人 IP
+    pain_point: 写一条内容只发一个平台太亏、跨平台改写又累、产能跟不上
+    topic: "1 Hour to Repurpose 1 Piece of Content into 10: AI-driven workflow to
+      turn one long-form post into Twitter thread, Xiaohongshu note, Douyin
+      script, newsletter, and LinkedIn carousel — with prompt templates"
+    tags: marketing,content,repurpose,ai,自媒体
+    priority: P1
+    status: pending
   - slug: multi-voice-script-generation
     category: creators
     audience: 短视频创作者、播客制作人、自媒体人
@@ -543,3 +603,87 @@ queue:
         differentiation: 7
         keyword_demand: 9
       total: 41
+  - slug: ai-session-context-management
+    category: ai-tools
+    audience: 频繁使用AI工具的内容创作者、产品经理、运营人员
+    pain_point: 每次新对话都要重新解释项目背景，浪费tokens和时间
+    topic: Build a context management system to maintain AI conversation continuity
+      and reduce token waste across sessions
+    tags: AI workflow, token optimization, context management, productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Stop wasting tokens and re explaining your project between sessions
+      original_url: https://news.ycombinator.com/item?id=48622590
+      added_at: 2026-06-22
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: grok-word-writing-workflow
+    category: ai-tools
+    audience: 需要写作的职场人员、内容创作者、学生
+    pain_point: 文档写作效率低，难以快速优化文字表达和结构
+    topic: Build an AI-powered writing workflow using Grok in Microsoft Word to
+      draft, restructure and polish documents
+    tags: Grok, Microsoft Word, AI writing, document optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Grok by SpaceXAI for Word
+      original_url: https://www.producthunt.com/products/grok-by-spacexai-for-word
+      added_at: 2026-06-22
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-email-automation-agent
+    category: automation
+    audience: 忙碌的运营人员、客服团队、小企业主
+    pain_point: 邮件处理占用大量时间，重复性回复效率低
+    topic: Build an AI agent that automatically reads, categorizes, and responds to
+      emails based on custom rules
+    tags: email automation, AI agent, productivity, customer service
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Atomic Mail Agentic
+      original_url: https://www.producthunt.com/products/atomic-mail-agentic
+      added_at: 2026-06-22
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 7
+        differentiation: 8
+        keyword_demand: 7
+      total: 36
+  - slug: ai-stock-analysis-dashboard
+    category: ai-tools
+    audience: 投资者、副业人群、数据分析爱好者
+    pain_point: 股票分析太复杂需要专业知识和大量时间
+    topic: Build an AI-powered stock analysis dashboard with real-time data and
+      automated reports
+    tags: AI分析,股票投资,数据看板,自动化报告
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: daily_stock_analysis
+      original_url: https://github.com/ZhuLinsen/daily_stock_analysis
+      added_at: 2026-06-22
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 9
+      total: 40
