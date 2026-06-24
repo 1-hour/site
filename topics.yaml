@@ -727,3 +727,151 @@ queue:
         differentiation: 7
         keyword_demand: 9
       total: 41
+  - slug: unlimited-ocr-workflow
+    category: ai-tools
+    audience: 内容创作者、运营人员需要批量处理图片文字提取
+    pain_point: 手动输入图片中的文字太慢，付费OCR服务太贵
+    topic: Set up an unlimited OCR workflow to extract text from images, PDFs, and
+      documents using free AI tools and automation
+    tags: OCR,文字识别,自动化,AI工具,批量处理
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Unlimited OCR: One-shot long-horizon parsing"
+      original_url: https://news.ycombinator.com/item?id=48643426
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-note-to-plan-workflow
+    category: ai-tools
+    audience: 职场人士和内容创作者
+    pain_point: 笔记杂乱无章，难以转化为可执行计划
+    topic: Build an AI-powered daily planning system that converts scattered notes
+      into actionable plans
+    tags: AI,note-taking,planning,productivity,workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Buddy AI Note
+      original_url: https://www.producthunt.com/products/buddy-ai-note
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-ui-automation-setup
+    category: automation
+    audience: 运营人员和职场工作者
+    pain_point: 重复性电脑操作浪费大量时间
+    topic: Set up AI agent to automate repetitive computer tasks and UI interactions
+    tags: AI,automation,UI,productivity,workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: NeuralAgent 3.0
+      original_url: https://www.producthunt.com/products/neuralagent
+      added_at: 2026-06-24
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: ai-agent-tool-optimization
+    category: ai-tools
+    audience: AI工具使用者和自动化爱好者
+    pain_point: AI代理工具过多导致响应缓慢
+    topic: Optimize AI agent performance by streamlining tool selection and reducing
+      response latency
+    tags: AI,optimization,agents,productivity,tools
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Conduit
+      original_url: https://www.producthunt.com/products/conduit-12
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: jotform-ai-app-builder
+    category: automation
+    audience: 运营人员、产品经理、副业创业者想要快速搭建应用的人群
+    pain_point: 想做个简单的业务应用但不会编程，传统开发成本太高时间太长
+    topic: Build a functional business app using Jotform AI App Builder in 60
+      minutes - from idea to deployed app with forms, workflows and data
+      collection
+    tags: no-code,app-building,jotform,ai-tools,automation,business-apps
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Jotform AI App Builder
+      original_url: https://www.producthunt.com/products/jotform
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: openart-director-cinematic-videos
+    category: creators
+    audience: 短视频创作者、自媒体博主、内容运营想要制作高质量视频的人群
+    pain_point: 想做电影级别的视频但缺乏专业视频制作技能和昂贵软件
+    topic: Create a professional cinematic video using OpenArt Director chat
+      interface - from concept to final rendered video with scenes, transitions
+      and effects
+    tags: ai-video,cinematic,openart,content-creation,video-production,chat-interface
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: OpenArt Director
+      original_url: https://www.producthunt.com/products/openart
+      added_at: 2026-06-24
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: deckwise-ai-presentation-agent
+    category: office
+    audience: 职场新人、产品经理、运营人员需要经常做汇报PPT的人群
+    pain_point: 做PPT耗时太长，设计不够专业，内容组织逻辑不清晰
+    topic: Create a professional presentation deck using Deckwise AI agent - from
+      brief to fully editable slides with content, design and speaker notes
+    tags: ai-presentation,ppt,deckwise,office-productivity,presentation-design,ai-agent
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Deckwise
+      original_url: https://www.producthunt.com/products/deckwise
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
