@@ -875,3 +875,108 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 38
+  - slug: krea-2-image-generation
+    category: ai-tools
+    audience: 内容创作者和设计师
+    pain_point: 需要免费且高质量的AI图像生成工具
+    topic: Create professional images using Krea 2 open-source model with custom
+      prompts and styles
+    tags: AI绘画,开源模型,图像生成,Krea
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Krea 2: SOTA open-weights 12B image model"
+      original_url: https://news.ycombinator.com/item?id=48646659
+      added_at: 2026-06-25
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: anti-spam-pr-outreach
+    category: marketing
+    audience: PR专员、市场营销人员、创业者
+    pain_point: PR邮件被当作垃圾邮件，回复率极低
+    topic: Build an effective PR outreach system that avoids spam patterns and gets
+      responses
+    tags: PR, email marketing, outreach, spam prevention
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: PR spam today looks like email spam in the early 2000s
+      original_url: https://news.ycombinator.com/item?id=48660579
+      added_at: 2026-06-25
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: gemini-computer-automation
+    category: ai-tools
+    audience: 运营人员、办公室工作者、自动化爱好者
+    pain_point: 重复性电脑操作浪费大量时间，需要自动化解决方案
+    topic: Build automated workflows using Gemini 3.5 Flash computer control to
+      handle repetitive tasks
+    tags: Gemini, automation, AI, computer control, workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Computer use in Gemini 3.5 Flash
+      original_url: https://news.ycombinator.com/item?id=48662999
+      added_at: 2026-06-25
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: ai-meeting-question-framework
+    category: office
+    audience: 销售人员、客户成功经理、产品经理需要提升会议效果
+    pain_point: 会议中不知道问什么问题，错失关键信息和商机
+    topic: Build an AI-powered question framework for sales calls and meetings with
+      real-time prompts
+    tags: 销售技巧,会议管理,AI助手,沟通技巧,客户访谈
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Ruby
+      original_url: https://www.producthunt.com/products/ruby-7
+      added_at: 2026-06-25
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-crm-automation-workflow
+    category: marketing
+    audience: 销售经理、客户成功团队、小企业主需要自动化客户管理
+    pain_point: 手动维护客户关系耗时，容易遗漏重要跟进
+    topic: Build an AI-powered CRM automation system that manages customer
+      relationships without manual input
+    tags: CRM自动化,客户管理,销售流程,AI助手,客户关系
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Customer Relationship Agents by Clarify
+      original_url: https://www.producthunt.com/products/clarify-6
+      added_at: 2026-06-25
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
