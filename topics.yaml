@@ -980,3 +980,45 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 38
+  - slug: openknowledge-ai-setup
+    category: ai-tools
+    audience: 知识工作者、内容创作者、学生和研究人员
+    pain_point: 笔记管理混乱，无法有效利用AI整理和连接知识点
+    topic: Set up OpenKnowledge as your AI-powered second brain with automated note
+      organization
+    tags: knowledge management, AI, second brain, productivity, open source
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Show HN: OpenKnowledge – open source AI-first alternative to
+        Obsidian/Notion"
+      original_url: https://news.ycombinator.com/item?id=48675435
+      added_at: 2026-06-26
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: mac-offline-voice-transcription
+    category: automation
+    audience: Mac用户内容创作者，重视隐私的自媒体工作者
+    pain_point: 需要离线语音转文字功能，不想数据上传云端
+    topic: Set up offline voice-to-text workflow on Mac using VTT for content creation
+    tags: 语音转文字,Mac工具,离线转录,隐私保护
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: VTT for Mac
+      original_url: https://www.producthunt.com/products/vtt-for-mac
+      added_at: 2026-06-26
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
