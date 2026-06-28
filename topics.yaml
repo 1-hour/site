@@ -1022,3 +1022,88 @@ queue:
         differentiation: 7
         keyword_demand: 6
       total: 36
+  - slug: cloud-simulation-practice
+    category: automation
+    audience: 产品经理、运营人员和无代码开发者
+    pain_point: 学习云服务成本高昂，担心误操作产生费用
+    topic: Set up cloud infrastructure simulation environment to practice AWS/GCP
+      deployments without billing
+    tags: 云服务,AWS,GCP,模拟环境,成本控制
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Cloud World Model
+      original_url: https://www.producthunt.com/products/cloud-world-model
+      added_at: 2026-06-28
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: video-comparison-sync-workflow
+    category: creators
+    audience: 短视频创作者和视频编辑者
+    pain_point: 需要快速对比多个视频版本，找出差异和同步问题
+    topic: Set up efficient video comparison and synchronization workflow using
+      Supra Player for content review
+    tags: 视频对比,视频同步,内容审核,视频编辑
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Supra Player
+      original_url: https://www.producthunt.com/products/supra-player
+      added_at: 2026-06-28
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 35
+  - slug: folio-ai-powerpoint-automation
+    category: office
+    audience: 职场新人、商务人士、产品经理
+    pain_point: 制作高质量PPT耗时且缺乏设计灵感
+    topic: Create a professional business presentation from scratch using Folio AI's
+      Claude integration in PowerPoint
+    tags: PowerPoint automation, AI presentation, Claude integration, business slides
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Folio AI
+      original_url: https://www.producthunt.com/products/folio-ai
+      added_at: 2026-06-28
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: modulex-ai-workspace-setup
+    category: ai-tools
+    audience: 产品经理、运营人员、职场新人
+    pain_point: 多个工具间切换效率低且数据孤岛严重
+    topic: Build an integrated AI workspace connecting all your productivity tools
+      using ModuleX
+    tags: AI workspace, tool integration, productivity automation, workflow
+      optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: ModuleX
+      original_url: https://www.producthunt.com/products/modulex
+      added_at: 2026-06-28
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
