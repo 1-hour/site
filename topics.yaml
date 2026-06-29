@@ -1107,3 +1107,108 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 37
+  - slug: claude-medical-document-analysis
+    category: ai-tools
+    audience: 需要理解医疗报告的患者，医疗从业者，家属
+    pain_point: 看不懂复杂的医疗报告，需要第二意见但挂号困难
+    topic: Use Claude to analyze and get second opinions on medical reports and
+      documents
+    tags: Claude,医疗报告,AI分析,第二意见,文档理解
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: I used Claude Code to get a second opinion on my MRI
+      original_url: https://news.ycombinator.com/item?id=48708941
+      added_at: 2026-06-29
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: ai-fraud-detection-education
+    category: ai-tools
+    audience: 教育工作者，学生，培训机构管理者
+    pain_point: 无法识别学生作业中的AI代写，缺乏AI使用规范
+    topic: Set up AI detection workflow and establish ethical AI guidelines for
+      educational settings
+    tags: AI检测,学术诚信,教育管理,AI伦理,作弊防范
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Professor denounces mass AI fraud on an exam at Brown
+      original_url: https://news.ycombinator.com/item?id=48708991
+      added_at: 2026-06-29
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: multi-ai-model-workflow-optimization
+    category: ai-tools
+    audience: 内容创作者、运营人员需要使用多种AI模型的用户
+    pain_point: 需要在多个AI平台间切换，效率低下且成本高昂
+    topic: Set up efficient multi-AI model workflow using unified interfaces for
+      content creation and analysis tasks
+    tags: AI models, workflow optimization, content creation, cost efficiency
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: discode.ai
+      original_url: https://www.producthunt.com/products/discode-ai
+      added_at: 2026-06-29
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: universal-ai-agent-setup
+    category: ai-tools
+    audience: 职场人士、内容创作者、运营人员需要跨平台AI助手
+    pain_point: 在不同工具间重复输入AI指令，缺乏统一的AI工作流
+    topic: Configure a unified AI agent that works across browser, productivity
+      tools, and messaging platforms for seamless workflow automation
+    tags: AI agent, cross-platform, productivity, workflow automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Lyto
+      original_url: https://www.producthunt.com/products/lyto
+      added_at: 2026-06-29
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: local-llm-note-memory
+    category: ai-tools
+    audience: 知识工作者、研究人员、学生、内容创作者
+    pain_point: 笔记积累很多但难以快速检索和关联，无法充分利用历史知识
+    topic: Transform your markdown notes into a searchable AI memory system using
+      local LLM integration
+    tags: note taking, local LLM, knowledge management, markdown, AI memory
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: note.md
+      original_url: https://www.producthunt.com/products/note-md
+      added_at: 2026-06-29
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
