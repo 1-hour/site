@@ -1212,3 +1212,89 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 37
+  - slug: ai-receipt-bookkeeping-automation
+    category: automation
+    audience: 小企业主、副业经营者、自由职业者
+    pain_point: 手工整理发票和记账耗时费力且容易出错
+    topic: Set up automated receipt processing and bookkeeping workflow using AI
+      agents for small business expense tracking
+    tags: AI automation, bookkeeping, receipt processing, small business, expense
+      tracking
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Agent Mode by Receiptor AI
+      original_url: https://www.producthunt.com/products/receiptor-ai
+      added_at: 2026-06-30
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-search-visibility-audit
+    category: marketing
+    audience: 品牌方、内容创作者、数字营销人员
+    pain_point: 不知道自己的品牌在AI搜索中的表现和曝光情况
+    topic: Audit and optimize your brand's visibility in AI search results and
+      chatbot responses
+    tags: AI SEO, brand monitoring, search visibility, digital marketing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: VisibAI
+      original_url: https://www.producthunt.com/products/visibai-ai-visibility-audit-tool
+      added_at: 2026-06-30
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: ai-lead-conversion-chatbot
+    category: automation
+    audience: 销售人员、小企业主、营销运营
+    pain_point: 潜在客户转化率低，人工跟进效率不高
+    topic: Build an AI-powered lead qualification and conversion chatbot for your
+      business
+    tags: AI chatbot, lead conversion, sales automation, customer acquisition
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Intelli
+      original_url: https://www.producthunt.com/products/intelli
+      added_at: 2026-06-30
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: cross-platform-ad-budget-automation
+    category: marketing
+    audience: 数字营销人员、广告投放专员、电商运营
+    pain_point: 多平台广告预算分配和优化需要大量人工监控和调整
+    topic: Set up automated ad budget optimization across Google Ads, LinkedIn, and
+      Meta platforms
+    tags: ad automation, budget optimization, Google Ads, Meta Ads, LinkedIn Ads,
+      cross-platform
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Sami
+      original_url: https://www.producthunt.com/products/sami-automate-pace-scale-your-ads
+      added_at: 2026-06-30
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
