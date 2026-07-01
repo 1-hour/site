@@ -45,7 +45,7 @@ queue:
     boss actually reads, with Excel + ChatGPT + a reusable template'
   tags: office,excel,ai,reporting,职场
   priority: P0
-  status: pending
+  status: published
 - slug: ppt-makeover
   category: office
   audience: 职场新人/产品/运营
