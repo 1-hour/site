@@ -1298,3 +1298,111 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 39
+  - slug: ai-prediction-workflow
+    category: ai-tools
+    audience: 产品经理、运营人员和数据分析师
+    pain_point: 业务决策缺乏数据预测支持，难以评估风险和机会
+    topic: Build AI-powered prediction workflows for business decisions using
+      prediction platforms
+    tags: ai-prediction,business-intelligence,decision-making,forecasting
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Foresight by Lightning Rod
+      original_url: https://www.producthunt.com/products/training-data-generator
+      added_at: 2026-07-01
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-email-assistant-workflow
+    category: automation
+    audience: 职场人士、运营人员和客服团队
+    pain_point: 邮件处理耗时且重复性高，需要智能化解决方案
+    topic: Set up AI email assistant that learns your work patterns and automates
+      responses
+    tags: email-automation,ai-assistant,productivity,workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Supafax
+      original_url: https://www.producthunt.com/products/supafax
+      added_at: 2026-07-01
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: ai-task-calendar-integration
+    category: automation
+    audience: 产品经理、运营人员和职场新人
+    pain_point: 任务和日程管理分散在多个工具中，缺乏AI辅助优化
+    topic: Integrate AI assistants with task management and calendar systems for
+      automated scheduling
+    tags: task-management,calendar,ai-integration,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Akiflow
+      original_url: https://www.producthunt.com/products/akiflow
+      added_at: 2026-07-01
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 6
+        keyword_demand: 7
+      total: 37
+  - slug: pluno-browser-automation-agent
+    category: ai-tools
+    audience: 运营人员、内容创作者、副业从业者需要自动化重复性网页操作的用户
+    pain_point: 手动执行重复性网页任务耗时且容易出错，需要更高效的自动化解决方案
+    topic: Set up Pluno browser agent to automate 5 common web tasks (form filling,
+      data extraction, social media posting, email management, research
+      compilation) with measurable speed improvements
+    tags: browser automation, AI agent, productivity, web scraping, task automation
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Pluno
+      original_url: https://www.producthunt.com/products/pluno
+      added_at: 2026-07-01
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: databox-ai-analytics-skills
+    category: marketing
+    audience: 运营人员、产品经理、数据分析师需要快速搭建商业智能仪表板的用户
+    pain_point: 缺乏数据分析技能但需要从业务数据中获取洞察，传统BI工具学习成本高
+    topic: Deploy 5 ready-made AI analytics skills in Databox to create automated
+      business intelligence dashboard with actionable insights for marketing,
+      sales, and operations
+    tags: business intelligence, data analytics, AI skills, dashboard, marketing
+      analytics
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Skills Marketplace by Databox
+      original_url: https://www.producthunt.com/products/databox
+      added_at: 2026-07-01
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
