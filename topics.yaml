@@ -54,7 +54,7 @@ queue:
     templates + AI image generation, no design skill required'
   tags: ppt,design,office,ai
   priority: P0
-  status: pending
+  status: published
 - slug: resume-ai-rewrite
   category: office
   audience: 求职者/转行者/学生
