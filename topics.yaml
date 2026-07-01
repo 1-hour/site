@@ -63,7 +63,7 @@ queue:
     achievements, tailor for target companies in one session'
   tags: resume,ai,job,career,简历
   priority: P0
-  status: pending
+  status: published
 - slug: xianyu-first-sale
   category: side-hustle
   audience: 副业新手/学生/职场人
