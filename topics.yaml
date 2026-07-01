@@ -27,7 +27,7 @@ queue:
     PRD with user stories, acceptance criteria, and edge cases'
   tags: ai,claude,prd,产品,product-management
   priority: P0
-  status: pending
+  status: published
 - slug: ai-customer-service
   category: ai-tools
   audience: 运营/电商客服/小老板
