@@ -36,7 +36,7 @@ queue:
     WeCom/Feishu/website, handle 80% of queries without human'
   tags: ai,chatbot,customer-service,wecom,feishu
   priority: P0
-  status: pending
+  status: published
 - slug: ai-weekly-report
   category: office
   audience: 职场新人/中层管理
