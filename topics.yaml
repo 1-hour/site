@@ -1488,3 +1488,127 @@ queue:
         differentiation: 8
         keyword_demand: 7
       total: 38
+  - slug: cold-outreach-help-requests
+    category: office
+    audience: 职场新人和需要外部帮助的专业人士
+    pain_point: 不知道如何向陌生人寻求帮助，害怕被拒绝
+    topic: Master cold outreach to get help from strangers in 60 minutes
+    tags: networking, communication, outreach, career
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: How to ask for help from people who don't know you
+      original_url: https://news.ycombinator.com/item?id=48761118
+      added_at: 2026-07-03
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 9
+        differentiation: 7
+        keyword_demand: 7
+      total: 39
+  - slug: claude-video-analysis-workflow
+    category: ai-tools
+    audience: 内容创作者、运营人员、产品经理
+    pain_point: 视频内容分析耗时且难以提取关键信息
+    topic: Set up Claude to analyze and extract insights from any video content
+    tags: claude, video analysis, ai tools, content creation, automation
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Claude-real-video － any LLM can watch a video
+      original_url: https://news.ycombinator.com/item?id=48766005
+      added_at: 2026-07-03
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
+  - slug: context-dev-web-scraping-workflow
+    category: automation
+    audience: 内容创作者、运营人员、产品经理需要批量收集和分析网络数据
+    pain_point: 手动收集网络数据效率低，需要自动化的数据抓取和处理方案
+    topic: Build automated web scraping and data enrichment workflow using
+      Context.dev API in 60 minutes
+    tags: web-scraping,api,automation,data-collection,research
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Context.dev
+      original_url: https://www.producthunt.com/products/context-dev
+      added_at: 2026-07-03
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: needle-gtm-slack-automation
+    category: automation
+    audience: 运营人员、增长黑客、销售团队需要自动化GTM流程
+    pain_point: GTM流程手动执行效率低，缺乏主动的销售和营销自动化工具
+    topic: Set up proactive GTM automation agent in Slack/Teams using Needle for
+      sales and marketing workflows
+    tags: gtm,slack,teams,automation,sales,marketing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Needle
+      original_url: https://www.producthunt.com/products/needle-3
+      added_at: 2026-07-03
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: personal-ai-agent-cross-platform
+    category: ai-tools
+    audience: 效率工具爱好者，数字游民，知识工作者
+    pain_point: 跨设备AI助手同步困难，个人工作流不连贯
+    topic: Build personal AI assistant that syncs between desktop and mobile for
+      daily productivity
+    tags: personal AI, cross-platform, productivity automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Flowly
+      original_url: https://www.producthunt.com/products/flowly-6
+      added_at: 2026-07-03
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: macos-ai-superpower-setup
+    category: ai-tools
+    audience: Mac用户，设计师，开发者，内容创作者
+    pain_point: Mac系统AI能力未充分利用，工作效率有提升空间
+    topic: Configure Mac with AI superpowers for automated workflows and enhanced
+      productivity
+    tags: macOS automation, AI integration, Mac productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Macuse
+      original_url: https://www.producthunt.com/products/macuse
+      added_at: 2026-07-03
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
