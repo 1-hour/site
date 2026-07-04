@@ -1612,3 +1612,214 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 37
+  - slug: local-llm-setup-guide
+    category: ai-tools
+    audience: AI工具使用者和隐私意识用户
+    pain_point: 想要本地运行大语言模型保护隐私和数据安全但不知道如何配置和优化
+    topic: Set up and run state-of-the-art LLMs locally on your computer with
+      optimization
+    tags: local-llm,ai,privacy,setup,optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Jamesob's guide to running SOTA LLMs locally
+      original_url: https://news.ycombinator.com/item?id=48775921
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 9
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: llm-coding-workflow-experiments
+    category: ai-tools
+    audience: 想要提升编程效率的开发者和产品经理
+    pain_point: 不知道如何有效利用AI工具来提升编程工作流程
+    topic: "Set up 5 different LLM coding workflows: pair programming, code review,
+      debugging, documentation, and refactoring"
+    tags: llm,coding,workflow,ai-programming,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Ask HN: Is anyone experimenting with different ways of using
+        LLMs for coding?"
+      original_url: https://news.ycombinator.com/item?id=48771515
+      added_at: 2026-07-04
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
+  - slug: voice-coding-copilot-workflow
+    category: ai-tools
+    audience: 想要提升编程效率的开发者和产品经理
+    pain_point: 长时间打字编程导致手部疲劳，希望通过语音提升开发效率
+    topic: Set up voice-to-code workflow using Vox and GitHub Copilot for hands-free
+      programming
+    tags: voice-coding,github-copilot,accessibility,productivity,hands-free
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Vox
+      original_url: https://www.producthunt.com/products/vox-5
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: voice-todo-ai-workflow
+    category: automation
+    audience: 忙碌的职场人士和创业者
+    pain_point: 任务太多不知道先做什么，传统待办清单缺乏智能优先级排序
+    topic: Set up voice-controlled AI todo list that prioritizes and suggests next
+      actions automatically
+    tags: AI助手,语音控制,任务管理,生产力工具,智能排序
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: nxt
+      original_url: https://www.producthunt.com/products/nxt-talk-to-your-to-do-list
+      added_at: 2026-07-04
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: campaign-attribution-measurement
+    category: marketing
+    audience: 营销运营人员和增长黑客
+    pain_point: 无法准确衡量营销活动的真实效果和ROI
+    topic: Set up campaign goal tracking system to measure marketing ROI and
+      conversion attribution
+    tags: 营销归因,数据分析,ROI测量,转化追踪,营销效果
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Goals from Loops
+      original_url: https://www.producthunt.com/products/loops
+      added_at: 2026-07-04
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: mac-app-creation-ai-chat
+    category: automation
+    audience: Mac用户和非技术背景的产品经理
+    pain_point: 想要定制Mac工具但不会编程，现有应用无法满足个性化需求
+    topic: Build custom Mac productivity apps using AI chat interface without coding
+      knowledge
+    tags: 无代码开发,Mac应用,AI对话,Raycast,生产力工具
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Glaze by Raycast
+      original_url: https://www.producthunt.com/products/glaze-4
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 39
+  - slug: creative-video-subtitling-workflow
+    category: creators
+    audience: 短视频创作者和自媒体博主
+    pain_point: 视频字幕制作耗时且样式单调，影响内容传播效果
+    topic: Create engaging video subtitles with custom styling and animations for
+      social media content
+    tags: 视频字幕,短视频制作,字幕动画,内容创作,视频编辑
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: "Quick Sub 2: Video Subtitling"
+      original_url: https://www.producthunt.com/products/quick-sub-2-video-subtitling
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: tiktok-follower-monetization
+    category: creators
+    audience: TikTok创作者，有一定粉丝基础但变现困难
+    pain_point: 有粉丝但不知道如何转化为付费客户，缺乏系统的变现流程
+    topic: Build a complete TikTok follower-to-customer conversion funnel with
+      landing page, lead magnet, and sales sequence
+    tags: TikTok变现,粉丝转化,内容变现,社交媒体营销
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Fypro
+      original_url: https://www.producthunt.com/products/fypro
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: job-referral-network-strategy
+    category: office
+    audience: 求职者，职场新人，想要跳槽的上班族
+    pain_point: 投简历石沉大海，不知道如何利用人脉获得内推机会
+    topic: Build a systematic job referral strategy using network mapping and
+      outreach templates
+    tags: 求职技巧,内推,职场人脉,求职策略
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Sidedoor
+      original_url: https://www.producthunt.com/products/sidedoor-2
+      added_at: 2026-07-04
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: multi-platform-ad-creative-scaling
+    category: marketing
+    audience: 广告投放人员，营销运营，中小企业主
+    pain_point: 需要为不同平台制作多套广告素材，耗时费力且成本高
+    topic: Create one master creative and automatically adapt it for all major ad
+      platforms (Facebook, Google, TikTok, etc.)
+    tags: 广告设计,多平台投放,创意优化,广告素材
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: PixFit
+      original_url: https://www.producthunt.com/products/pixfit
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
