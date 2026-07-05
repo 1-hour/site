@@ -1823,3 +1823,107 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 39
+  - slug: subscription-tracker-automation
+    category: automation
+    audience: 职场人士和副业者
+    pain_point: 订阅服务太多容易忘记取消造成浪费
+    topic: Build an automated subscription tracking system to prevent forgotten
+      payments
+    tags: 订阅管理,自动化,财务管理,AI工具
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: CentryAI
+      original_url: https://www.producthunt.com/products/centryai
+      added_at: 2026-07-05
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: ai-personal-assistant-clone
+    category: ai-tools
+    audience: 内容创作者和运营人员
+    pain_point: 重复性工作太多没时间专注创作
+    topic: Create an AI clone that handles routine tasks and decision-making
+      automatically
+    tags: AI助手,自动化,个人效率,工作流程
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Vida
+      original_url: https://www.producthunt.com/products/vida-5
+      added_at: 2026-07-05
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: iphone-mac-controller-setup
+    category: automation
+    audience: Mac用户和演示工作者
+    pain_point: 演示时需要更灵活的设备控制方式
+    topic: Transform iPhone into wireless Mac controller for presentations and
+      remote work
+    tags: Mac控制,iPhone应用,演示工具,远程控制
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: PhoneDeck
+      original_url: https://www.producthunt.com/products/phonedeck
+      added_at: 2026-07-05
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: ai-checklist-pdf-generator
+    category: ai-tools
+    audience: 项目经理和运营人员
+    pain_point: 制作专业检查清单耗时且格式不统一
+    topic: Generate professional PDF checklists using AI for any workflow or process
+    tags: AI生成,检查清单,PDF制作,流程管理
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: ChecklistFox
+      original_url: https://www.producthunt.com/products/checklistfox
+      added_at: 2026-07-05
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 6
+        keyword_demand: 7
+      total: 36
+  - slug: local-ai-meeting-assistant-setup
+    category: ai-tools
+    audience: 职场人士和远程工作者
+    pain_point: 会议记录整理耗时且担心隐私泄露
+    topic: Set up privacy-first local AI meeting assistant for transcription and
+      summarization
+    tags: meeting-assistant,transcription,privacy,local-ai,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: meetily
+      original_url: https://github.com/Zackriya-Solutions/meetily
+      added_at: 2026-07-05
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
