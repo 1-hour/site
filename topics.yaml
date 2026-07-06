@@ -1927,3 +1927,192 @@ queue:
         differentiation: 8
         keyword_demand: 7
       total: 38
+  - slug: blog-longevity-analysis
+    category: creators
+    audience: 内容创作者和博主
+    pain_point: 不知道如何让博客持续成功运营
+    topic: Analyze successful blog strategies and create a sustainability checklist
+    tags: blogging,content strategy,sustainability,analysis
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "The great blogging collapse: What happened to 100 successful blogs?"
+      original_url: https://news.ycombinator.com/item?id=48758802
+      added_at: 2026-07-06
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-friendly-documentation-system
+    category: product
+    audience: 产品经理和技术写作者
+    pain_point: 文档既要人类易读又要AI能理解，不知道如何平衡两者需求
+    topic: Create AI-optimized documentation system that serves both human users and
+      AI agents effectively
+    tags: documentation,ai-optimization,product-management,technical-writing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: DocsAlot
+      original_url: https://www.producthunt.com/products/docsalot-2
+      added_at: 2026-07-06
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-expert-team-workflow
+    category: ai-tools
+    audience: 运营人员和内容创作者
+    pain_point: 工作效率低下，需要AI帮助但不知道如何组建AI专家团队协作
+    topic: Build a multi-AI expert workflow system to accelerate work output using
+      specialized AI agents
+    tags: ai-workflow,productivity,automation,ai-agents
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: WorkBuddy
+      original_url: https://www.producthunt.com/products/workbuddy-2
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: interactive-language-reading-setup
+    category: ai-tools
+    audience: 中日文学习者和语言爱好者
+    pain_point: 阅读原版中日文材料时遇到生词需要频繁查字典，影响阅读流畅性
+    topic: Set up an interactive reading environment for Chinese/Japanese with
+      instant translation and audio
+    tags: language learning, Chinese, Japanese, reading comprehension, translation
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Toku Reader
+      original_url: https://www.producthunt.com/products/toku-reader
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-system-prompt-engineering
+    category: ai-tools
+    audience: AI工具重度用户、内容创作者和产品经理
+    pain_point: 不知道如何写出高质量的系统提示词来获得更好的AI输出效果
+    topic: Master system prompt engineering using leaked prompts from major AI
+      models to improve your AI interactions
+    tags: prompt engineering, system prompts, Claude, ChatGPT, Gemini, AI
+      optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: system_prompts_leaks
+      original_url: https://github.com/asgeirtj/system_prompts_leaks
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: ai-taste-enhancement-workflow
+    category: ai-tools
+    audience: 内容创作者、文案写手和AI重度用户
+    pain_point: AI生成的内容总是很平庸无趣，缺乏个性和品味
+    topic: Train your AI to generate high-quality, non-generic content using
+      taste-enhancement techniques
+    tags: AI quality, content creation, prompt engineering, creative writing, AI
+      training
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: taste-skill
+      original_url: https://github.com/Leonxlnx/taste-skill
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: claude-coding-skills-mastery
+    category: ai-tools
+    audience: 无代码开发者、产品经理和AI工具爱好者
+    pain_point: 想用Claude进行编程相关工作但不知道如何配置和使用各种技能插件
+    topic: Set up and master essential Claude coding skills and agent workflows for
+      non-programmers
+    tags: Claude, coding skills, AI agents, no-code development, productivity
+    priority: P1
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: claude-skills
+      original_url: https://github.com/alirezarezvani/claude-skills
+      added_at: 2026-07-06
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 35
+  - slug: claude-code-workflow-mastery
+    category: ai-tools
+    audience: 产品经理、运营人员、无代码开发者
+    pain_point: 想用Claude提升编程效率但不知道最佳实践和工作流程
+    topic: Master Claude Code for automated coding workflows and project management
+    tags: Claude, coding, AI assistant, workflow, automation
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: awesome-claude-code
+      original_url: https://github.com/hesreallyhim/awesome-claude-code
+      added_at: 2026-07-06
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: claude-marketing-automation-skills
+    category: marketing
+    audience: 营销运营人员、增长黑客、内容创作者
+    pain_point: 营销工作重复性高，想用AI提升转化率和内容质量但缺乏系统方法
+    topic: Build AI-powered marketing workflows using Claude for CRO, copywriting
+      and growth
+    tags: Claude, marketing, CRO, copywriting, SEO, growth
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: marketingskills
+      original_url: https://github.com/coreyhaines31/marketingskills
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
