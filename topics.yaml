@@ -1,2095 +1,2245 @@
 queue:
-- slug: chatgpt-content-30days
-  category: ai-tools
-  audience: 创作者/运营/自媒体小白
-  pain_point: 不会写、写不快、选题枯竭，看着别人日更焦虑
-  topic: '1 Hour to AI Content Calendar: use ChatGPT to plan and draft 30 days of
-    social media content for Xiaohongshu/Twitter, with viral hook formulas and a reusable
-    prompt library'
-  tags: ai,chatgpt,content,xiaohongshu,创作者
-  next_step: chatgpt-prompts
-  priority: P0
-  status: published
-- slug: midjourney-commercial
-  category: design
-  audience: 设计师/运营/电商卖家
-  pain_point: 商用图找素材贵 + 风格不统一，想用 AI 出图但中文 prompt 没思路
-  topic: '1 Hour to Midjourney for Commercial Use: ship 10 ready-to-use product/banner/cover
-    images with a battle-tested prompt template (中文 prompt cheatsheet included)'
-  tags: ai,midjourney,design,prompt,商用
-  priority: P0
-  status: published
-- slug: claude-prd
-  category: product
-  audience: 产品经理/产品助理
-  pain_point: PRD 写不快、结构散乱、被开发吐槽不清楚
-  topic: '1 Hour to Write a PRD with Claude: from one-sentence idea to a 10-page structured
-    PRD with user stories, acceptance criteria, and edge cases'
-  tags: ai,claude,prd,产品,product-management
-  priority: P0
-  status: published
-- slug: ai-customer-service
-  category: ai-tools
-  audience: 运营/电商客服/小老板
-  pain_point: 重复客服问题占用大量时间、半夜没人回复
-  topic: '1 Hour to Build a GPT Customer Service Bot: train on your FAQ, deploy to
-    WeCom/Feishu/website, handle 80% of queries without human'
-  tags: ai,chatbot,customer-service,wecom,feishu
-  priority: P0
-  status: published
-- slug: ai-weekly-report
-  category: office
-  audience: 职场新人/中层管理
-  pain_point: 周报写不出亮点、数据不知道怎么呈现、老板看不懂
-  topic: '1 Hour to AI-Powered Weekly Report: turn raw numbers into a dashboard your
-    boss actually reads, with Excel + ChatGPT + a reusable template'
-  tags: office,excel,ai,reporting,职场
-  priority: P0
-  status: published
-- slug: ppt-makeover
-  category: office
-  audience: 职场新人/产品/运营
-  pain_point: PPT 被嫌弃丑，不会调样式，临时汇报压力大
-  topic: '1 Hour PPT Makeover: turn ugly slides into design-ready ones using 5 layout
-    templates + AI image generation, no design skill required'
-  tags: ppt,design,office,ai
-  priority: P0
-  status: published
-- slug: resume-ai-rewrite
-  category: office
-  audience: 求职者/转行者/学生
-  pain_point: 简历投了没回音、不知道哪里不行、HR 关键词都不知道
-  topic: '1 Hour to Rewrite Your Resume with AI: pass ATS keyword filters, quantify
-    achievements, tailor for target companies in one session'
-  tags: resume,ai,job,career,简历
-  priority: P0
-  status: published
-- slug: xianyu-first-sale
-  category: side-hustle
-  audience: 副业新手/学生/职场人
-  pain_point: 想做副业但不知道从哪开始、闲鱼听说能赚但不会上架虚拟商品
-  topic: '1 Hour to Your First Xianyu Sale: list a digital product (notes/courses/templates),
-    get the first paying customer, and automate fulfillment'
-  tags: xianyu,side-hustle,virtual-goods,闲鱼,副业
-  priority: P0
-  status: published
-- slug: xiaohongshu-launch
-  category: creators
-  audience: 自媒体小白/想转行内容
-  pain_point: 想做小红书但起号难、不知道发什么、几条没人看就放弃
-  topic: '1 Hour to Launch Your Xiaohongshu Account: pick a niche, post 3 hook-driven
-    notes, and hit your first 100 followers using the proven start-up formula'
-  tags: xiaohongshu,creators,small-red,小红书
-  priority: P0
-  status: pending
-- slug: paid-newsletter
-  category: side-hustle
-  audience: 内容创作者/独立开发者
-  pain_point: 想做付费 newsletter 但不知道平台选什么、第一封怎么写
-  topic: '1 Hour to Your First Paid Newsletter: pick Substack vs Zhubai vs Lemon Squeezy,
-    set up paywall, and ship issue #1 with a ready-to-use template'
-  tags: newsletter,substack,side-hustle,monetization,付费订阅
-  priority: P0
-  status: pending
-- slug: viral-headlines
-  category: creators
-  audience: 自媒体/运营/文案
-  pain_point: 标题写不出爆款感、阅读量永远卡在两位数
-  topic: '1 Hour to Master Viral Headlines: 10 proven formulas (curiosity gap, before/after,
-    list, pain-point) with 50 examples and an AI generator template'
-  tags: headlines,copywriting,creators,viral,标题
-  priority: P0
-  status: pending
-- slug: short-video-structure
-  category: creators
-  audience: 自媒体/视频博主新人
-  pain_point: 拍出来没人看、不知道前 3 秒怎么抓人、剪辑卡壳
-  topic: '1 Hour to a 60-Second Viral Video: hook formula, 3-act structure, pacing,
-    and the one-take CapCut workflow used by top creators'
-  tags: video,creators,capcut,short-video,剪映
-  priority: P0
-  status: pending
-- slug: competitive-analysis
-  category: product
-  audience: 产品经理/创业者
-  pain_point: 竞品调研没框架、写出来像流水账
-  topic: '1 Hour to a Killer Competitive Analysis: use the 5-axis framework (positioning/feature/pricing/UX/community)
-    with a fillable template'
-  tags: product,competitive-analysis,framework,产品
-  priority: P1
-  status: pending
-- slug: user-interview-1hour
-  category: product
-  audience: 产品/运营/创业者
-  pain_point: 用户访谈聊一小时啥也没问出来、不知道问什么
-  topic: '1 Hour to Run a User Interview: a 60-minute script with 15 proven questions,
-    recording setup, and synthesis template'
-  tags: user-research,interview,product,产品
-  priority: P1
-  status: pending
-- slug: notion-okr
-  category: office
-  audience: 团队负责人/产品/运营
-  pain_point: 团队 OKR 散在 Excel/飞书/口头里，对齐不上
-  topic: '1 Hour to a Team OKR System in Notion: 5 linked databases for objectives,
-    key results, weekly check-ins, and quarterly reviews'
-  tags: notion,okr,office,team-management
-  priority: P1
-  status: pending
-- slug: private-traffic-sop
-  category: marketing
-  audience: 运营/电商/创业者
-  pain_point: 拉到群里就死、不知道怎么活跃、转化路径模糊
-  topic: '1 Hour to a Private Traffic SOP: WeCom/community onboarding flow, 7-day
-    nurture sequence, and conversion checkpoints'
-  tags: marketing,wecom,community,private-traffic,私域
-  priority: P1
-  status: pending
-- slug: xiaohongshu-ads
-  category: marketing
-  audience: 运营/品牌方/电商
-  pain_point: 投薯条不知道怎么投、ROI 看不清、烧钱没效果
-  topic: '1 Hour to Xiaohongshu Ads (薯条): targeting setup, creative test framework,
-    and a ROI dashboard you can copy'
-  tags: xiaohongshu,ads,marketing,投放,小红书
-  priority: P1
-  status: pending
-- slug: cursor-non-coder
-  category: ai-tools
-  audience: 产品/运营/想入门编程的非技术
-  pain_point: 听说 Cursor 很神但不会编程，怕学不会
-  topic: '1 Hour to Cursor for Non-Coders: build your first internal tool (form/dashboard)
-    using natural language, no coding background needed'
-  tags: cursor,ai,no-code,non-tech,非技术
-  priority: P1
-  status: pending
-- slug: claude-artifacts
-  category: ai-tools
-  audience: 产品/运营/教师/创作者
-  pain_point: 想做交互原型/工具/小游戏但不会代码
-  topic: '1 Hour to Claude Artifacts: build 5 useful tools (calculator, form, quiz,
-    dashboard, game) without writing code'
-  tags: claude,artifacts,no-code,ai
-  priority: P1
-  status: pending
-- slug: gumroad-digital-product
-  category: side-hustle
-  audience: 创作者/设计师/独立开发者
-  pain_point: 有作品想卖海外但不知道平台、收款、定价
-  topic: '1 Hour to Sell Digital Products on Gumroad: setup, pricing strategy, first
-    launch, and how to get paid in CN'
-  tags: gumroad,digital-product,side-hustle,monetization,海外副业
-  priority: P1
-  status: pending
-- slug: suno-brand-music
-  category: creators
-  audience: 创作者/品牌/电商
-  pain_point: 想给视频/品牌做主题曲但音乐人贵
-  topic: '1 Hour to Brand Music with Suno: prompt patterns for jingles/intros/full
-    tracks, royalty-free for commercial use'
-  tags: suno,music,ai,branding
-  priority: P2
-  status: pending
-- slug: figma-prototype
-  category: design
-  audience: 产品/设计师
-  pain_point: 静态稿不够、不会做可点击原型
-  topic: '1 Hour to a Clickable Figma Prototype: page transitions, hover states, components,
-    and shareable links'
-  tags: figma,prototype,design
-  next_step: figma-basics
-  priority: P2
-  status: pending
-- slug: rag-no-code
-  category: ai-tools
-  audience: 运营/产品/小老板
-  pain_point: 想用自家文档训练 AI 客服/问答，但找不到不写代码的方案
-  topic: '1 Hour to a No-Code RAG Bot: upload your docs, build a chat interface, deploy
-    without writing a single line of code (using Coze/Dify)'
-  tags: rag,no-code,coze,dify,ai
-  priority: P2
-  status: pending
-- slug: web-design-4min
-  category: design
-  audience: 需要快速搭建网站的内容创作者和运营人员
-  pain_point: 没有设计基础但需要快速做出好看的网站
-  topic: Create a professional website design in 60 minutes using rapid design principles
-  tags: web-design,quick-design,landing-page,visual-design
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-show
-    added_at: 2026-06-20
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 9
-      differentiation: 7
-      keyword_demand: 8
-    total: 40
-- slug: typing-practice-site
-  category: office
-  audience: 想提高打字速度的职场人士和内容创作者
-  pain_point: 打字速度慢影响工作效率但练习方式枯燥
-  topic: Build a typing practice website with novel content integration
-  tags: typing,productivity,web-development,skill-building
-  priority: P1
-  status: pending
-  _scout:
-    source: hn-show
-    added_at: 2026-06-20
-    scores:
-      learnable: 7
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 6
-    total: 35
-- slug: ai-powered-search-workflow
-  category: ai-tools
-  audience: 内容创作者、研究人员、产品经理、运营人员
-  pain_point: 传统搜索效率低，需要大量时间筛选和整理信息
-  topic: Build an AI-powered search and research workflow using GPT-4 for faster information
-    gathering
-  tags: GPT-4, search, research, AI workflow, productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-show
-    added_at: 2026-06-20
-    scores:
-      learnable: 7
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 37
-- slug: youtube-channel-redesign
-  category: creators
-  audience: YouTube创作者和内容运营者
-  pain_point: 频道页面缺乏吸引力和清晰的内容组织
-  topic: Design an improved YouTube channel layout and navigation system using Figma
-  tags: YouTube优化,频道设计,用户体验,Figma
-  priority: P1
-  status: pending
-  _scout:
-    source: hn-show
-    added_at: 2026-06-20
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: whatsapp-ai-automation
-  category: automation
-  audience: 电商运营、客服团队、副业创业者
-  pain_point: WhatsApp客服回复效率低，无法24小时在线服务
-  topic: Set up automated WhatsApp AI customer service using API integration
-  tags: WhatsApp,API,automation,customer-service,AI
-  priority: P0
-  status: pending
-  _scout:
-    source: unknown
-    added_at: 2026-06-20
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: google-ads-ai-optimization
-  category: marketing
-  audience: 广告投放专员、电商运营、营销人员
-  pain_point: Google Ads投放效果差，缺乏数据洞察优化广告
-  topic: Optimize Google Ads campaigns using AI-powered insights and automation
-  tags: Google-Ads,AI,optimization,marketing,ROI
-  priority: P0
-  status: pending
-  _scout:
-    source: unknown
-    added_at: 2026-06-20
-    scores:
-      learnable: 8
-      audience: 9
-      structure: 8
-      differentiation: 7
-      keyword_demand: 9
-    total: 41
-- slug: offline-ai-dictation-setup
-  category: ai-tools
-  audience: 内容创作者、自媒体人、职场人士
-  pain_point: 需要高效语音转文字但担心隐私泄露或网络依赖
-  topic: Set up private offline AI dictation workflow for content creation and note-taking
-  tags: AI dictation, offline, privacy, voice-to-text, productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: unknown
-    added_at: 2026-06-20
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 38
-- slug: automated-backlink-strategy
-  category: marketing
-  audience: 运营人员、SEO从业者、副业创业者
-  pain_point: 手动建设外链效率低下且难以规模化
-  topic: Build automated backlink generation system for SEO growth
-  tags: backlinks, SEO, automation, link building, growth
-  priority: P0
-  status: pending
-  _scout:
-    source: unknown
-    added_at: 2026-06-20
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: xiaohongshu-zero-to-1k
-  category: marketing
-  audience: 运营/品牌方/小红书新号
-  pain_point: 新号没流量、笔记 0 赞 0 评、不知道怎么破冷启
-  topic: '1 Hour to Grow a Xiaohongshu Account from 0 to 1000 Followers: niche positioning,
-    viral hook formulas, posting cadence, and a 7-day cold-start checklist with ChatGPT-assisted
-    note generation'
-  tags: marketing,xiaohongshu,growth,小红书,冷启动
-  priority: P0
-  status: pending
-- slug: community-cold-start
-  category: marketing
-  audience: 运营/创业者/课程主理人
-  pain_point: 建了群没人发言、3 天就死、不知道怎么持续活跃
-  topic: '1 Hour to Cold-Start a Community: seed user recruitment, day-1 to day-7
-    activation playbook, content pillars, and 5 reusable engagement scripts that keep
-    the group alive'
-  tags: marketing,community,wecom,社群运营,冷启动
-  priority: P0
-  status: pending
-- slug: seo-keyword-research-ai
-  category: marketing
-  audience: 内容运营/独立站/出海创业者
-  pain_point: 关键词不会挖、写完没流量、对 SEO 工具一头雾水
-  topic: '1 Hour to AI-Powered Keyword Research: use ChatGPT + free tools to build
-    a 100-keyword content map, score difficulty/intent, and turn it into a 3-month
-    publishing calendar'
-  tags: marketing,seo,keyword-research,ai,内容运营
-  priority: P0
-  status: pending
-- slug: wechat-friend-circle-sop
-  category: marketing
-  audience: 私域运营/微商/个人 IP
-  pain_point: 朋友圈刷屏被屏蔽、转化率低、文案套路被一眼看穿
-  topic: '1 Hour to a WeChat Moments SOP: 7-day content rhythm template, 5 proven
-    post formats (story/proof/CTA/value/interaction), and AI-assisted copy that doesn''t
-    feel like ads'
-  tags: marketing,wechat,private-traffic,朋友圈,私域
-  priority: P1
-  status: pending
-- slug: growth-data-dashboard
-  category: marketing
-  audience: 运营负责人/操盘手/独立创业者
-  pain_point: 数据散在各处、看不懂北极星指标、汇报全靠拍脑袋
-  topic: '1 Hour to Build a Growth Data Dashboard: pick the right north-star metric,
-    set up a free Google Sheets/Notion dashboard with AARRR funnel, and weekly review
-    template'
-  tags: marketing,analytics,growth,dashboard,数据驱动
-  priority: P1
-  status: pending
-- slug: content-repurpose-1to10
-  category: marketing
-  audience: 自媒体/品牌运营/个人 IP
-  pain_point: 写一条内容只发一个平台太亏、跨平台改写又累、产能跟不上
-  topic: '1 Hour to Repurpose 1 Piece of Content into 10: AI-driven workflow to turn
-    one long-form post into Twitter thread, Xiaohongshu note, Douyin script, newsletter,
-    and LinkedIn carousel — with prompt templates'
-  tags: marketing,content,repurpose,ai,自媒体
-  priority: P1
-  status: pending
-- slug: multi-voice-script-generation
-  category: creators
-  audience: 短视频创作者、播客制作人、自媒体人
-  pain_point: 单人配音内容单调，需要多角色对话但缺乏脚本制作技能
-  topic: Convert text content into professional multi-voice audio scripts for video
-    production
-  tags: voice scripts, multi-voice, content creation, audio production, video
-  priority: P0
-  status: pending
-  _scout:
-    source: unknown
-    added_at: 2026-06-20
-    scores:
-      learnable: 8
-      audience: 9
-      structure: 8
-      differentiation: 8
-      keyword_demand: 8
-    total: 41
-- slug: ai-video-editing-palmier
-  category: creators
-  audience: 短视频创作者和内容制作者
-  pain_point: 视频剪辑耗时且需要专业技能
-  topic: Create professional videos using AI-powered editing tools in Palmier Pro
-  tags: AI video editing, content creation, macOS
-  priority: P0
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: palmier-pro
-    original_url: https://github.com/palmier-io/palmier-pro
-    added_at: 2026-06-20
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: ai-video-production-studio
-  category: creators
-  audience: 视频内容创作者和制作团队
-  pain_point: 视频制作流程复杂需要多种工具配合
-  topic: Build a complete AI video production workflow using OpenMontage system
-  tags: AI video production, content creation, automation
-  priority: P0
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: OpenMontage
-    original_url: https://github.com/calesthio/OpenMontage
-    added_at: 2026-06-20
-    scores:
-      learnable: 6
-      audience: 8
-      structure: 7
-      differentiation: 8
-      keyword_demand: 8
-    total: 37
-- slug: penpot-design-prototype
-  category: design
-  audience: UI/UX设计师和产品经理
-  pain_point: 需要免费且开源的设计工具替代Figma
-  topic: Create a complete app prototype in Penpot with developer handoff
-  tags: Penpot, design, prototype, open-source, collaboration
-  priority: P1
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: penpot
-    original_url: https://github.com/penpot/penpot
-    added_at: 2026-06-20
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 6
-    total: 36
-- slug: camloop-virtual-camera-setup
-  category: automation
-  audience: 远程工作者和会议频繁的职场人
-  pain_point: 视频会议中无法自由离开座位
-  topic: Set up CamLoop virtual camera for seamless meeting breaks
-  tags: CamLoop, virtual camera, remote work, meetings, macOS
-  priority: P0
-  status: pending
-  _scout:
-    source: r/SideProject
-    original_title: 'Shipped CamLoop: a macOS virtual camera that loops a clip of
-      you so you can step away mid-meeting'
-    original_url: https://old.reddit.com/r/SideProject/comments/1u97irz/shipped_camloop_a_macos_virtual_camera_that_loops/
-    added_at: 2026-06-20
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 8
-      keyword_demand: 7
-    total: 39
-- slug: chatgpt-google-docs-integration
-  category: ai-tools
-  audience: 职场人士和内容创作者
-  pain_point: 在工作环境中使用AI工具不够隐蔽或便捷
-  topic: Set up ChatGPT integration within Google Docs for seamless workplace AI assistance
-  tags: ChatGPT, Google Docs, workplace productivity, AI integration
-  priority: P0
-  status: pending
-  _scout:
-    source: r/SideProject
-    original_title: 'UPDATE: Disguising ChatGPT as a Google Doc'
-    original_url: https://old.reddit.com/r/SideProject/comments/1u4kbym/update_disguising_chatgpt_as_a_google_doc/
-    added_at: 2026-06-20
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 6
-    total: 36
-- slug: slack-ai-coworker-setup
-  category: automation
-  audience: 团队运营者和职场新人
-  pain_point: 团队协作效率低，重复性工作太多
-  topic: Set up AI assistant in Slack for team collaboration and task automation
-  tags: slack,ai-automation,team-collaboration,productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: WorkClaw
-    original_url: https://www.producthunt.com/products/workclaw
-    added_at: 2026-06-21
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: ai-video-studio-pixlie
-  category: creators
-  audience: 短视频创作者和自媒体运营者
-  pain_point: 视频制作成本高，技术门槛大
-  topic: Create professional videos from text and images using AI video studio with
-    advanced controls
-  tags: ai-video,content-creation,text-to-video,short-video
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Pixlie
-    original_url: https://www.producthunt.com/products/pixlie
-    added_at: 2026-06-21
-    scores:
-      learnable: 8
-      audience: 9
-      structure: 8
-      differentiation: 7
-      keyword_demand: 9
-    total: 41
-- slug: ai-session-context-management
-  category: ai-tools
-  audience: 频繁使用AI工具的内容创作者、产品经理、运营人员
-  pain_point: 每次新对话都要重新解释项目背景，浪费tokens和时间
-  topic: Build a context management system to maintain AI conversation continuity
-    and reduce token waste across sessions
-  tags: AI workflow, token optimization, context management, productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: Stop wasting tokens and re explaining your project between sessions
-    original_url: https://news.ycombinator.com/item?id=48622590
-    added_at: 2026-06-22
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 38
-- slug: grok-word-writing-workflow
-  category: ai-tools
-  audience: 需要写作的职场人员、内容创作者、学生
-  pain_point: 文档写作效率低，难以快速优化文字表达和结构
-  topic: Build an AI-powered writing workflow using Grok in Microsoft Word to draft,
-    restructure and polish documents
-  tags: Grok, Microsoft Word, AI writing, document optimization
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Grok by SpaceXAI for Word
-    original_url: https://www.producthunt.com/products/grok-by-spacexai-for-word
-    added_at: 2026-06-22
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: ai-email-automation-agent
-  category: automation
-  audience: 忙碌的运营人员、客服团队、小企业主
-  pain_point: 邮件处理占用大量时间，重复性回复效率低
-  topic: Build an AI agent that automatically reads, categorizes, and responds to
-    emails based on custom rules
-  tags: email automation, AI agent, productivity, customer service
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Atomic Mail Agentic
-    original_url: https://www.producthunt.com/products/atomic-mail-agentic
-    added_at: 2026-06-22
-    scores:
-      learnable: 7
-      audience: 7
-      structure: 7
-      differentiation: 8
-      keyword_demand: 7
-    total: 36
-- slug: ai-stock-analysis-dashboard
-  category: ai-tools
-  audience: 投资者、副业人群、数据分析爱好者
-  pain_point: 股票分析太复杂需要专业知识和大量时间
-  topic: Build an AI-powered stock analysis dashboard with real-time data and automated
-    reports
-  tags: AI分析,股票投资,数据看板,自动化报告
-  priority: P0
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: daily_stock_analysis
-    original_url: https://github.com/ZhuLinsen/daily_stock_analysis
-    added_at: 2026-06-22
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 8
-      keyword_demand: 9
-    total: 40
-- slug: moebius-image-inpainting-workflow
-  category: ai-tools
-  audience: 内容创作者、设计师和自媒体运营者
-  pain_point: 需要快速修复和编辑图片但PS技能不足或效率太低
-  topic: Master Moebius AI for professional image inpainting and editing
-  tags: ai-image-editing,inpainting,content-creation,design
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: 'Moebius: 0.2B image inpainting model with 10B-level performance'
-    original_url: https://news.ycombinator.com/item?id=48630171
-    added_at: 2026-06-23
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 8
-      keyword_demand: 8
-    total: 40
-- slug: airjelly-second-brain-setup
-  category: mind
-  audience: 知识工作者和终身学习者
-  pain_point: 信息过载无法有效整理和关联个人知识库
-  topic: Build an AI-powered personal knowledge management system using AirJelly
-  tags: 第二大脑,知识管理,AI助手,个人效率
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: AirJelly
-    original_url: https://www.producthunt.com/products/airjelly
-    added_at: 2026-06-23
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 6
-      keyword_demand: 8
-    total: 36
-- slug: alai-social-media-design
-  category: design
-  audience: 自媒体运营者和市场营销人员
-  pain_point: 缺乏设计技能但需要制作高质量的视觉内容
-  topic: Create professional social media graphics and presentations using Alai 2.0
-    AI
-  tags: AI设计,社交媒体,演示文稿,视觉内容
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Alai 2.0
-    original_url: https://www.producthunt.com/products/alai
-    added_at: 2026-06-23
-    scores:
-      learnable: 8
-      audience: 9
-      structure: 8
-      differentiation: 7
-      keyword_demand: 9
-    total: 41
-- slug: unlimited-ocr-workflow
-  category: ai-tools
-  audience: 内容创作者、运营人员需要批量处理图片文字提取
-  pain_point: 手动输入图片中的文字太慢，付费OCR服务太贵
-  topic: Set up an unlimited OCR workflow to extract text from images, PDFs, and documents
-    using free AI tools and automation
-  tags: OCR,文字识别,自动化,AI工具,批量处理
-  priority: P1
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: 'Unlimited OCR: One-shot long-horizon parsing'
-    original_url: https://news.ycombinator.com/item?id=48643426
-    added_at: 2026-06-24
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: ai-note-to-plan-workflow
-  category: ai-tools
-  audience: 职场人士和内容创作者
-  pain_point: 笔记杂乱无章，难以转化为可执行计划
-  topic: Build an AI-powered daily planning system that converts scattered notes into
-    actionable plans
-  tags: AI,note-taking,planning,productivity,workflow
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Buddy AI Note
-    original_url: https://www.producthunt.com/products/buddy-ai-note
-    added_at: 2026-06-24
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: ai-ui-automation-setup
-  category: automation
-  audience: 运营人员和职场工作者
-  pain_point: 重复性电脑操作浪费大量时间
-  topic: Set up AI agent to automate repetitive computer tasks and UI interactions
-  tags: AI,automation,UI,productivity,workflow
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: NeuralAgent 3.0
-    original_url: https://www.producthunt.com/products/neuralagent
-    added_at: 2026-06-24
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 8
-      keyword_demand: 8
-    total: 38
-- slug: ai-agent-tool-optimization
-  category: ai-tools
-  audience: AI工具使用者和自动化爱好者
-  pain_point: AI代理工具过多导致响应缓慢
-  topic: Optimize AI agent performance by streamlining tool selection and reducing
-    response latency
-  tags: AI,optimization,agents,productivity,tools
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Conduit
-    original_url: https://www.producthunt.com/products/conduit-12
-    added_at: 2026-06-24
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: jotform-ai-app-builder
-  category: automation
-  audience: 运营人员、产品经理、副业创业者想要快速搭建应用的人群
-  pain_point: 想做个简单的业务应用但不会编程，传统开发成本太高时间太长
-  topic: Build a functional business app using Jotform AI App Builder in 60 minutes
-    - from idea to deployed app with forms, workflows and data collection
-  tags: no-code,app-building,jotform,ai-tools,automation,business-apps
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Jotform AI App Builder
-    original_url: https://www.producthunt.com/products/jotform
-    added_at: 2026-06-24
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: openart-director-cinematic-videos
-  category: creators
-  audience: 短视频创作者、自媒体博主、内容运营想要制作高质量视频的人群
-  pain_point: 想做电影级别的视频但缺乏专业视频制作技能和昂贵软件
-  topic: Create a professional cinematic video using OpenArt Director chat interface
-    - from concept to final rendered video with scenes, transitions and effects
-  tags: ai-video,cinematic,openart,content-creation,video-production,chat-interface
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: OpenArt Director
-    original_url: https://www.producthunt.com/products/openart
-    added_at: 2026-06-24
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 8
-      keyword_demand: 8
-    total: 38
-- slug: deckwise-ai-presentation-agent
-  category: office
-  audience: 职场新人、产品经理、运营人员需要经常做汇报PPT的人群
-  pain_point: 做PPT耗时太长，设计不够专业，内容组织逻辑不清晰
-  topic: Create a professional presentation deck using Deckwise AI agent - from brief
-    to fully editable slides with content, design and speaker notes
-  tags: ai-presentation,ppt,deckwise,office-productivity,presentation-design,ai-agent
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Deckwise
-    original_url: https://www.producthunt.com/products/deckwise
-    added_at: 2026-06-24
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 38
-- slug: krea-2-image-generation
-  category: ai-tools
-  audience: 内容创作者和设计师
-  pain_point: 需要免费且高质量的AI图像生成工具
-  topic: Create professional images using Krea 2 open-source model with custom prompts
-    and styles
-  tags: AI绘画,开源模型,图像生成,Krea
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: 'Krea 2: SOTA open-weights 12B image model'
-    original_url: https://news.ycombinator.com/item?id=48646659
-    added_at: 2026-06-25
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: anti-spam-pr-outreach
-  category: marketing
-  audience: PR专员、市场营销人员、创业者
-  pain_point: PR邮件被当作垃圾邮件，回复率极低
-  topic: Build an effective PR outreach system that avoids spam patterns and gets
-    responses
-  tags: PR, email marketing, outreach, spam prevention
-  priority: P1
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: PR spam today looks like email spam in the early 2000s
-    original_url: https://news.ycombinator.com/item?id=48660579
-    added_at: 2026-06-25
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 6
-    total: 36
-- slug: gemini-computer-automation
-  category: ai-tools
-  audience: 运营人员、办公室工作者、自动化爱好者
-  pain_point: 重复性电脑操作浪费大量时间，需要自动化解决方案
-  topic: Build automated workflows using Gemini 3.5 Flash computer control to handle
-    repetitive tasks
-  tags: Gemini, automation, AI, computer control, workflow
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: Computer use in Gemini 3.5 Flash
-    original_url: https://news.ycombinator.com/item?id=48662999
-    added_at: 2026-06-25
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 8
-      keyword_demand: 8
-    total: 40
-- slug: ai-meeting-question-framework
-  category: office
-  audience: 销售人员、客户成功经理、产品经理需要提升会议效果
-  pain_point: 会议中不知道问什么问题，错失关键信息和商机
-  topic: Build an AI-powered question framework for sales calls and meetings with
-    real-time prompts
-  tags: 销售技巧,会议管理,AI助手,沟通技巧,客户访谈
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Ruby
-    original_url: https://www.producthunt.com/products/ruby-7
-    added_at: 2026-06-25
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: ai-crm-automation-workflow
-  category: marketing
-  audience: 销售经理、客户成功团队、小企业主需要自动化客户管理
-  pain_point: 手动维护客户关系耗时，容易遗漏重要跟进
-  topic: Build an AI-powered CRM automation system that manages customer relationships
-    without manual input
-  tags: CRM自动化,客户管理,销售流程,AI助手,客户关系
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Customer Relationship Agents by Clarify
-    original_url: https://www.producthunt.com/products/clarify-6
-    added_at: 2026-06-25
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: openknowledge-ai-setup
-  category: ai-tools
-  audience: 知识工作者、内容创作者、学生和研究人员
-  pain_point: 笔记管理混乱，无法有效利用AI整理和连接知识点
-  topic: Set up OpenKnowledge as your AI-powered second brain with automated note
-    organization
-  tags: knowledge management, AI, second brain, productivity, open source
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: 'Show HN: OpenKnowledge – open source AI-first alternative to
-      Obsidian/Notion'
-    original_url: https://news.ycombinator.com/item?id=48675435
-    added_at: 2026-06-26
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: mac-offline-voice-transcription
-  category: automation
-  audience: Mac用户内容创作者，重视隐私的自媒体工作者
-  pain_point: 需要离线语音转文字功能，不想数据上传云端
-  topic: Set up offline voice-to-text workflow on Mac using VTT for content creation
-  tags: 语音转文字,Mac工具,离线转录,隐私保护
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: VTT for Mac
-    original_url: https://www.producthunt.com/products/vtt-for-mac
-    added_at: 2026-06-26
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 6
-    total: 36
-- slug: cloud-simulation-practice
-  category: automation
-  audience: 产品经理、运营人员和无代码开发者
-  pain_point: 学习云服务成本高昂，担心误操作产生费用
-  topic: Set up cloud infrastructure simulation environment to practice AWS/GCP deployments
-    without billing
-  tags: 云服务,AWS,GCP,模拟环境,成本控制
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Cloud World Model
-    original_url: https://www.producthunt.com/products/cloud-world-model
-    added_at: 2026-06-28
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 8
-      keyword_demand: 7
-    total: 38
-- slug: video-comparison-sync-workflow
-  category: creators
-  audience: 短视频创作者和视频编辑者
-  pain_point: 需要快速对比多个视频版本，找出差异和同步问题
-  topic: Set up efficient video comparison and synchronization workflow using Supra
-    Player for content review
-  tags: 视频对比,视频同步,内容审核,视频编辑
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Supra Player
-    original_url: https://www.producthunt.com/products/supra-player
-    added_at: 2026-06-28
-    scores:
-      learnable: 7
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 6
-    total: 35
-- slug: folio-ai-powerpoint-automation
-  category: office
-  audience: 职场新人、商务人士、产品经理
-  pain_point: 制作高质量PPT耗时且缺乏设计灵感
-  topic: Create a professional business presentation from scratch using Folio AI's
-    Claude integration in PowerPoint
-  tags: PowerPoint automation, AI presentation, Claude integration, business slides
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Folio AI
-    original_url: https://www.producthunt.com/products/folio-ai
-    added_at: 2026-06-28
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 38
-- slug: modulex-ai-workspace-setup
-  category: ai-tools
-  audience: 产品经理、运营人员、职场新人
-  pain_point: 多个工具间切换效率低且数据孤岛严重
-  topic: Build an integrated AI workspace connecting all your productivity tools using
-    ModuleX
-  tags: AI workspace, tool integration, productivity automation, workflow optimization
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: ModuleX
-    original_url: https://www.producthunt.com/products/modulex
-    added_at: 2026-06-28
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 7
-      keyword_demand: 8
-    total: 37
-- slug: claude-medical-document-analysis
-  category: ai-tools
-  audience: 需要理解医疗报告的患者，医疗从业者，家属
-  pain_point: 看不懂复杂的医疗报告，需要第二意见但挂号困难
-  topic: Use Claude to analyze and get second opinions on medical reports and documents
-  tags: Claude,医疗报告,AI分析,第二意见,文档理解
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: I used Claude Code to get a second opinion on my MRI
-    original_url: https://news.ycombinator.com/item?id=48708941
-    added_at: 2026-06-29
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 8
-      keyword_demand: 7
-    total: 38
-- slug: ai-fraud-detection-education
-  category: ai-tools
-  audience: 教育工作者，学生，培训机构管理者
-  pain_point: 无法识别学生作业中的AI代写，缺乏AI使用规范
-  topic: Set up AI detection workflow and establish ethical AI guidelines for educational
-    settings
-  tags: AI检测,学术诚信,教育管理,AI伦理,作弊防范
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: Professor denounces mass AI fraud on an exam at Brown
-    original_url: https://news.ycombinator.com/item?id=48708991
-    added_at: 2026-06-29
-    scores:
-      learnable: 7
-      audience: 7
-      structure: 8
-      differentiation: 8
-      keyword_demand: 8
-    total: 38
-- slug: multi-ai-model-workflow-optimization
-  category: ai-tools
-  audience: 内容创作者、运营人员需要使用多种AI模型的用户
-  pain_point: 需要在多个AI平台间切换，效率低下且成本高昂
-  topic: Set up efficient multi-AI model workflow using unified interfaces for content
-    creation and analysis tasks
-  tags: AI models, workflow optimization, content creation, cost efficiency
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: discode.ai
-    original_url: https://www.producthunt.com/products/discode-ai
-    added_at: 2026-06-29
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: universal-ai-agent-setup
-  category: ai-tools
-  audience: 职场人士、内容创作者、运营人员需要跨平台AI助手
-  pain_point: 在不同工具间重复输入AI指令，缺乏统一的AI工作流
-  topic: Configure a unified AI agent that works across browser, productivity tools,
-    and messaging platforms for seamless workflow automation
-  tags: AI agent, cross-platform, productivity, workflow automation
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Lyto
-    original_url: https://www.producthunt.com/products/lyto
-    added_at: 2026-06-29
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: local-llm-note-memory
-  category: ai-tools
-  audience: 知识工作者、研究人员、学生、内容创作者
-  pain_point: 笔记积累很多但难以快速检索和关联，无法充分利用历史知识
-  topic: Transform your markdown notes into a searchable AI memory system using local
-    LLM integration
-  tags: note taking, local LLM, knowledge management, markdown, AI memory
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: note.md
-    original_url: https://www.producthunt.com/products/note-md
-    added_at: 2026-06-29
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: ai-receipt-bookkeeping-automation
-  category: automation
-  audience: 小企业主、副业经营者、自由职业者
-  pain_point: 手工整理发票和记账耗时费力且容易出错
-  topic: Set up automated receipt processing and bookkeeping workflow using AI agents
-    for small business expense tracking
-  tags: AI automation, bookkeeping, receipt processing, small business, expense tracking
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Agent Mode by Receiptor AI
-    original_url: https://www.producthunt.com/products/receiptor-ai
-    added_at: 2026-06-30
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: ai-search-visibility-audit
-  category: marketing
-  audience: 品牌方、内容创作者、数字营销人员
-  pain_point: 不知道自己的品牌在AI搜索中的表现和曝光情况
-  topic: Audit and optimize your brand's visibility in AI search results and chatbot
-    responses
-  tags: AI SEO, brand monitoring, search visibility, digital marketing
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: VisibAI
-    original_url: https://www.producthunt.com/products/visibai-ai-visibility-audit-tool
-    added_at: 2026-06-30
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 8
-      keyword_demand: 8
-    total: 38
-- slug: ai-lead-conversion-chatbot
-  category: automation
-  audience: 销售人员、小企业主、营销运营
-  pain_point: 潜在客户转化率低，人工跟进效率不高
-  topic: Build an AI-powered lead qualification and conversion chatbot for your business
-  tags: AI chatbot, lead conversion, sales automation, customer acquisition
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Intelli
-    original_url: https://www.producthunt.com/products/intelli
-    added_at: 2026-06-30
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: cross-platform-ad-budget-automation
-  category: marketing
-  audience: 数字营销人员、广告投放专员、电商运营
-  pain_point: 多平台广告预算分配和优化需要大量人工监控和调整
-  topic: Set up automated ad budget optimization across Google Ads, LinkedIn, and
-    Meta platforms
-  tags: ad automation, budget optimization, Google Ads, Meta Ads, LinkedIn Ads, cross-platform
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Sami
-    original_url: https://www.producthunt.com/products/sami-automate-pace-scale-your-ads
-    added_at: 2026-06-30
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: ai-prediction-workflow
-  category: ai-tools
-  audience: 产品经理、运营人员和数据分析师
-  pain_point: 业务决策缺乏数据预测支持，难以评估风险和机会
-  topic: Build AI-powered prediction workflows for business decisions using prediction
-    platforms
-  tags: ai-prediction,business-intelligence,decision-making,forecasting
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Foresight by Lightning Rod
-    original_url: https://www.producthunt.com/products/training-data-generator
-    added_at: 2026-07-01
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: ai-email-assistant-workflow
-  category: automation
-  audience: 职场人士、运营人员和客服团队
-  pain_point: 邮件处理耗时且重复性高，需要智能化解决方案
-  topic: Set up AI email assistant that learns your work patterns and automates responses
-  tags: email-automation,ai-assistant,productivity,workflow
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Supafax
-    original_url: https://www.producthunt.com/products/supafax
-    added_at: 2026-07-01
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 38
-- slug: ai-task-calendar-integration
-  category: automation
-  audience: 产品经理、运营人员和职场新人
-  pain_point: 任务和日程管理分散在多个工具中，缺乏AI辅助优化
-  topic: Integrate AI assistants with task management and calendar systems for automated
-    scheduling
-  tags: task-management,calendar,ai-integration,productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Akiflow
-    original_url: https://www.producthunt.com/products/akiflow
-    added_at: 2026-07-01
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 6
-      keyword_demand: 7
-    total: 37
-- slug: pluno-browser-automation-agent
-  category: ai-tools
-  audience: 运营人员、内容创作者、副业从业者需要自动化重复性网页操作的用户
-  pain_point: 手动执行重复性网页任务耗时且容易出错，需要更高效的自动化解决方案
-  topic: Set up Pluno browser agent to automate 5 common web tasks (form filling,
-    data extraction, social media posting, email management, research compilation)
-    with measurable speed improvements
-  tags: browser automation, AI agent, productivity, web scraping, task automation
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Pluno
-    original_url: https://www.producthunt.com/products/pluno
-    added_at: 2026-07-01
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: databox-ai-analytics-skills
-  category: marketing
-  audience: 运营人员、产品经理、数据分析师需要快速搭建商业智能仪表板的用户
-  pain_point: 缺乏数据分析技能但需要从业务数据中获取洞察，传统BI工具学习成本高
-  topic: Deploy 5 ready-made AI analytics skills in Databox to create automated business
-    intelligence dashboard with actionable insights for marketing, sales, and operations
-  tags: business intelligence, data analytics, AI skills, dashboard, marketing analytics
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Skills Marketplace by Databox
-    original_url: https://www.producthunt.com/products/databox
-    added_at: 2026-07-01
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: email-domain-health-audit
-  category: marketing
-  audience: 邮件营销运营和增长黑客
-  pain_point: 邮件进入垃圾箱，投递率低，不知道如何诊断域名健康度
-  topic: Audit and optimize email domain health for better campaign deliverability
-  tags: email-marketing,domain-health,deliverability,campaign-optimization
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Folderly Lens
-    original_url: https://www.producthunt.com/products/folderly
-    added_at: 2026-07-02
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: ai-agents-shared-context
-  category: ai-tools
-  audience: AI工具重度用户和效率优化者
-  pain_point: 多个AI工具之间缺乏上下文共享，重复输入信息效率低
-  topic: Set up shared context system for multiple AI agents to work together
-  tags: ai-agents,context-sharing,workflow-optimization,productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: N71
-    original_url: https://www.producthunt.com/products/n71
-    added_at: 2026-07-02
-    scores:
-      learnable: 7
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 37
-- slug: gemini-omni-flash-video-creation
-  category: ai-tools
-  audience: 短视频创作者、营销人员、自媒体运营者
-  pain_point: 视频制作技术门槛高，需要专业软件和技能，耗时长
-  topic: Create professional marketing videos using Gemini Omni Flash with conversational
-    editing workflow
-  tags: AI视频生成,对话式编辑,营销视频,内容创作
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Gemini Omni Flash
-    original_url: https://www.producthunt.com/products/gemini-omni-flash
-    added_at: 2026-07-02
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: oasis-ring-voice-writing-workflow
-  category: automation
-  audience: 内容创作者、文字工作者、会议记录员、写作爱好者
-  pain_point: 打字速度慢，长时间写作手部疲劳，会议记录效率低
-  topic: Set up voice-to-text writing workflow using OASIS Ring for content creation
-    and note-taking
-  tags: 语音输入,智能写作,可穿戴设备,效率工具
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: OASIS 1 Ring
-    original_url: https://www.producthunt.com/products/oasis-ring
-    added_at: 2026-07-02
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 8
-      keyword_demand: 7
-    total: 38
-- slug: cold-outreach-help-requests
-  category: office
-  audience: 职场新人和需要外部帮助的专业人士
-  pain_point: 不知道如何向陌生人寻求帮助，害怕被拒绝
-  topic: Master cold outreach to get help from strangers in 60 minutes
-  tags: networking, communication, outreach, career
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: How to ask for help from people who don't know you
-    original_url: https://news.ycombinator.com/item?id=48761118
-    added_at: 2026-07-03
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 9
-      differentiation: 7
-      keyword_demand: 7
-    total: 39
-- slug: claude-video-analysis-workflow
-  category: ai-tools
-  audience: 内容创作者、运营人员、产品经理
-  pain_point: 视频内容分析耗时且难以提取关键信息
-  topic: Set up Claude to analyze and extract insights from any video content
-  tags: claude, video analysis, ai tools, content creation, automation
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: Claude-real-video － any LLM can watch a video
-    original_url: https://news.ycombinator.com/item?id=48766005
-    added_at: 2026-07-03
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 7
-      keyword_demand: 8
-    total: 37
-- slug: context-dev-web-scraping-workflow
-  category: automation
-  audience: 内容创作者、运营人员、产品经理需要批量收集和分析网络数据
-  pain_point: 手动收集网络数据效率低，需要自动化的数据抓取和处理方案
-  topic: Build automated web scraping and data enrichment workflow using Context.dev
-    API in 60 minutes
-  tags: web-scraping,api,automation,data-collection,research
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Context.dev
-    original_url: https://www.producthunt.com/products/context-dev
-    added_at: 2026-07-03
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: needle-gtm-slack-automation
-  category: automation
-  audience: 运营人员、增长黑客、销售团队需要自动化GTM流程
-  pain_point: GTM流程手动执行效率低，缺乏主动的销售和营销自动化工具
-  topic: Set up proactive GTM automation agent in Slack/Teams using Needle for sales
-    and marketing workflows
-  tags: gtm,slack,teams,automation,sales,marketing
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Needle
-    original_url: https://www.producthunt.com/products/needle-3
-    added_at: 2026-07-03
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 7
-      keyword_demand: 7
-    total: 36
-- slug: personal-ai-agent-cross-platform
-  category: ai-tools
-  audience: 效率工具爱好者，数字游民，知识工作者
-  pain_point: 跨设备AI助手同步困难，个人工作流不连贯
-  topic: Build personal AI assistant that syncs between desktop and mobile for daily
-    productivity
-  tags: personal AI, cross-platform, productivity automation
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Flowly
-    original_url: https://www.producthunt.com/products/flowly-6
-    added_at: 2026-07-03
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: macos-ai-superpower-setup
-  category: ai-tools
-  audience: Mac用户，设计师，开发者，内容创作者
-  pain_point: Mac系统AI能力未充分利用，工作效率有提升空间
-  topic: Configure Mac with AI superpowers for automated workflows and enhanced productivity
-  tags: macOS automation, AI integration, Mac productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Macuse
-    original_url: https://www.producthunt.com/products/macuse
-    added_at: 2026-07-03
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: local-llm-setup-guide
-  category: ai-tools
-  audience: AI工具使用者和隐私意识用户
-  pain_point: 想要本地运行大语言模型保护隐私和数据安全但不知道如何配置和优化
-  topic: Set up and run state-of-the-art LLMs locally on your computer with optimization
-  tags: local-llm,ai,privacy,setup,optimization
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: Jamesob's guide to running SOTA LLMs locally
-    original_url: https://news.ycombinator.com/item?id=48775921
-    added_at: 2026-07-04
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 9
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: llm-coding-workflow-experiments
-  category: ai-tools
-  audience: 想要提升编程效率的开发者和产品经理
-  pain_point: 不知道如何有效利用AI工具来提升编程工作流程
-  topic: 'Set up 5 different LLM coding workflows: pair programming, code review,
-    debugging, documentation, and refactoring'
-  tags: llm,coding,workflow,ai-programming,productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: 'Ask HN: Is anyone experimenting with different ways of using
-      LLMs for coding?'
-    original_url: https://news.ycombinator.com/item?id=48771515
-    added_at: 2026-07-04
-    scores:
-      learnable: 7
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 37
-- slug: voice-coding-copilot-workflow
-  category: ai-tools
-  audience: 想要提升编程效率的开发者和产品经理
-  pain_point: 长时间打字编程导致手部疲劳，希望通过语音提升开发效率
-  topic: Set up voice-to-code workflow using Vox and GitHub Copilot for hands-free
-    programming
-  tags: voice-coding,github-copilot,accessibility,productivity,hands-free
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Vox
-    original_url: https://www.producthunt.com/products/vox-5
-    added_at: 2026-07-04
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: voice-todo-ai-workflow
-  category: automation
-  audience: 忙碌的职场人士和创业者
-  pain_point: 任务太多不知道先做什么，传统待办清单缺乏智能优先级排序
-  topic: Set up voice-controlled AI todo list that prioritizes and suggests next actions
-    automatically
-  tags: AI助手,语音控制,任务管理,生产力工具,智能排序
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: nxt
-    original_url: https://www.producthunt.com/products/nxt-talk-to-your-to-do-list
-    added_at: 2026-07-04
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: campaign-attribution-measurement
-  category: marketing
-  audience: 营销运营人员和增长黑客
-  pain_point: 无法准确衡量营销活动的真实效果和ROI
-  topic: Set up campaign goal tracking system to measure marketing ROI and conversion
-    attribution
-  tags: 营销归因,数据分析,ROI测量,转化追踪,营销效果
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Goals from Loops
-    original_url: https://www.producthunt.com/products/loops
-    added_at: 2026-07-04
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 7
-      keyword_demand: 7
-    total: 36
-- slug: mac-app-creation-ai-chat
-  category: automation
-  audience: Mac用户和非技术背景的产品经理
-  pain_point: 想要定制Mac工具但不会编程，现有应用无法满足个性化需求
-  topic: Build custom Mac productivity apps using AI chat interface without coding
-    knowledge
-  tags: 无代码开发,Mac应用,AI对话,Raycast,生产力工具
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Glaze by Raycast
-    original_url: https://www.producthunt.com/products/glaze-4
-    added_at: 2026-07-04
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 8
-      keyword_demand: 8
-    total: 39
-- slug: creative-video-subtitling-workflow
-  category: creators
-  audience: 短视频创作者和自媒体博主
-  pain_point: 视频字幕制作耗时且样式单调，影响内容传播效果
-  topic: Create engaging video subtitles with custom styling and animations for social
-    media content
-  tags: 视频字幕,短视频制作,字幕动画,内容创作,视频编辑
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: 'Quick Sub 2: Video Subtitling'
-    original_url: https://www.producthunt.com/products/quick-sub-2-video-subtitling
-    added_at: 2026-07-04
-    scores:
-      learnable: 8
-      audience: 9
-      structure: 8
-      differentiation: 7
-      keyword_demand: 9
-    total: 41
-- slug: tiktok-follower-monetization
-  category: creators
-  audience: TikTok创作者，有一定粉丝基础但变现困难
-  pain_point: 有粉丝但不知道如何转化为付费客户，缺乏系统的变现流程
-  topic: Build a complete TikTok follower-to-customer conversion funnel with landing
-    page, lead magnet, and sales sequence
-  tags: TikTok变现,粉丝转化,内容变现,社交媒体营销
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Fypro
-    original_url: https://www.producthunt.com/products/fypro
-    added_at: 2026-07-04
-    scores:
-      learnable: 8
-      audience: 9
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 40
-- slug: job-referral-network-strategy
-  category: office
-  audience: 求职者，职场新人，想要跳槽的上班族
-  pain_point: 投简历石沉大海，不知道如何利用人脉获得内推机会
-  topic: Build a systematic job referral strategy using network mapping and outreach
-    templates
-  tags: 求职技巧,内推,职场人脉,求职策略
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Sidedoor
-    original_url: https://www.producthunt.com/products/sidedoor-2
-    added_at: 2026-07-04
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: multi-platform-ad-creative-scaling
-  category: marketing
-  audience: 广告投放人员，营销运营，中小企业主
-  pain_point: 需要为不同平台制作多套广告素材，耗时费力且成本高
-  topic: Create one master creative and automatically adapt it for all major ad platforms
-    (Facebook, Google, TikTok, etc.)
-  tags: 广告设计,多平台投放,创意优化,广告素材
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: PixFit
-    original_url: https://www.producthunt.com/products/pixfit
-    added_at: 2026-07-04
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 39
-- slug: subscription-tracker-automation
-  category: automation
-  audience: 职场人士和副业者
-  pain_point: 订阅服务太多容易忘记取消造成浪费
-  topic: Build an automated subscription tracking system to prevent forgotten payments
-  tags: 订阅管理,自动化,财务管理,AI工具
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: CentryAI
-    original_url: https://www.producthunt.com/products/centryai
-    added_at: 2026-07-05
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 38
-- slug: ai-personal-assistant-clone
-  category: ai-tools
-  audience: 内容创作者和运营人员
-  pain_point: 重复性工作太多没时间专注创作
-  topic: Create an AI clone that handles routine tasks and decision-making automatically
-  tags: AI助手,自动化,个人效率,工作流程
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Vida
-    original_url: https://www.producthunt.com/products/vida-5
-    added_at: 2026-07-05
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 7
-      differentiation: 8
-      keyword_demand: 8
-    total: 38
-- slug: iphone-mac-controller-setup
-  category: automation
-  audience: Mac用户和演示工作者
-  pain_point: 演示时需要更灵活的设备控制方式
-  topic: Transform iPhone into wireless Mac controller for presentations and remote
-    work
-  tags: Mac控制,iPhone应用,演示工具,远程控制
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: PhoneDeck
-    original_url: https://www.producthunt.com/products/phonedeck
-    added_at: 2026-07-05
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 6
-    total: 36
-- slug: ai-checklist-pdf-generator
-  category: ai-tools
-  audience: 项目经理和运营人员
-  pain_point: 制作专业检查清单耗时且格式不统一
-  topic: Generate professional PDF checklists using AI for any workflow or process
-  tags: AI生成,检查清单,PDF制作,流程管理
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: ChecklistFox
-    original_url: https://www.producthunt.com/products/checklistfox
-    added_at: 2026-07-05
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 6
-      keyword_demand: 7
-    total: 36
-- slug: local-ai-meeting-assistant-setup
-  category: ai-tools
-  audience: 职场人士和远程工作者
-  pain_point: 会议记录整理耗时且担心隐私泄露
-  topic: Set up privacy-first local AI meeting assistant for transcription and summarization
-  tags: meeting-assistant,transcription,privacy,local-ai,productivity
-  priority: P0
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: meetily
-    original_url: https://github.com/Zackriya-Solutions/meetily
-    added_at: 2026-07-05
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 8
-      keyword_demand: 7
-    total: 38
-- slug: blog-longevity-analysis
-  category: creators
-  audience: 内容创作者和博主
-  pain_point: 不知道如何让博客持续成功运营
-  topic: Analyze successful blog strategies and create a sustainability checklist
-  tags: blogging,content strategy,sustainability,analysis
-  priority: P0
-  status: pending
-  _scout:
-    source: hn-front
-    original_title: 'The great blogging collapse: What happened to 100 successful
-      blogs?'
-    original_url: https://news.ycombinator.com/item?id=48758802
-    added_at: 2026-07-06
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: ai-friendly-documentation-system
-  category: product
-  audience: 产品经理和技术写作者
-  pain_point: 文档既要人类易读又要AI能理解，不知道如何平衡两者需求
-  topic: Create AI-optimized documentation system that serves both human users and
-    AI agents effectively
-  tags: documentation,ai-optimization,product-management,technical-writing
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: DocsAlot
-    original_url: https://www.producthunt.com/products/docsalot-2
-    added_at: 2026-07-06
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: ai-expert-team-workflow
-  category: ai-tools
-  audience: 运营人员和内容创作者
-  pain_point: 工作效率低下，需要AI帮助但不知道如何组建AI专家团队协作
-  topic: Build a multi-AI expert workflow system to accelerate work output using specialized
-    AI agents
-  tags: ai-workflow,productivity,automation,ai-agents
-  priority: P0
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: WorkBuddy
-    original_url: https://www.producthunt.com/products/workbuddy-2
-    added_at: 2026-07-06
-    scores:
-      learnable: 8
-      audience: 9
-      structure: 8
-      differentiation: 7
-      keyword_demand: 9
-    total: 41
-- slug: interactive-language-reading-setup
-  category: ai-tools
-  audience: 中日文学习者和语言爱好者
-  pain_point: 阅读原版中日文材料时遇到生词需要频繁查字典，影响阅读流畅性
-  topic: Set up an interactive reading environment for Chinese/Japanese with instant
-    translation and audio
-  tags: language learning, Chinese, Japanese, reading comprehension, translation
-  priority: P1
-  status: pending
-  _scout:
-    source: producthunt
-    original_title: Toku Reader
-    original_url: https://www.producthunt.com/products/toku-reader
-    added_at: 2026-07-06
-    scores:
-      learnable: 8
-      audience: 7
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 37
-- slug: ai-system-prompt-engineering
-  category: ai-tools
-  audience: AI工具重度用户、内容创作者和产品经理
-  pain_point: 不知道如何写出高质量的系统提示词来获得更好的AI输出效果
-  topic: Master system prompt engineering using leaked prompts from major AI models
-    to improve your AI interactions
-  tags: prompt engineering, system prompts, Claude, ChatGPT, Gemini, AI optimization
-  priority: P0
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: system_prompts_leaks
-    original_url: https://github.com/asgeirtj/system_prompts_leaks
-    added_at: 2026-07-06
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 8
-      keyword_demand: 8
-    total: 40
-- slug: ai-taste-enhancement-workflow
-  category: ai-tools
-  audience: 内容创作者、文案写手和AI重度用户
-  pain_point: AI生成的内容总是很平庸无趣，缺乏个性和品味
-  topic: Train your AI to generate high-quality, non-generic content using taste-enhancement
-    techniques
-  tags: AI quality, content creation, prompt engineering, creative writing, AI training
-  priority: P0
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: taste-skill
-    original_url: https://github.com/Leonxlnx/taste-skill
-    added_at: 2026-07-06
-    scores:
-      learnable: 8
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 7
-    total: 38
-- slug: claude-coding-skills-mastery
-  category: ai-tools
-  audience: 无代码开发者、产品经理和AI工具爱好者
-  pain_point: 想用Claude进行编程相关工作但不知道如何配置和使用各种技能插件
-  topic: Set up and master essential Claude coding skills and agent workflows for
-    non-programmers
-  tags: Claude, coding skills, AI agents, no-code development, productivity
-  priority: P1
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: claude-skills
-    original_url: https://github.com/alirezarezvani/claude-skills
-    added_at: 2026-07-06
-    scores:
-      learnable: 7
-      audience: 7
-      structure: 7
-      differentiation: 7
-      keyword_demand: 7
-    total: 35
-- slug: claude-code-workflow-mastery
-  category: ai-tools
-  audience: 产品经理、运营人员、无代码开发者
-  pain_point: 想用Claude提升编程效率但不知道最佳实践和工作流程
-  topic: Master Claude Code for automated coding workflows and project management
-  tags: Claude, coding, AI assistant, workflow, automation
-  priority: P0
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: awesome-claude-code
-    original_url: https://github.com/hesreallyhim/awesome-claude-code
-    added_at: 2026-07-06
-    scores:
-      learnable: 7
-      audience: 8
-      structure: 8
-      differentiation: 7
-      keyword_demand: 8
-    total: 38
-- slug: claude-marketing-automation-skills
-  category: marketing
-  audience: 营销运营人员、增长黑客、内容创作者
-  pain_point: 营销工作重复性高，想用AI提升转化率和内容质量但缺乏系统方法
-  topic: Build AI-powered marketing workflows using Claude for CRO, copywriting and
-    growth
-  tags: Claude, marketing, CRO, copywriting, SEO, growth
-  priority: P0
-  status: pending
-  _scout:
-    source: github-trending
-    original_title: marketingskills
-    original_url: https://github.com/coreyhaines31/marketingskills
-    added_at: 2026-07-06
-    scores:
-      learnable: 8
-      audience: 9
-      structure: 8
-      differentiation: 7
-      keyword_demand: 9
-    total: 41
+  - slug: chatgpt-content-30days
+    category: ai-tools
+    audience: 创作者/运营/自媒体小白
+    pain_point: 不会写、写不快、选题枯竭，看着别人日更焦虑
+    topic: "1 Hour to AI Content Calendar: use ChatGPT to plan and draft 30 days of
+      social media content for Xiaohongshu/Twitter, with viral hook formulas and
+      a reusable prompt library"
+    tags: ai,chatgpt,content,xiaohongshu,创作者
+    next_step: chatgpt-prompts
+    priority: P0
+    status: published
+  - slug: midjourney-commercial
+    category: design
+    audience: 设计师/运营/电商卖家
+    pain_point: 商用图找素材贵 + 风格不统一，想用 AI 出图但中文 prompt 没思路
+    topic: "1 Hour to Midjourney for Commercial Use: ship 10 ready-to-use
+      product/banner/cover images with a battle-tested prompt template (中文
+      prompt cheatsheet included)"
+    tags: ai,midjourney,design,prompt,商用
+    priority: P0
+    status: published
+  - slug: claude-prd
+    category: product
+    audience: 产品经理/产品助理
+    pain_point: PRD 写不快、结构散乱、被开发吐槽不清楚
+    topic: "1 Hour to Write a PRD with Claude: from one-sentence idea to a 10-page
+      structured PRD with user stories, acceptance criteria, and edge cases"
+    tags: ai,claude,prd,产品,product-management
+    priority: P0
+    status: published
+  - slug: ai-customer-service
+    category: ai-tools
+    audience: 运营/电商客服/小老板
+    pain_point: 重复客服问题占用大量时间、半夜没人回复
+    topic: "1 Hour to Build a GPT Customer Service Bot: train on your FAQ, deploy to
+      WeCom/Feishu/website, handle 80% of queries without human"
+    tags: ai,chatbot,customer-service,wecom,feishu
+    priority: P0
+    status: published
+  - slug: ai-weekly-report
+    category: office
+    audience: 职场新人/中层管理
+    pain_point: 周报写不出亮点、数据不知道怎么呈现、老板看不懂
+    topic: "1 Hour to AI-Powered Weekly Report: turn raw numbers into a dashboard
+      your boss actually reads, with Excel + ChatGPT + a reusable template"
+    tags: office,excel,ai,reporting,职场
+    priority: P0
+    status: published
+  - slug: ppt-makeover
+    category: office
+    audience: 职场新人/产品/运营
+    pain_point: PPT 被嫌弃丑，不会调样式，临时汇报压力大
+    topic: "1 Hour PPT Makeover: turn ugly slides into design-ready ones using 5
+      layout templates + AI image generation, no design skill required"
+    tags: ppt,design,office,ai
+    priority: P0
+    status: published
+  - slug: resume-ai-rewrite
+    category: office
+    audience: 求职者/转行者/学生
+    pain_point: 简历投了没回音、不知道哪里不行、HR 关键词都不知道
+    topic: "1 Hour to Rewrite Your Resume with AI: pass ATS keyword filters,
+      quantify achievements, tailor for target companies in one session"
+    tags: resume,ai,job,career,简历
+    priority: P0
+    status: published
+  - slug: xianyu-first-sale
+    category: side-hustle
+    audience: 副业新手/学生/职场人
+    pain_point: 想做副业但不知道从哪开始、闲鱼听说能赚但不会上架虚拟商品
+    topic: "1 Hour to Your First Xianyu Sale: list a digital product
+      (notes/courses/templates), get the first paying customer, and automate
+      fulfillment"
+    tags: xianyu,side-hustle,virtual-goods,闲鱼,副业
+    priority: P0
+    status: published
+  - slug: xiaohongshu-launch
+    category: creators
+    audience: 自媒体小白/想转行内容
+    pain_point: 想做小红书但起号难、不知道发什么、几条没人看就放弃
+    topic: "1 Hour to Launch Your Xiaohongshu Account: pick a niche, post 3
+      hook-driven notes, and hit your first 100 followers using the proven
+      start-up formula"
+    tags: xiaohongshu,creators,small-red,小红书
+    priority: P0
+    status: pending
+  - slug: paid-newsletter
+    category: side-hustle
+    audience: 内容创作者/独立开发者
+    pain_point: 想做付费 newsletter 但不知道平台选什么、第一封怎么写
+    topic: "1 Hour to Your First Paid Newsletter: pick Substack vs Zhubai vs Lemon
+      Squeezy, set up paywall, and ship issue #1 with a ready-to-use template"
+    tags: newsletter,substack,side-hustle,monetization,付费订阅
+    priority: P0
+    status: pending
+  - slug: viral-headlines
+    category: creators
+    audience: 自媒体/运营/文案
+    pain_point: 标题写不出爆款感、阅读量永远卡在两位数
+    topic: "1 Hour to Master Viral Headlines: 10 proven formulas (curiosity gap,
+      before/after, list, pain-point) with 50 examples and an AI generator
+      template"
+    tags: headlines,copywriting,creators,viral,标题
+    priority: P0
+    status: pending
+  - slug: short-video-structure
+    category: creators
+    audience: 自媒体/视频博主新人
+    pain_point: 拍出来没人看、不知道前 3 秒怎么抓人、剪辑卡壳
+    topic: "1 Hour to a 60-Second Viral Video: hook formula, 3-act structure,
+      pacing, and the one-take CapCut workflow used by top creators"
+    tags: video,creators,capcut,short-video,剪映
+    priority: P0
+    status: pending
+  - slug: competitive-analysis
+    category: product
+    audience: 产品经理/创业者
+    pain_point: 竞品调研没框架、写出来像流水账
+    topic: "1 Hour to a Killer Competitive Analysis: use the 5-axis framework
+      (positioning/feature/pricing/UX/community) with a fillable template"
+    tags: product,competitive-analysis,framework,产品
+    priority: P1
+    status: pending
+  - slug: user-interview-1hour
+    category: product
+    audience: 产品/运营/创业者
+    pain_point: 用户访谈聊一小时啥也没问出来、不知道问什么
+    topic: "1 Hour to Run a User Interview: a 60-minute script with 15 proven
+      questions, recording setup, and synthesis template"
+    tags: user-research,interview,product,产品
+    priority: P1
+    status: pending
+  - slug: notion-okr
+    category: office
+    audience: 团队负责人/产品/运营
+    pain_point: 团队 OKR 散在 Excel/飞书/口头里，对齐不上
+    topic: "1 Hour to a Team OKR System in Notion: 5 linked databases for
+      objectives, key results, weekly check-ins, and quarterly reviews"
+    tags: notion,okr,office,team-management
+    priority: P1
+    status: pending
+  - slug: private-traffic-sop
+    category: marketing
+    audience: 运营/电商/创业者
+    pain_point: 拉到群里就死、不知道怎么活跃、转化路径模糊
+    topic: "1 Hour to a Private Traffic SOP: WeCom/community onboarding flow, 7-day
+      nurture sequence, and conversion checkpoints"
+    tags: marketing,wecom,community,private-traffic,私域
+    priority: P1
+    status: pending
+  - slug: xiaohongshu-ads
+    category: marketing
+    audience: 运营/品牌方/电商
+    pain_point: 投薯条不知道怎么投、ROI 看不清、烧钱没效果
+    topic: "1 Hour to Xiaohongshu Ads (薯条): targeting setup, creative test
+      framework, and a ROI dashboard you can copy"
+    tags: xiaohongshu,ads,marketing,投放,小红书
+    priority: P1
+    status: pending
+  - slug: cursor-non-coder
+    category: ai-tools
+    audience: 产品/运营/想入门编程的非技术
+    pain_point: 听说 Cursor 很神但不会编程，怕学不会
+    topic: "1 Hour to Cursor for Non-Coders: build your first internal tool
+      (form/dashboard) using natural language, no coding background needed"
+    tags: cursor,ai,no-code,non-tech,非技术
+    priority: P1
+    status: pending
+  - slug: claude-artifacts
+    category: ai-tools
+    audience: 产品/运营/教师/创作者
+    pain_point: 想做交互原型/工具/小游戏但不会代码
+    topic: "1 Hour to Claude Artifacts: build 5 useful tools (calculator, form,
+      quiz, dashboard, game) without writing code"
+    tags: claude,artifacts,no-code,ai
+    priority: P1
+    status: pending
+  - slug: gumroad-digital-product
+    category: side-hustle
+    audience: 创作者/设计师/独立开发者
+    pain_point: 有作品想卖海外但不知道平台、收款、定价
+    topic: "1 Hour to Sell Digital Products on Gumroad: setup, pricing strategy,
+      first launch, and how to get paid in CN"
+    tags: gumroad,digital-product,side-hustle,monetization,海外副业
+    priority: P1
+    status: pending
+  - slug: suno-brand-music
+    category: creators
+    audience: 创作者/品牌/电商
+    pain_point: 想给视频/品牌做主题曲但音乐人贵
+    topic: "1 Hour to Brand Music with Suno: prompt patterns for jingles/intros/full
+      tracks, royalty-free for commercial use"
+    tags: suno,music,ai,branding
+    priority: P2
+    status: pending
+  - slug: figma-prototype
+    category: design
+    audience: 产品/设计师
+    pain_point: 静态稿不够、不会做可点击原型
+    topic: "1 Hour to a Clickable Figma Prototype: page transitions, hover states,
+      components, and shareable links"
+    tags: figma,prototype,design
+    next_step: figma-basics
+    priority: P2
+    status: pending
+  - slug: rag-no-code
+    category: ai-tools
+    audience: 运营/产品/小老板
+    pain_point: 想用自家文档训练 AI 客服/问答，但找不到不写代码的方案
+    topic: "1 Hour to a No-Code RAG Bot: upload your docs, build a chat interface,
+      deploy without writing a single line of code (using Coze/Dify)"
+    tags: rag,no-code,coze,dify,ai
+    priority: P2
+    status: pending
+  - slug: web-design-4min
+    category: design
+    audience: 需要快速搭建网站的内容创作者和运营人员
+    pain_point: 没有设计基础但需要快速做出好看的网站
+    topic: Create a professional website design in 60 minutes using rapid design
+      principles
+    tags: web-design,quick-design,landing-page,visual-design
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-show
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 9
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: typing-practice-site
+    category: office
+    audience: 想提高打字速度的职场人士和内容创作者
+    pain_point: 打字速度慢影响工作效率但练习方式枯燥
+    topic: Build a typing practice website with novel content integration
+    tags: typing,productivity,web-development,skill-building
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-show
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 35
+  - slug: ai-powered-search-workflow
+    category: ai-tools
+    audience: 内容创作者、研究人员、产品经理、运营人员
+    pain_point: 传统搜索效率低，需要大量时间筛选和整理信息
+    topic: Build an AI-powered search and research workflow using GPT-4 for faster
+      information gathering
+    tags: GPT-4, search, research, AI workflow, productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-show
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
+  - slug: youtube-channel-redesign
+    category: creators
+    audience: YouTube创作者和内容运营者
+    pain_point: 频道页面缺乏吸引力和清晰的内容组织
+    topic: Design an improved YouTube channel layout and navigation system using Figma
+    tags: YouTube优化,频道设计,用户体验,Figma
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-show
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: whatsapp-ai-automation
+    category: automation
+    audience: 电商运营、客服团队、副业创业者
+    pain_point: WhatsApp客服回复效率低，无法24小时在线服务
+    topic: Set up automated WhatsApp AI customer service using API integration
+    tags: WhatsApp,API,automation,customer-service,AI
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: google-ads-ai-optimization
+    category: marketing
+    audience: 广告投放专员、电商运营、营销人员
+    pain_point: Google Ads投放效果差，缺乏数据洞察优化广告
+    topic: Optimize Google Ads campaigns using AI-powered insights and automation
+    tags: Google-Ads,AI,optimization,marketing,ROI
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: offline-ai-dictation-setup
+    category: ai-tools
+    audience: 内容创作者、自媒体人、职场人士
+    pain_point: 需要高效语音转文字但担心隐私泄露或网络依赖
+    topic: Set up private offline AI dictation workflow for content creation and
+      note-taking
+    tags: AI dictation, offline, privacy, voice-to-text, productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: automated-backlink-strategy
+    category: marketing
+    audience: 运营人员、SEO从业者、副业创业者
+    pain_point: 手动建设外链效率低下且难以规模化
+    topic: Build automated backlink generation system for SEO growth
+    tags: backlinks, SEO, automation, link building, growth
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: xiaohongshu-zero-to-1k
+    category: marketing
+    audience: 运营/品牌方/小红书新号
+    pain_point: 新号没流量、笔记 0 赞 0 评、不知道怎么破冷启
+    topic: "1 Hour to Grow a Xiaohongshu Account from 0 to 1000 Followers: niche
+      positioning, viral hook formulas, posting cadence, and a 7-day cold-start
+      checklist with ChatGPT-assisted note generation"
+    tags: marketing,xiaohongshu,growth,小红书,冷启动
+    priority: P0
+    status: pending
+  - slug: community-cold-start
+    category: marketing
+    audience: 运营/创业者/课程主理人
+    pain_point: 建了群没人发言、3 天就死、不知道怎么持续活跃
+    topic: "1 Hour to Cold-Start a Community: seed user recruitment, day-1 to day-7
+      activation playbook, content pillars, and 5 reusable engagement scripts
+      that keep the group alive"
+    tags: marketing,community,wecom,社群运营,冷启动
+    priority: P0
+    status: pending
+  - slug: seo-keyword-research-ai
+    category: marketing
+    audience: 内容运营/独立站/出海创业者
+    pain_point: 关键词不会挖、写完没流量、对 SEO 工具一头雾水
+    topic: "1 Hour to AI-Powered Keyword Research: use ChatGPT + free tools to build
+      a 100-keyword content map, score difficulty/intent, and turn it into a
+      3-month publishing calendar"
+    tags: marketing,seo,keyword-research,ai,内容运营
+    priority: P0
+    status: pending
+  - slug: wechat-friend-circle-sop
+    category: marketing
+    audience: 私域运营/微商/个人 IP
+    pain_point: 朋友圈刷屏被屏蔽、转化率低、文案套路被一眼看穿
+    topic: "1 Hour to a WeChat Moments SOP: 7-day content rhythm template, 5 proven
+      post formats (story/proof/CTA/value/interaction), and AI-assisted copy
+      that doesn't feel like ads"
+    tags: marketing,wechat,private-traffic,朋友圈,私域
+    priority: P1
+    status: pending
+  - slug: growth-data-dashboard
+    category: marketing
+    audience: 运营负责人/操盘手/独立创业者
+    pain_point: 数据散在各处、看不懂北极星指标、汇报全靠拍脑袋
+    topic: "1 Hour to Build a Growth Data Dashboard: pick the right north-star
+      metric, set up a free Google Sheets/Notion dashboard with AARRR funnel,
+      and weekly review template"
+    tags: marketing,analytics,growth,dashboard,数据驱动
+    priority: P1
+    status: pending
+  - slug: content-repurpose-1to10
+    category: marketing
+    audience: 自媒体/品牌运营/个人 IP
+    pain_point: 写一条内容只发一个平台太亏、跨平台改写又累、产能跟不上
+    topic: "1 Hour to Repurpose 1 Piece of Content into 10: AI-driven workflow to
+      turn one long-form post into Twitter thread, Xiaohongshu note, Douyin
+      script, newsletter, and LinkedIn carousel — with prompt templates"
+    tags: marketing,content,repurpose,ai,自媒体
+    priority: P1
+    status: pending
+  - slug: multi-voice-script-generation
+    category: creators
+    audience: 短视频创作者、播客制作人、自媒体人
+    pain_point: 单人配音内容单调，需要多角色对话但缺乏脚本制作技能
+    topic: Convert text content into professional multi-voice audio scripts for
+      video production
+    tags: voice scripts, multi-voice, content creation, audio production, video
+    priority: P0
+    status: pending
+    _scout:
+      source: unknown
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 41
+  - slug: ai-video-editing-palmier
+    category: creators
+    audience: 短视频创作者和内容制作者
+    pain_point: 视频剪辑耗时且需要专业技能
+    topic: Create professional videos using AI-powered editing tools in Palmier Pro
+    tags: AI video editing, content creation, macOS
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: palmier-pro
+      original_url: https://github.com/palmier-io/palmier-pro
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-video-production-studio
+    category: creators
+    audience: 视频内容创作者和制作团队
+    pain_point: 视频制作流程复杂需要多种工具配合
+    topic: Build a complete AI video production workflow using OpenMontage system
+    tags: AI video production, content creation, automation
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: OpenMontage
+      original_url: https://github.com/calesthio/OpenMontage
+      added_at: 2026-06-20
+      scores:
+        learnable: 6
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 37
+  - slug: penpot-design-prototype
+    category: design
+    audience: UI/UX设计师和产品经理
+    pain_point: 需要免费且开源的设计工具替代Figma
+    topic: Create a complete app prototype in Penpot with developer handoff
+    tags: Penpot, design, prototype, open-source, collaboration
+    priority: P1
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: penpot
+      original_url: https://github.com/penpot/penpot
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: camloop-virtual-camera-setup
+    category: automation
+    audience: 远程工作者和会议频繁的职场人
+    pain_point: 视频会议中无法自由离开座位
+    topic: Set up CamLoop virtual camera for seamless meeting breaks
+    tags: CamLoop, virtual camera, remote work, meetings, macOS
+    priority: P0
+    status: pending
+    _scout:
+      source: r/SideProject
+      original_title: "Shipped CamLoop: a macOS virtual camera that loops a clip of
+        you so you can step away mid-meeting"
+      original_url: https://old.reddit.com/r/SideProject/comments/1u97irz/shipped_camloop_a_macos_virtual_camera_that_loops/
+      added_at: 2026-06-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 39
+  - slug: chatgpt-google-docs-integration
+    category: ai-tools
+    audience: 职场人士和内容创作者
+    pain_point: 在工作环境中使用AI工具不够隐蔽或便捷
+    topic: Set up ChatGPT integration within Google Docs for seamless workplace AI
+      assistance
+    tags: ChatGPT, Google Docs, workplace productivity, AI integration
+    priority: P0
+    status: pending
+    _scout:
+      source: r/SideProject
+      original_title: "UPDATE: Disguising ChatGPT as a Google Doc"
+      original_url: https://old.reddit.com/r/SideProject/comments/1u4kbym/update_disguising_chatgpt_as_a_google_doc/
+      added_at: 2026-06-20
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: slack-ai-coworker-setup
+    category: automation
+    audience: 团队运营者和职场新人
+    pain_point: 团队协作效率低，重复性工作太多
+    topic: Set up AI assistant in Slack for team collaboration and task automation
+    tags: slack,ai-automation,team-collaboration,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: WorkClaw
+      original_url: https://www.producthunt.com/products/workclaw
+      added_at: 2026-06-21
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-video-studio-pixlie
+    category: creators
+    audience: 短视频创作者和自媒体运营者
+    pain_point: 视频制作成本高，技术门槛大
+    topic: Create professional videos from text and images using AI video studio
+      with advanced controls
+    tags: ai-video,content-creation,text-to-video,short-video
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Pixlie
+      original_url: https://www.producthunt.com/products/pixlie
+      added_at: 2026-06-21
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: ai-session-context-management
+    category: ai-tools
+    audience: 频繁使用AI工具的内容创作者、产品经理、运营人员
+    pain_point: 每次新对话都要重新解释项目背景，浪费tokens和时间
+    topic: Build a context management system to maintain AI conversation continuity
+      and reduce token waste across sessions
+    tags: AI workflow, token optimization, context management, productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Stop wasting tokens and re explaining your project between sessions
+      original_url: https://news.ycombinator.com/item?id=48622590
+      added_at: 2026-06-22
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: grok-word-writing-workflow
+    category: ai-tools
+    audience: 需要写作的职场人员、内容创作者、学生
+    pain_point: 文档写作效率低，难以快速优化文字表达和结构
+    topic: Build an AI-powered writing workflow using Grok in Microsoft Word to
+      draft, restructure and polish documents
+    tags: Grok, Microsoft Word, AI writing, document optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Grok by SpaceXAI for Word
+      original_url: https://www.producthunt.com/products/grok-by-spacexai-for-word
+      added_at: 2026-06-22
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-email-automation-agent
+    category: automation
+    audience: 忙碌的运营人员、客服团队、小企业主
+    pain_point: 邮件处理占用大量时间，重复性回复效率低
+    topic: Build an AI agent that automatically reads, categorizes, and responds to
+      emails based on custom rules
+    tags: email automation, AI agent, productivity, customer service
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Atomic Mail Agentic
+      original_url: https://www.producthunt.com/products/atomic-mail-agentic
+      added_at: 2026-06-22
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 7
+        differentiation: 8
+        keyword_demand: 7
+      total: 36
+  - slug: ai-stock-analysis-dashboard
+    category: ai-tools
+    audience: 投资者、副业人群、数据分析爱好者
+    pain_point: 股票分析太复杂需要专业知识和大量时间
+    topic: Build an AI-powered stock analysis dashboard with real-time data and
+      automated reports
+    tags: AI分析,股票投资,数据看板,自动化报告
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: daily_stock_analysis
+      original_url: https://github.com/ZhuLinsen/daily_stock_analysis
+      added_at: 2026-06-22
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 9
+      total: 40
+  - slug: moebius-image-inpainting-workflow
+    category: ai-tools
+    audience: 内容创作者、设计师和自媒体运营者
+    pain_point: 需要快速修复和编辑图片但PS技能不足或效率太低
+    topic: Master Moebius AI for professional image inpainting and editing
+    tags: ai-image-editing,inpainting,content-creation,design
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Moebius: 0.2B image inpainting model with 10B-level performance"
+      original_url: https://news.ycombinator.com/item?id=48630171
+      added_at: 2026-06-23
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: airjelly-second-brain-setup
+    category: mind
+    audience: 知识工作者和终身学习者
+    pain_point: 信息过载无法有效整理和关联个人知识库
+    topic: Build an AI-powered personal knowledge management system using AirJelly
+    tags: 第二大脑,知识管理,AI助手,个人效率
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: AirJelly
+      original_url: https://www.producthunt.com/products/airjelly
+      added_at: 2026-06-23
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 6
+        keyword_demand: 8
+      total: 36
+  - slug: alai-social-media-design
+    category: design
+    audience: 自媒体运营者和市场营销人员
+    pain_point: 缺乏设计技能但需要制作高质量的视觉内容
+    topic: Create professional social media graphics and presentations using Alai
+      2.0 AI
+    tags: AI设计,社交媒体,演示文稿,视觉内容
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Alai 2.0
+      original_url: https://www.producthunt.com/products/alai
+      added_at: 2026-06-23
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: unlimited-ocr-workflow
+    category: ai-tools
+    audience: 内容创作者、运营人员需要批量处理图片文字提取
+    pain_point: 手动输入图片中的文字太慢，付费OCR服务太贵
+    topic: Set up an unlimited OCR workflow to extract text from images, PDFs, and
+      documents using free AI tools and automation
+    tags: OCR,文字识别,自动化,AI工具,批量处理
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Unlimited OCR: One-shot long-horizon parsing"
+      original_url: https://news.ycombinator.com/item?id=48643426
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-note-to-plan-workflow
+    category: ai-tools
+    audience: 职场人士和内容创作者
+    pain_point: 笔记杂乱无章，难以转化为可执行计划
+    topic: Build an AI-powered daily planning system that converts scattered notes
+      into actionable plans
+    tags: AI,note-taking,planning,productivity,workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Buddy AI Note
+      original_url: https://www.producthunt.com/products/buddy-ai-note
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-ui-automation-setup
+    category: automation
+    audience: 运营人员和职场工作者
+    pain_point: 重复性电脑操作浪费大量时间
+    topic: Set up AI agent to automate repetitive computer tasks and UI interactions
+    tags: AI,automation,UI,productivity,workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: NeuralAgent 3.0
+      original_url: https://www.producthunt.com/products/neuralagent
+      added_at: 2026-06-24
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: ai-agent-tool-optimization
+    category: ai-tools
+    audience: AI工具使用者和自动化爱好者
+    pain_point: AI代理工具过多导致响应缓慢
+    topic: Optimize AI agent performance by streamlining tool selection and reducing
+      response latency
+    tags: AI,optimization,agents,productivity,tools
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Conduit
+      original_url: https://www.producthunt.com/products/conduit-12
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: jotform-ai-app-builder
+    category: automation
+    audience: 运营人员、产品经理、副业创业者想要快速搭建应用的人群
+    pain_point: 想做个简单的业务应用但不会编程，传统开发成本太高时间太长
+    topic: Build a functional business app using Jotform AI App Builder in 60
+      minutes - from idea to deployed app with forms, workflows and data
+      collection
+    tags: no-code,app-building,jotform,ai-tools,automation,business-apps
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Jotform AI App Builder
+      original_url: https://www.producthunt.com/products/jotform
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: openart-director-cinematic-videos
+    category: creators
+    audience: 短视频创作者、自媒体博主、内容运营想要制作高质量视频的人群
+    pain_point: 想做电影级别的视频但缺乏专业视频制作技能和昂贵软件
+    topic: Create a professional cinematic video using OpenArt Director chat
+      interface - from concept to final rendered video with scenes, transitions
+      and effects
+    tags: ai-video,cinematic,openart,content-creation,video-production,chat-interface
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: OpenArt Director
+      original_url: https://www.producthunt.com/products/openart
+      added_at: 2026-06-24
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: deckwise-ai-presentation-agent
+    category: office
+    audience: 职场新人、产品经理、运营人员需要经常做汇报PPT的人群
+    pain_point: 做PPT耗时太长，设计不够专业，内容组织逻辑不清晰
+    topic: Create a professional presentation deck using Deckwise AI agent - from
+      brief to fully editable slides with content, design and speaker notes
+    tags: ai-presentation,ppt,deckwise,office-productivity,presentation-design,ai-agent
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Deckwise
+      original_url: https://www.producthunt.com/products/deckwise
+      added_at: 2026-06-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: krea-2-image-generation
+    category: ai-tools
+    audience: 内容创作者和设计师
+    pain_point: 需要免费且高质量的AI图像生成工具
+    topic: Create professional images using Krea 2 open-source model with custom
+      prompts and styles
+    tags: AI绘画,开源模型,图像生成,Krea
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Krea 2: SOTA open-weights 12B image model"
+      original_url: https://news.ycombinator.com/item?id=48646659
+      added_at: 2026-06-25
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: anti-spam-pr-outreach
+    category: marketing
+    audience: PR专员、市场营销人员、创业者
+    pain_point: PR邮件被当作垃圾邮件，回复率极低
+    topic: Build an effective PR outreach system that avoids spam patterns and gets
+      responses
+    tags: PR, email marketing, outreach, spam prevention
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: PR spam today looks like email spam in the early 2000s
+      original_url: https://news.ycombinator.com/item?id=48660579
+      added_at: 2026-06-25
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: gemini-computer-automation
+    category: ai-tools
+    audience: 运营人员、办公室工作者、自动化爱好者
+    pain_point: 重复性电脑操作浪费大量时间，需要自动化解决方案
+    topic: Build automated workflows using Gemini 3.5 Flash computer control to
+      handle repetitive tasks
+    tags: Gemini, automation, AI, computer control, workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Computer use in Gemini 3.5 Flash
+      original_url: https://news.ycombinator.com/item?id=48662999
+      added_at: 2026-06-25
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: ai-meeting-question-framework
+    category: office
+    audience: 销售人员、客户成功经理、产品经理需要提升会议效果
+    pain_point: 会议中不知道问什么问题，错失关键信息和商机
+    topic: Build an AI-powered question framework for sales calls and meetings with
+      real-time prompts
+    tags: 销售技巧,会议管理,AI助手,沟通技巧,客户访谈
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Ruby
+      original_url: https://www.producthunt.com/products/ruby-7
+      added_at: 2026-06-25
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-crm-automation-workflow
+    category: marketing
+    audience: 销售经理、客户成功团队、小企业主需要自动化客户管理
+    pain_point: 手动维护客户关系耗时，容易遗漏重要跟进
+    topic: Build an AI-powered CRM automation system that manages customer
+      relationships without manual input
+    tags: CRM自动化,客户管理,销售流程,AI助手,客户关系
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Customer Relationship Agents by Clarify
+      original_url: https://www.producthunt.com/products/clarify-6
+      added_at: 2026-06-25
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: openknowledge-ai-setup
+    category: ai-tools
+    audience: 知识工作者、内容创作者、学生和研究人员
+    pain_point: 笔记管理混乱，无法有效利用AI整理和连接知识点
+    topic: Set up OpenKnowledge as your AI-powered second brain with automated note
+      organization
+    tags: knowledge management, AI, second brain, productivity, open source
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Show HN: OpenKnowledge – open source AI-first alternative to
+        Obsidian/Notion"
+      original_url: https://news.ycombinator.com/item?id=48675435
+      added_at: 2026-06-26
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: mac-offline-voice-transcription
+    category: automation
+    audience: Mac用户内容创作者，重视隐私的自媒体工作者
+    pain_point: 需要离线语音转文字功能，不想数据上传云端
+    topic: Set up offline voice-to-text workflow on Mac using VTT for content creation
+    tags: 语音转文字,Mac工具,离线转录,隐私保护
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: VTT for Mac
+      original_url: https://www.producthunt.com/products/vtt-for-mac
+      added_at: 2026-06-26
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: cloud-simulation-practice
+    category: automation
+    audience: 产品经理、运营人员和无代码开发者
+    pain_point: 学习云服务成本高昂，担心误操作产生费用
+    topic: Set up cloud infrastructure simulation environment to practice AWS/GCP
+      deployments without billing
+    tags: 云服务,AWS,GCP,模拟环境,成本控制
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Cloud World Model
+      original_url: https://www.producthunt.com/products/cloud-world-model
+      added_at: 2026-06-28
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: video-comparison-sync-workflow
+    category: creators
+    audience: 短视频创作者和视频编辑者
+    pain_point: 需要快速对比多个视频版本，找出差异和同步问题
+    topic: Set up efficient video comparison and synchronization workflow using
+      Supra Player for content review
+    tags: 视频对比,视频同步,内容审核,视频编辑
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Supra Player
+      original_url: https://www.producthunt.com/products/supra-player
+      added_at: 2026-06-28
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 35
+  - slug: folio-ai-powerpoint-automation
+    category: office
+    audience: 职场新人、商务人士、产品经理
+    pain_point: 制作高质量PPT耗时且缺乏设计灵感
+    topic: Create a professional business presentation from scratch using Folio AI's
+      Claude integration in PowerPoint
+    tags: PowerPoint automation, AI presentation, Claude integration, business slides
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Folio AI
+      original_url: https://www.producthunt.com/products/folio-ai
+      added_at: 2026-06-28
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: modulex-ai-workspace-setup
+    category: ai-tools
+    audience: 产品经理、运营人员、职场新人
+    pain_point: 多个工具间切换效率低且数据孤岛严重
+    topic: Build an integrated AI workspace connecting all your productivity tools
+      using ModuleX
+    tags: AI workspace, tool integration, productivity automation, workflow
+      optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: ModuleX
+      original_url: https://www.producthunt.com/products/modulex
+      added_at: 2026-06-28
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
+  - slug: claude-medical-document-analysis
+    category: ai-tools
+    audience: 需要理解医疗报告的患者，医疗从业者，家属
+    pain_point: 看不懂复杂的医疗报告，需要第二意见但挂号困难
+    topic: Use Claude to analyze and get second opinions on medical reports and
+      documents
+    tags: Claude,医疗报告,AI分析,第二意见,文档理解
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: I used Claude Code to get a second opinion on my MRI
+      original_url: https://news.ycombinator.com/item?id=48708941
+      added_at: 2026-06-29
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: ai-fraud-detection-education
+    category: ai-tools
+    audience: 教育工作者，学生，培训机构管理者
+    pain_point: 无法识别学生作业中的AI代写，缺乏AI使用规范
+    topic: Set up AI detection workflow and establish ethical AI guidelines for
+      educational settings
+    tags: AI检测,学术诚信,教育管理,AI伦理,作弊防范
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Professor denounces mass AI fraud on an exam at Brown
+      original_url: https://news.ycombinator.com/item?id=48708991
+      added_at: 2026-06-29
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: multi-ai-model-workflow-optimization
+    category: ai-tools
+    audience: 内容创作者、运营人员需要使用多种AI模型的用户
+    pain_point: 需要在多个AI平台间切换，效率低下且成本高昂
+    topic: Set up efficient multi-AI model workflow using unified interfaces for
+      content creation and analysis tasks
+    tags: AI models, workflow optimization, content creation, cost efficiency
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: discode.ai
+      original_url: https://www.producthunt.com/products/discode-ai
+      added_at: 2026-06-29
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: universal-ai-agent-setup
+    category: ai-tools
+    audience: 职场人士、内容创作者、运营人员需要跨平台AI助手
+    pain_point: 在不同工具间重复输入AI指令，缺乏统一的AI工作流
+    topic: Configure a unified AI agent that works across browser, productivity
+      tools, and messaging platforms for seamless workflow automation
+    tags: AI agent, cross-platform, productivity, workflow automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Lyto
+      original_url: https://www.producthunt.com/products/lyto
+      added_at: 2026-06-29
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: local-llm-note-memory
+    category: ai-tools
+    audience: 知识工作者、研究人员、学生、内容创作者
+    pain_point: 笔记积累很多但难以快速检索和关联，无法充分利用历史知识
+    topic: Transform your markdown notes into a searchable AI memory system using
+      local LLM integration
+    tags: note taking, local LLM, knowledge management, markdown, AI memory
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: note.md
+      original_url: https://www.producthunt.com/products/note-md
+      added_at: 2026-06-29
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-receipt-bookkeeping-automation
+    category: automation
+    audience: 小企业主、副业经营者、自由职业者
+    pain_point: 手工整理发票和记账耗时费力且容易出错
+    topic: Set up automated receipt processing and bookkeeping workflow using AI
+      agents for small business expense tracking
+    tags: AI automation, bookkeeping, receipt processing, small business, expense
+      tracking
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Agent Mode by Receiptor AI
+      original_url: https://www.producthunt.com/products/receiptor-ai
+      added_at: 2026-06-30
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-search-visibility-audit
+    category: marketing
+    audience: 品牌方、内容创作者、数字营销人员
+    pain_point: 不知道自己的品牌在AI搜索中的表现和曝光情况
+    topic: Audit and optimize your brand's visibility in AI search results and
+      chatbot responses
+    tags: AI SEO, brand monitoring, search visibility, digital marketing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: VisibAI
+      original_url: https://www.producthunt.com/products/visibai-ai-visibility-audit-tool
+      added_at: 2026-06-30
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: ai-lead-conversion-chatbot
+    category: automation
+    audience: 销售人员、小企业主、营销运营
+    pain_point: 潜在客户转化率低，人工跟进效率不高
+    topic: Build an AI-powered lead qualification and conversion chatbot for your
+      business
+    tags: AI chatbot, lead conversion, sales automation, customer acquisition
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Intelli
+      original_url: https://www.producthunt.com/products/intelli
+      added_at: 2026-06-30
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: cross-platform-ad-budget-automation
+    category: marketing
+    audience: 数字营销人员、广告投放专员、电商运营
+    pain_point: 多平台广告预算分配和优化需要大量人工监控和调整
+    topic: Set up automated ad budget optimization across Google Ads, LinkedIn, and
+      Meta platforms
+    tags: ad automation, budget optimization, Google Ads, Meta Ads, LinkedIn Ads,
+      cross-platform
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Sami
+      original_url: https://www.producthunt.com/products/sami-automate-pace-scale-your-ads
+      added_at: 2026-06-30
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-prediction-workflow
+    category: ai-tools
+    audience: 产品经理、运营人员和数据分析师
+    pain_point: 业务决策缺乏数据预测支持，难以评估风险和机会
+    topic: Build AI-powered prediction workflows for business decisions using
+      prediction platforms
+    tags: ai-prediction,business-intelligence,decision-making,forecasting
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Foresight by Lightning Rod
+      original_url: https://www.producthunt.com/products/training-data-generator
+      added_at: 2026-07-01
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-email-assistant-workflow
+    category: automation
+    audience: 职场人士、运营人员和客服团队
+    pain_point: 邮件处理耗时且重复性高，需要智能化解决方案
+    topic: Set up AI email assistant that learns your work patterns and automates
+      responses
+    tags: email-automation,ai-assistant,productivity,workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Supafax
+      original_url: https://www.producthunt.com/products/supafax
+      added_at: 2026-07-01
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: ai-task-calendar-integration
+    category: automation
+    audience: 产品经理、运营人员和职场新人
+    pain_point: 任务和日程管理分散在多个工具中，缺乏AI辅助优化
+    topic: Integrate AI assistants with task management and calendar systems for
+      automated scheduling
+    tags: task-management,calendar,ai-integration,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Akiflow
+      original_url: https://www.producthunt.com/products/akiflow
+      added_at: 2026-07-01
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 6
+        keyword_demand: 7
+      total: 37
+  - slug: pluno-browser-automation-agent
+    category: ai-tools
+    audience: 运营人员、内容创作者、副业从业者需要自动化重复性网页操作的用户
+    pain_point: 手动执行重复性网页任务耗时且容易出错，需要更高效的自动化解决方案
+    topic: Set up Pluno browser agent to automate 5 common web tasks (form filling,
+      data extraction, social media posting, email management, research
+      compilation) with measurable speed improvements
+    tags: browser automation, AI agent, productivity, web scraping, task automation
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Pluno
+      original_url: https://www.producthunt.com/products/pluno
+      added_at: 2026-07-01
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: databox-ai-analytics-skills
+    category: marketing
+    audience: 运营人员、产品经理、数据分析师需要快速搭建商业智能仪表板的用户
+    pain_point: 缺乏数据分析技能但需要从业务数据中获取洞察，传统BI工具学习成本高
+    topic: Deploy 5 ready-made AI analytics skills in Databox to create automated
+      business intelligence dashboard with actionable insights for marketing,
+      sales, and operations
+    tags: business intelligence, data analytics, AI skills, dashboard, marketing
+      analytics
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Skills Marketplace by Databox
+      original_url: https://www.producthunt.com/products/databox
+      added_at: 2026-07-01
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: email-domain-health-audit
+    category: marketing
+    audience: 邮件营销运营和增长黑客
+    pain_point: 邮件进入垃圾箱，投递率低，不知道如何诊断域名健康度
+    topic: Audit and optimize email domain health for better campaign deliverability
+    tags: email-marketing,domain-health,deliverability,campaign-optimization
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Folderly Lens
+      original_url: https://www.producthunt.com/products/folderly
+      added_at: 2026-07-02
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-agents-shared-context
+    category: ai-tools
+    audience: AI工具重度用户和效率优化者
+    pain_point: 多个AI工具之间缺乏上下文共享，重复输入信息效率低
+    topic: Set up shared context system for multiple AI agents to work together
+    tags: ai-agents,context-sharing,workflow-optimization,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: N71
+      original_url: https://www.producthunt.com/products/n71
+      added_at: 2026-07-02
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
+  - slug: gemini-omni-flash-video-creation
+    category: ai-tools
+    audience: 短视频创作者、营销人员、自媒体运营者
+    pain_point: 视频制作技术门槛高，需要专业软件和技能，耗时长
+    topic: Create professional marketing videos using Gemini Omni Flash with
+      conversational editing workflow
+    tags: AI视频生成,对话式编辑,营销视频,内容创作
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Gemini Omni Flash
+      original_url: https://www.producthunt.com/products/gemini-omni-flash
+      added_at: 2026-07-02
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: oasis-ring-voice-writing-workflow
+    category: automation
+    audience: 内容创作者、文字工作者、会议记录员、写作爱好者
+    pain_point: 打字速度慢，长时间写作手部疲劳，会议记录效率低
+    topic: Set up voice-to-text writing workflow using OASIS Ring for content
+      creation and note-taking
+    tags: 语音输入,智能写作,可穿戴设备,效率工具
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: OASIS 1 Ring
+      original_url: https://www.producthunt.com/products/oasis-ring
+      added_at: 2026-07-02
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: cold-outreach-help-requests
+    category: office
+    audience: 职场新人和需要外部帮助的专业人士
+    pain_point: 不知道如何向陌生人寻求帮助，害怕被拒绝
+    topic: Master cold outreach to get help from strangers in 60 minutes
+    tags: networking, communication, outreach, career
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: How to ask for help from people who don't know you
+      original_url: https://news.ycombinator.com/item?id=48761118
+      added_at: 2026-07-03
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 9
+        differentiation: 7
+        keyword_demand: 7
+      total: 39
+  - slug: claude-video-analysis-workflow
+    category: ai-tools
+    audience: 内容创作者、运营人员、产品经理
+    pain_point: 视频内容分析耗时且难以提取关键信息
+    topic: Set up Claude to analyze and extract insights from any video content
+    tags: claude, video analysis, ai tools, content creation, automation
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Claude-real-video － any LLM can watch a video
+      original_url: https://news.ycombinator.com/item?id=48766005
+      added_at: 2026-07-03
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
+  - slug: context-dev-web-scraping-workflow
+    category: automation
+    audience: 内容创作者、运营人员、产品经理需要批量收集和分析网络数据
+    pain_point: 手动收集网络数据效率低，需要自动化的数据抓取和处理方案
+    topic: Build automated web scraping and data enrichment workflow using
+      Context.dev API in 60 minutes
+    tags: web-scraping,api,automation,data-collection,research
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Context.dev
+      original_url: https://www.producthunt.com/products/context-dev
+      added_at: 2026-07-03
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: needle-gtm-slack-automation
+    category: automation
+    audience: 运营人员、增长黑客、销售团队需要自动化GTM流程
+    pain_point: GTM流程手动执行效率低，缺乏主动的销售和营销自动化工具
+    topic: Set up proactive GTM automation agent in Slack/Teams using Needle for
+      sales and marketing workflows
+    tags: gtm,slack,teams,automation,sales,marketing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Needle
+      original_url: https://www.producthunt.com/products/needle-3
+      added_at: 2026-07-03
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: personal-ai-agent-cross-platform
+    category: ai-tools
+    audience: 效率工具爱好者，数字游民，知识工作者
+    pain_point: 跨设备AI助手同步困难，个人工作流不连贯
+    topic: Build personal AI assistant that syncs between desktop and mobile for
+      daily productivity
+    tags: personal AI, cross-platform, productivity automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Flowly
+      original_url: https://www.producthunt.com/products/flowly-6
+      added_at: 2026-07-03
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: macos-ai-superpower-setup
+    category: ai-tools
+    audience: Mac用户，设计师，开发者，内容创作者
+    pain_point: Mac系统AI能力未充分利用，工作效率有提升空间
+    topic: Configure Mac with AI superpowers for automated workflows and enhanced
+      productivity
+    tags: macOS automation, AI integration, Mac productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Macuse
+      original_url: https://www.producthunt.com/products/macuse
+      added_at: 2026-07-03
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: local-llm-setup-guide
+    category: ai-tools
+    audience: AI工具使用者和隐私意识用户
+    pain_point: 想要本地运行大语言模型保护隐私和数据安全但不知道如何配置和优化
+    topic: Set up and run state-of-the-art LLMs locally on your computer with
+      optimization
+    tags: local-llm,ai,privacy,setup,optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Jamesob's guide to running SOTA LLMs locally
+      original_url: https://news.ycombinator.com/item?id=48775921
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 9
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: llm-coding-workflow-experiments
+    category: ai-tools
+    audience: 想要提升编程效率的开发者和产品经理
+    pain_point: 不知道如何有效利用AI工具来提升编程工作流程
+    topic: "Set up 5 different LLM coding workflows: pair programming, code review,
+      debugging, documentation, and refactoring"
+    tags: llm,coding,workflow,ai-programming,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Ask HN: Is anyone experimenting with different ways of using
+        LLMs for coding?"
+      original_url: https://news.ycombinator.com/item?id=48771515
+      added_at: 2026-07-04
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
+  - slug: voice-coding-copilot-workflow
+    category: ai-tools
+    audience: 想要提升编程效率的开发者和产品经理
+    pain_point: 长时间打字编程导致手部疲劳，希望通过语音提升开发效率
+    topic: Set up voice-to-code workflow using Vox and GitHub Copilot for hands-free
+      programming
+    tags: voice-coding,github-copilot,accessibility,productivity,hands-free
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Vox
+      original_url: https://www.producthunt.com/products/vox-5
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: voice-todo-ai-workflow
+    category: automation
+    audience: 忙碌的职场人士和创业者
+    pain_point: 任务太多不知道先做什么，传统待办清单缺乏智能优先级排序
+    topic: Set up voice-controlled AI todo list that prioritizes and suggests next
+      actions automatically
+    tags: AI助手,语音控制,任务管理,生产力工具,智能排序
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: nxt
+      original_url: https://www.producthunt.com/products/nxt-talk-to-your-to-do-list
+      added_at: 2026-07-04
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: campaign-attribution-measurement
+    category: marketing
+    audience: 营销运营人员和增长黑客
+    pain_point: 无法准确衡量营销活动的真实效果和ROI
+    topic: Set up campaign goal tracking system to measure marketing ROI and
+      conversion attribution
+    tags: 营销归因,数据分析,ROI测量,转化追踪,营销效果
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Goals from Loops
+      original_url: https://www.producthunt.com/products/loops
+      added_at: 2026-07-04
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: mac-app-creation-ai-chat
+    category: automation
+    audience: Mac用户和非技术背景的产品经理
+    pain_point: 想要定制Mac工具但不会编程，现有应用无法满足个性化需求
+    topic: Build custom Mac productivity apps using AI chat interface without coding
+      knowledge
+    tags: 无代码开发,Mac应用,AI对话,Raycast,生产力工具
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Glaze by Raycast
+      original_url: https://www.producthunt.com/products/glaze-4
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 39
+  - slug: creative-video-subtitling-workflow
+    category: creators
+    audience: 短视频创作者和自媒体博主
+    pain_point: 视频字幕制作耗时且样式单调，影响内容传播效果
+    topic: Create engaging video subtitles with custom styling and animations for
+      social media content
+    tags: 视频字幕,短视频制作,字幕动画,内容创作,视频编辑
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: "Quick Sub 2: Video Subtitling"
+      original_url: https://www.producthunt.com/products/quick-sub-2-video-subtitling
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: tiktok-follower-monetization
+    category: creators
+    audience: TikTok创作者，有一定粉丝基础但变现困难
+    pain_point: 有粉丝但不知道如何转化为付费客户，缺乏系统的变现流程
+    topic: Build a complete TikTok follower-to-customer conversion funnel with
+      landing page, lead magnet, and sales sequence
+    tags: TikTok变现,粉丝转化,内容变现,社交媒体营销
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Fypro
+      original_url: https://www.producthunt.com/products/fypro
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: job-referral-network-strategy
+    category: office
+    audience: 求职者，职场新人，想要跳槽的上班族
+    pain_point: 投简历石沉大海，不知道如何利用人脉获得内推机会
+    topic: Build a systematic job referral strategy using network mapping and
+      outreach templates
+    tags: 求职技巧,内推,职场人脉,求职策略
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Sidedoor
+      original_url: https://www.producthunt.com/products/sidedoor-2
+      added_at: 2026-07-04
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: multi-platform-ad-creative-scaling
+    category: marketing
+    audience: 广告投放人员，营销运营，中小企业主
+    pain_point: 需要为不同平台制作多套广告素材，耗时费力且成本高
+    topic: Create one master creative and automatically adapt it for all major ad
+      platforms (Facebook, Google, TikTok, etc.)
+    tags: 广告设计,多平台投放,创意优化,广告素材
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: PixFit
+      original_url: https://www.producthunt.com/products/pixfit
+      added_at: 2026-07-04
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: subscription-tracker-automation
+    category: automation
+    audience: 职场人士和副业者
+    pain_point: 订阅服务太多容易忘记取消造成浪费
+    topic: Build an automated subscription tracking system to prevent forgotten
+      payments
+    tags: 订阅管理,自动化,财务管理,AI工具
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: CentryAI
+      original_url: https://www.producthunt.com/products/centryai
+      added_at: 2026-07-05
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: ai-personal-assistant-clone
+    category: ai-tools
+    audience: 内容创作者和运营人员
+    pain_point: 重复性工作太多没时间专注创作
+    topic: Create an AI clone that handles routine tasks and decision-making
+      automatically
+    tags: AI助手,自动化,个人效率,工作流程
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Vida
+      original_url: https://www.producthunt.com/products/vida-5
+      added_at: 2026-07-05
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: iphone-mac-controller-setup
+    category: automation
+    audience: Mac用户和演示工作者
+    pain_point: 演示时需要更灵活的设备控制方式
+    topic: Transform iPhone into wireless Mac controller for presentations and
+      remote work
+    tags: Mac控制,iPhone应用,演示工具,远程控制
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: PhoneDeck
+      original_url: https://www.producthunt.com/products/phonedeck
+      added_at: 2026-07-05
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: ai-checklist-pdf-generator
+    category: ai-tools
+    audience: 项目经理和运营人员
+    pain_point: 制作专业检查清单耗时且格式不统一
+    topic: Generate professional PDF checklists using AI for any workflow or process
+    tags: AI生成,检查清单,PDF制作,流程管理
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: ChecklistFox
+      original_url: https://www.producthunt.com/products/checklistfox
+      added_at: 2026-07-05
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 6
+        keyword_demand: 7
+      total: 36
+  - slug: local-ai-meeting-assistant-setup
+    category: ai-tools
+    audience: 职场人士和远程工作者
+    pain_point: 会议记录整理耗时且担心隐私泄露
+    topic: Set up privacy-first local AI meeting assistant for transcription and
+      summarization
+    tags: meeting-assistant,transcription,privacy,local-ai,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: meetily
+      original_url: https://github.com/Zackriya-Solutions/meetily
+      added_at: 2026-07-05
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: blog-longevity-analysis
+    category: creators
+    audience: 内容创作者和博主
+    pain_point: 不知道如何让博客持续成功运营
+    topic: Analyze successful blog strategies and create a sustainability checklist
+    tags: blogging,content strategy,sustainability,analysis
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "The great blogging collapse: What happened to 100 successful blogs?"
+      original_url: https://news.ycombinator.com/item?id=48758802
+      added_at: 2026-07-06
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-friendly-documentation-system
+    category: product
+    audience: 产品经理和技术写作者
+    pain_point: 文档既要人类易读又要AI能理解，不知道如何平衡两者需求
+    topic: Create AI-optimized documentation system that serves both human users and
+      AI agents effectively
+    tags: documentation,ai-optimization,product-management,technical-writing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: DocsAlot
+      original_url: https://www.producthunt.com/products/docsalot-2
+      added_at: 2026-07-06
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-expert-team-workflow
+    category: ai-tools
+    audience: 运营人员和内容创作者
+    pain_point: 工作效率低下，需要AI帮助但不知道如何组建AI专家团队协作
+    topic: Build a multi-AI expert workflow system to accelerate work output using
+      specialized AI agents
+    tags: ai-workflow,productivity,automation,ai-agents
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: WorkBuddy
+      original_url: https://www.producthunt.com/products/workbuddy-2
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: interactive-language-reading-setup
+    category: ai-tools
+    audience: 中日文学习者和语言爱好者
+    pain_point: 阅读原版中日文材料时遇到生词需要频繁查字典，影响阅读流畅性
+    topic: Set up an interactive reading environment for Chinese/Japanese with
+      instant translation and audio
+    tags: language learning, Chinese, Japanese, reading comprehension, translation
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Toku Reader
+      original_url: https://www.producthunt.com/products/toku-reader
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-system-prompt-engineering
+    category: ai-tools
+    audience: AI工具重度用户、内容创作者和产品经理
+    pain_point: 不知道如何写出高质量的系统提示词来获得更好的AI输出效果
+    topic: Master system prompt engineering using leaked prompts from major AI
+      models to improve your AI interactions
+    tags: prompt engineering, system prompts, Claude, ChatGPT, Gemini, AI
+      optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: system_prompts_leaks
+      original_url: https://github.com/asgeirtj/system_prompts_leaks
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: ai-taste-enhancement-workflow
+    category: ai-tools
+    audience: 内容创作者、文案写手和AI重度用户
+    pain_point: AI生成的内容总是很平庸无趣，缺乏个性和品味
+    topic: Train your AI to generate high-quality, non-generic content using
+      taste-enhancement techniques
+    tags: AI quality, content creation, prompt engineering, creative writing, AI
+      training
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: taste-skill
+      original_url: https://github.com/Leonxlnx/taste-skill
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: claude-coding-skills-mastery
+    category: ai-tools
+    audience: 无代码开发者、产品经理和AI工具爱好者
+    pain_point: 想用Claude进行编程相关工作但不知道如何配置和使用各种技能插件
+    topic: Set up and master essential Claude coding skills and agent workflows for
+      non-programmers
+    tags: Claude, coding skills, AI agents, no-code development, productivity
+    priority: P1
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: claude-skills
+      original_url: https://github.com/alirezarezvani/claude-skills
+      added_at: 2026-07-06
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 35
+  - slug: claude-code-workflow-mastery
+    category: ai-tools
+    audience: 产品经理、运营人员、无代码开发者
+    pain_point: 想用Claude提升编程效率但不知道最佳实践和工作流程
+    topic: Master Claude Code for automated coding workflows and project management
+    tags: Claude, coding, AI assistant, workflow, automation
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: awesome-claude-code
+      original_url: https://github.com/hesreallyhim/awesome-claude-code
+      added_at: 2026-07-06
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: claude-marketing-automation-skills
+    category: marketing
+    audience: 营销运营人员、增长黑客、内容创作者
+    pain_point: 营销工作重复性高，想用AI提升转化率和内容质量但缺乏系统方法
+    topic: Build AI-powered marketing workflows using Claude for CRO, copywriting
+      and growth
+    tags: Claude, marketing, CRO, copywriting, SEO, growth
+    priority: P0
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: marketingskills
+      original_url: https://github.com/coreyhaines31/marketingskills
+      added_at: 2026-07-06
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: kokoro-local-tts-setup
+    category: ai-tools
+    audience: 内容创作者、自媒体博主、需要语音合成的开发者
+    pain_point: 云端TTS服务费用高昂且有隐私顾虑，需要本地化高质量语音合成解决方案
+    topic: Set up Kokoro local TTS system for high-quality voice generation without
+      cloud dependency
+    tags: TTS,语音合成,本地AI,Kokoro,内容创作
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro
+      original_url: https://news.ycombinator.com/item?id=48821576
+      added_at: 2026-07-08
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: docx-cli-document-automation
+    category: ai-tools
+    audience: 需要处理大量Word文档的办公人员和内容创作者
+    pain_point: 手动处理Word文档耗时且容易出错
+    topic: Automate Word document processing with Docx-CLI agents for efficient
+      editing and analysis
+    tags: document-automation,word-processing,cli-tools,ai-agents
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the
+        time and tokens"
+      original_url: https://news.ycombinator.com/item?id=48821500
+      added_at: 2026-07-08
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 39
+  - slug: salesforce-ai-pipeline-automation
+    category: automation
+    audience: 销售运营、CRM管理员、B2B销售团队负责人
+    pain_point: 手动更新销售管道耗时且容易遗漏，需要AI自动化提升转化效率
+    topic: Set up AI agent to automatically qualify leads, update pipeline stages,
+      and send follow-up sequences in Salesforce CRM
+    tags: Salesforce,AI自动化,销售管道,CRM,潜客管理
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Katalyst
+      original_url: https://www.producthunt.com/products/katalyst
+      added_at: 2026-07-08
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: auto-edit-screen-recordings
+    category: creators
+    audience: 教程制作者、在线课程创作者、软件演示制作人员
+    pain_point: 录屏后手动剪辑耗时巨大，需要AI自动化编辑提升制作效率
+    topic: Create polished tutorial videos from raw screen recordings using AI
+      auto-editing tools and templates
+    tags: 屏幕录制,AI剪辑,视频制作,教程录制,自动化编辑
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Glideo
+      original_url: https://www.producthunt.com/products/glideo
+      added_at: 2026-07-08
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: ai-email-autopilot-setup
+    category: automation
+    audience: 职场人士、客服团队、自媒体运营者、创业者
+    pain_point: 邮件回复占用大量时间，需要AI助手模仿个人语调自动处理常规邮件
+    topic: Configure AI email assistant to automatically draft replies in your
+      writing style and handle routine correspondence
+    tags: AI邮件,自动回复,邮件助手,工作效率,邮件自动化
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: AI Emaily
+      original_url: https://www.producthunt.com/products/ai-emaily-unified-ai-inbox
+      added_at: 2026-07-08
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 6
+        keyword_demand: 7
+      total: 35
+  - slug: ai-meeting-notes-offline
+    category: office
+    audience: 职场人士、项目经理、销售人员、咨询顾问
+    pain_point: 线下会议记录不完整且整理耗时，需要AI自动转录和总结会议要点
+    topic: Set up AI-powered meeting transcription and note-taking system for
+      in-person meetings using mobile apps
+    tags: 会议记录,AI转录,会议总结,语音识别,工作效率
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Ellis
+      original_url: https://www.producthunt.com/products/ellis-your-conversations-remembered
+      added_at: 2026-07-08
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 6
+        keyword_demand: 7
+      total: 37
