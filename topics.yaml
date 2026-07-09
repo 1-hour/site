@@ -2243,3 +2243,130 @@ queue:
         differentiation: 6
         keyword_demand: 7
       total: 37
+  - slug: faang-interview-simulator
+    category: office
+    audience: 准备大厂面试的程序员和应届生
+    pain_point: 缺乏真实的大厂面试练习环境和反馈
+    topic: Build a complete FAANG technical interview practice system with coding
+      challenges and mock interviews
+    tags: 面试准备,FAANG,技术面试,求职
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: FAANG Simulator
+      original_url: https://news.ycombinator.com/item?id=48836778
+      added_at: 2026-07-09
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: flint-ai-agent-visualization
+    category: ai-tools
+    audience: AI工具用户和产品经理
+    pain_point: AI智能体工作流程复杂难以可视化管理
+    topic: Create visual AI agent workflows using Microsoft Flint visualization
+      language
+    tags: AI智能体,可视化,微软工具,工作流
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Show HN: Microsoft releases Flint, a visualization language for
+        AI agents"
+      original_url: https://news.ycombinator.com/item?id=48834924
+      added_at: 2026-07-09
+      scores:
+        learnable: 6
+        audience: 7
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 36
+  - slug: bono-ai-content-distribution
+    category: creators
+    audience: 自媒体创作者，需要在多平台发布内容
+    pain_point: 手动适配不同平台格式太耗时
+    topic: Create one piece of content and automatically distribute it across all
+      social media platforms using Bono AI
+    tags: content-creation,social-media,automation,ai-tools
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Bono AI
+      original_url: https://www.producthunt.com/products/bono-ai
+      added_at: 2026-07-09
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: lemonlime-workflow-automation
+    category: automation
+    audience: 运营人员和职场新人，需要提高工作效率
+    pain_point: 重复性工作太多，想要自动化但不会编程
+    topic: Automate your daily workflows using LemonLime's natural language prompts
+    tags: automation,workflow,ai-tools,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: LemonLime
+      original_url: https://www.producthunt.com/products/lemonlime
+      added_at: 2026-07-09
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ifttt-small-business-automation
+    category: automation
+    audience: 小企业主和副业创业者
+    pain_point: 手动处理业务流程效率低下
+    topic: Set up automated business workflows connecting HubSpot, Figma, and other
+      tools using IFTTT
+    tags: ifttt,automation,small-business,hubspot,figma
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: New small business tools by IFTTT
+      original_url: https://www.producthunt.com/products/ifttt
+      added_at: 2026-07-09
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: willow-dictation-productivity-setup
+    category: ai-tools
+    audience: 内容创作者、职场人士和需要大量文字输入的工作者
+    pain_point: 传统打字效率低下，现有语音输入工具速度和准确率不够
+    topic: Set up ultra-fast voice dictation workflow for content creation and
+      office work
+    tags: voice dictation, speech recognition, productivity, content creation,
+      office automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Willow Frontier Pro
+      original_url: https://www.producthunt.com/products/willow-voice
+      added_at: 2026-07-09
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
