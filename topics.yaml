@@ -2370,3 +2370,107 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 38
+  - slug: speed-reading-system-60min
+    category: mind
+    audience: 职场人士和自我提升爱好者
+    pain_point: 想多读书但时间不够，阅读效率低
+    topic: Build a personal speed reading system to double your book consumption
+    tags: speed reading, productivity, learning, books
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: How to read more books
+      original_url: https://news.ycombinator.com/item?id=48882056
+      added_at: 2026-07-13
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 9
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: ai-agent-gpt-migration-optimization
+    category: ai-tools
+    audience: AI产品运营、技术产品经理、AI工具使用者
+    pain_point: AI应用成本高、响应慢，不知道如何优化模型选择和配置
+    topic: Migrate and optimize existing AI agent to latest GPT model for better
+      performance and cost efficiency
+    tags: gpt-optimization,ai-agent,cost-reduction,performance
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper"
+      original_url: https://news.ycombinator.com/item?id=48882716
+      added_at: 2026-07-13
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: miora-ai-creative-canvas
+    category: ai-tools
+    audience: 内容创作者、设计师
+    pain_point: 创意工作缺乏连贯性，AI工具无法记住上下文
+    topic: Build a complete creative project using Miora's AI canvas with persistent
+      memory across sessions
+    tags: ai-canvas,creativity,design,memory
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Miora
+      original_url: https://www.producthunt.com/products/miora-2
+      added_at: 2026-07-13
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: second-brain-ai-v2-setup
+    category: ai-tools
+    audience: 知识工作者、AI重度用户
+    pain_point: AI工具之间缺乏记忆连接，重复输入上下文
+    topic: Set up Second Brain for AI v2 to create persistent memory across all your
+      AI tools and workflows
+    tags: second-brain,ai-memory,productivity,workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Second Brain for AI v2
+      original_url: https://www.producthunt.com/products/second-brain-cloudflare
+      added_at: 2026-07-13
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 41
+  - slug: chatgpt-work-partner-workflow
+    category: ai-tools
+    audience: 职场人士、产品经理和运营人员
+    pain_point: 复杂工作项目缺乏AI助手系统化支持
+    topic: Build a comprehensive work partnership workflow with ChatGPT for complex
+      project management
+    tags: chatgpt, workflow, productivity, work, ai-assistant
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: ChatGPT Work
+      original_url: https://www.producthunt.com/products/chatgpt-work
+      added_at: 2026-07-13
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
