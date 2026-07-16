@@ -2556,3 +2556,105 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 40
+  - slug: meeting-recording-transcription-workflow
+    category: office
+    audience: 职场人士、运营和产品经理
+    pain_point: 会议记录耗时且容易遗漏重要信息
+    topic: Setting up automated meeting recording and transcription workflow
+    tags: meeting-recording,transcription,productivity,automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: RecordMeeting
+      original_url: https://www.producthunt.com/products/recordmeeting
+      added_at: 2026-07-16
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-video-infrastructure-velo
+    category: creators
+    audience: 内容创作者，营销人员，在线教育者
+    pain_point: 视频制作成本高，周期长
+    topic: Create AI-powered explainer and sales videos using Velo infrastructure
+    tags: AI视频,内容创作,营销视频,在线教育
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Velo 3.0
+      original_url: https://www.producthunt.com/products/velo-4
+      added_at: 2026-07-16
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-3d-character-generation-v2fun
+    category: design
+    audience: 设计师，游戏开发者，3D内容创作者
+    pain_point: 3D角色建模技术门槛高，耗时长
+    topic: Create 3D characters with AI textures and motion capture using V2Fun
+    tags: AI设计,3D建模,角色设计,动作捕捉
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: V2Fun
+      original_url: https://www.producthunt.com/products/v2fun
+      added_at: 2026-07-16
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 39
+  - slug: claude-ai-recruiter-setup
+    category: ai-tools
+    audience: HR专员、招聘经理、创业公司创始人
+    pain_point: 招聘流程繁琐，筛选简历耗时，缺乏专业招聘技能
+    topic: Transform Claude into an AI recruiter that screens candidates, writes job
+      descriptions, and automates hiring workflows
+    tags: claude,recruiting,hr,automation,hiring
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Crustdata Recruiter
+      original_url: https://www.producthunt.com/products/crustdata-2
+      added_at: 2026-07-16
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: flodesk-email-design-mastery
+    category: marketing
+    audience: 内容创作者、营销人员、小企业主、自媒体运营者
+    pain_point: 邮件设计丑陋，缺乏专业模板，不会设置自动化营销
+    topic: Design and launch a professional email newsletter campaign using Flodesk
+      Studio with templates, automation, and analytics
+    tags: email-marketing,flodesk,newsletter,design,automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Flodesk Studio
+      original_url: https://www.producthunt.com/products/flodesk-studio
+      added_at: 2026-07-16
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
