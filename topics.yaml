@@ -2658,3 +2658,130 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 39
+  - slug: claude-mac-remote-control-setup
+    category: ai-tools
+    audience: 开发者和AI工具用户
+    pain_point: 想要安全地让AI控制电脑进行编程但担心主机安全
+    topic: Set up a spare Mac as Claude Code remote development environment with
+      step-by-step configuration
+    tags: claude, mac setup, ai coding, remote development
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Setting up your spare Mac for Claude Code to control, a
+        step-by-step guide
+      original_url: https://news.ycombinator.com/item?id=48959392
+      added_at: 2026-07-19
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 9
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: docusmart-knowledge-system
+    category: ai-tools
+    audience: 知识工作者、内容创作者、产品经理
+    pain_point: 信息分散在各个平台，找不到统一管理和快速检索的方法
+    topic: Build a unified knowledge management system using DocuSmart AI to
+      organize fragmented information
+    tags: knowledge management, AI, productivity, documentation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: DocuSmart AI
+      original_url: https://www.producthunt.com/products/docusmart-ai
+      added_at: 2026-07-19
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: livedemo-interactive-product-demo
+    category: product
+    audience: 产品经理、SaaS创业者、市场营销人员
+    pain_point: 产品演示成本高，无法让用户快速体验核心功能
+    topic: Create an interactive product demo using LiveDemo that showcases key
+      features with clickable hotspots and guided tours
+    tags: product demo, saas marketing, user onboarding, interactive demo
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: LiveDemo
+      original_url: https://www.producthunt.com/products/livedemo
+      added_at: 2026-07-19
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: mirage-90-second-saas-demo
+    category: product
+    audience: SaaS创始人、产品经理、增长运营
+    pain_point: SaaS产品演示制作复杂，转化率低
+    topic: Create a clickable SaaS demo in 90 seconds using Mirage that converts
+      visitors into trial users
+    tags: saas demo, product marketing, conversion optimization, user onboarding
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Mirage
+      original_url: https://www.producthunt.com/products/mirage-15
+      added_at: 2026-07-19
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: clark-ai-coworker-automation
+    category: ai-tools
+    audience: 运营人员、创业者、职场工作者
+    pain_point: 重复性工作占用大量时间，需要智能助手
+    topic: Set up Clark AI coworker to automate repetitive tasks with its cloud
+      computer capabilities
+    tags: ai automation, virtual assistant, productivity, cloud computing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Clark
+      original_url: https://www.producthunt.com/products/clark-agent
+      added_at: 2026-07-19
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: acebuilder-aceternity-landing-page
+    category: design
+    audience: 市场营销人员、创业者、设计师
+    pain_point: 缺乏现代化的落地页设计工具和组件库
+    topic: Build a high-converting landing page using Acebuilder with Aceternity UI
+      components
+    tags: landing page, ui components, conversion optimization, web design
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Acebuilder
+      original_url: https://www.producthunt.com/products/acebuilder
+      added_at: 2026-07-19
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 6
+        keyword_demand: 7
+      total: 36
