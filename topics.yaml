@@ -2785,3 +2785,126 @@ queue:
         differentiation: 6
         keyword_demand: 7
       total: 36
+  - slug: ai-advice-accuracy-framework
+    category: ai-tools
+    audience: AI工具重度使用者和决策者
+    pain_point: 过度依赖AI建议导致判断失误但自信过度
+    topic: Build a personal AI advice validation system to avoid overconfidence traps
+    tags: AI,decision-making,validation,accuracy,framework
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: AI advice made people 3x less accurate but 2x confident,
+        researchers found
+      original_url: https://news.ycombinator.com/item?id=48971738
+      added_at: 2026-07-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: price-tracking-automation
+    category: automation
+    audience: 网购达人，精打细算的消费者，电商运营人员
+    pain_point: 经常被虚假折扣欺骗，无法追踪商品真实价格变化
+    topic: Set up automated price tracking system to monitor product discounts and
+      avoid fake sales
+    tags: price-tracking,shopping,automation,consumer
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Spycost
+      original_url: https://www.producthunt.com/products/spycost
+      added_at: 2026-07-20
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: openseo-competitor-analysis
+    category: marketing
+    audience: SEO专员，内容营销人员，网站运营者，自媒体创作者
+    pain_point: SEO工具成本高昂，需要免费替代方案进行竞品分析
+    topic: Conduct comprehensive SEO competitor analysis using OpenSEO to create
+      actionable optimization report
+    tags: seo,competitor-analysis,open-source,marketing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: OpenSEO
+      original_url: https://www.producthunt.com/products/openseo
+      added_at: 2026-07-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-markdown-collaborative-editing
+    category: creators
+    audience: 内容创作者、技术写作者、文档管理者
+    pain_point: 需要与AI协作编辑文档提高写作效率
+    topic: Set up AI-powered collaborative markdown editing workflow with OpenMarkdown
+    tags: markdown,AI collaboration,content creation,documentation
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: OpenMarkdown
+      original_url: https://www.producthunt.com/products/openmarkdown
+      added_at: 2026-07-20
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-browser-automation-intern
+    category: automation
+    audience: 职场人士、运营人员、数据收集者
+    pain_point: 重复性浏览器操作耗时且枯燥
+    topic: Train an AI intern to automate repetitive browser tasks with Aye
+    tags: browser automation,AI assistant,productivity,workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Aye
+      original_url: https://www.producthunt.com/products/aye-browser
+      added_at: 2026-07-20
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: claude-cross-app-memory-setup
+    category: ai-tools
+    audience: AI重度用户、知识工作者、多平台协作者
+    pain_point: AI对话上下文无法跨应用保持连续性
+    topic: Set up shared memory system for Claude across all applications with Unabyss
+    tags: Claude,memory management,cross-platform,AI workflow
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Unabyss for Claude
+      original_url: https://www.producthunt.com/products/unabyss
+      added_at: 2026-07-20
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 7
+        differentiation: 8
+        keyword_demand: 7
+      total: 36
