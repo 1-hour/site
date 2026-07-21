@@ -63,7 +63,7 @@ if [ "$SKIP_BUILD" = false ]; then
   if [ ! -d node_modules/fuse.js ]; then
     pnpm install --prefer-offline
   fi
-  CONTENT_DIR=../../content pnpm build
+  CONTENT_DIR=../content pnpm build
   cd ..
 
   # 复制 out
@@ -71,8 +71,10 @@ if [ "$SKIP_BUILD" = false ]; then
   echo "==> [3/4] 整理 out/"
   rm -rf out
   cp -r framework/out ./out
-  # CF Pages 留下的 _redirects 用了 404 状态码，Workers Static Assets 不支持，删掉
-  rm -f out/_redirects
+  # 2026-07-21: Cloudflare Workers Static Assets now supports _redirects
+  # (https://developers.cloudflare.com/workers/static-assets/redirects/).
+  # framework/public/_redirects handles the root URL 302 → /en/ for SEO.
+  # Keep the file, don't delete it.
   ls out/ | head -8
 fi
 

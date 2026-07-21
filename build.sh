@@ -69,13 +69,20 @@ cd ..
 rm -rf out
 cp -r framework/out ./out
 
-# CF Pages 用 _redirects 做 404 fallback，但 Workers Static Assets 不支持
-# status 404，会导致 deploy 失败。删掉它，由 wrangler.jsonc 的
-# `not_found_handling: "404-page"` 接管。
-if [ -f out/_redirects ]; then
-  echo "==> Removing _redirects (Workers Static Assets uses not_found_handling instead)..."
-  rm -f out/_redirects
-fi
+# _redirects handling
+#
+# History: An earlier version of _redirects used the CF Pages
+# `not_found_handling` 404 pattern (not supported by Workers Static Assets),
+# so this script deleted the file to avoid a deploy failure.
+#
+# 2026-07-21: Workers Static Assets now supports _redirects for real
+# HTTP redirect rules (see
+# https://developers.cloudflare.com/workers/static-assets/redirects/).
+# framework/public/_redirects now contains `/ /en/ 302` to fix the
+# soft-404-at-root SEO issue. Keep the file.
+#
+# If a future _redirects grows a 404 rule again, prefer wrangler.jsonc
+# `not_found_handling` instead of deleting the whole file.
 
 echo "==> Build complete! Output in ./out"
 ls out/ | head -10
