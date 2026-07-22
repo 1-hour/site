@@ -3011,3 +3011,149 @@ queue:
         differentiation: 7
         keyword_demand: 6
       total: 36
+  - slug: gemini-3-6-flash-workflow-setup
+    category: ai-tools
+    audience: 内容创作者、运营人员、产品经理
+    pain_point: 新AI模型发布后不知道如何快速上手并集成到工作流程中
+    topic: Set up and optimize Gemini 3.6 Flash for content creation workflow with
+      API integration, prompt templates, and automation setup
+    tags: Gemini, AI workflow, content creation, automation, API integration
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber
+      original_url: https://news.ycombinator.com/item?id=48993414
+      added_at: 2026-07-22
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: qwen-image-3-content-workflow
+    category: ai-tools
+    audience: 设计师、内容创作者、小红书博主
+    pain_point: 需要高质量AI图片生成工具来提升内容创作效率和质量
+    topic: Master Qwen-Image-3.0 for creating rich visual content with detailed
+      prompting, batch processing, and integration into design workflow
+    tags: Qwen, AI image generation, content creation, visual design, workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge"
+      original_url: https://news.ycombinator.com/item?id=48989701
+      added_at: 2026-07-22
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: kimi-k3-advanced-workflow
+    category: ai-tools
+    audience: 需要高效AI助手的内容创作者和知识工作者
+    pain_point: 想用最新的Kimi K3但不知道如何发挥其最大潜力
+    topic: Master Kimi K3 advanced features for content creation and analysis
+      workflows
+    tags: Kimi K3, AI workflow, content creation, analysis
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA
+      original_url: https://news.ycombinator.com/item?id=48999291
+      added_at: 2026-07-22
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: usb-encrypted-vault-setup
+    category: office
+    audience: 需要保护敏感文件的职场人士和自由职业者
+    pain_point: 担心重要文件泄露但不知道如何安全存储
+    topic: Create a hidden encrypted vault on USB drive for secure file storage
+    tags: encryption, USB security, file protection, privacy
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: My USB Drive Has a Hidden Encrypted Vault
+      original_url: https://news.ycombinator.com/item?id=48974862
+      added_at: 2026-07-22
+      scores:
+        learnable: 8
+        audience: 6
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 35
+  - slug: ai-art-recreation-workflow
+    category: ai-tools
+    audience: AI艺术创作者和内容创作者
+    pain_point: 想用AI重现经典艺术作品但不知道如何组合多个模型
+    topic: Recreate famous artworks using multiple AI models (GPT, Claude, Gemini,
+      Grok) with prompt engineering techniques
+    tags: ai-art,prompt-engineering,gpt,claude,gemini,grok
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: '"Drawing" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok'
+      original_url: https://news.ycombinator.com/item?id=48998404
+      added_at: 2026-07-22
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: mac-screen-sharing-regionmirror
+    category: office
+    audience: 使用超宽显示器的Mac用户和远程工作者
+    pain_point: 超宽显示器屏幕共享时内容太小或显示不全
+    topic: Set up selective screen sharing for ultrawide monitors on Mac using
+      RegionMirror for presentations and remote work
+    tags: mac,screen-sharing,regionmirror,ultrawide,remote-work
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: RegionMirror
+      original_url: https://www.producthunt.com/products/regionmirror
+      added_at: 2026-07-22
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-video-library-management
+    category: ai-tools
+    audience: 视频内容创作者和自媒体运营者
+    pain_point: 视频素材库管理混乱，难以快速找到需要的内容片段
+    topic: Build AI-powered video content library with smart search and analysis
+      using TwelveLabs
+    tags: video AI, content management, TwelveLabs, video search
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Jockey by TwelveLabs
+      original_url: https://www.producthunt.com/products/twelvelabs
+      added_at: 2026-07-22
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
