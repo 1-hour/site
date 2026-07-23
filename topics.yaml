@@ -3157,3 +3157,128 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 36
+  - slug: bento-html-presentation-builder
+    category: office
+    audience: 职场人士、内容创作者、需要制作演示文稿的专业人士
+    pain_point: PowerPoint文件太大、兼容性差、协作困难，需要轻量级的演示解决方案
+    topic: Build interactive HTML presentations with Bento - create, edit, and share
+      presentations that work in any browser without PowerPoint
+    tags: presentation,html,powerpoint-alternative,web-based,collaboration
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Show HN: Bento - An entire PowerPoint in one HTML file
+        (edit+view+data+collab)"
+      original_url: https://news.ycombinator.com/item?id=49008211
+      added_at: 2026-07-23
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: ai-menu-design-makeover
+    category: design
+    audience: 餐厅老板、设计师、本地商家运营者
+    pain_point: 菜单设计丑陋影响顾客体验和销售转化
+    topic: Redesign restaurant menus using AI tools to improve customer experience
+      and sales
+    tags: AI design, menu design, restaurant, UX, conversion
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Businesses with ugly AI menu redesigns
+      original_url: https://news.ycombinator.com/item?id=49005973
+      added_at: 2026-07-23
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: quality-content-vs-ai-slop
+    category: creators
+    audience: 内容创作者、自媒体作者、知识付费从业者
+    pain_point: AI内容泛滥导致优质内容难以脱颖而出
+    topic: Create high-quality non-fiction content that stands out from AI-generated
+      material
+    tags: content quality, AI content, writing, differentiation, non-fiction
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Quality non-fiction books are the antithesis of AI slop
+      original_url: https://news.ycombinator.com/item?id=49007247
+      added_at: 2026-07-23
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-knowledge-base-lattics
+    category: ai-tools
+    audience: 内容创作者、研究人员、知识工作者
+    pain_point: 信息分散难以整理，写作缺乏深度研究支撑
+    topic: Build an AI-powered knowledge base for content research and writing
+    tags: knowledge-management,ai-writing,research,second-brain
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Lattics
+      original_url: https://www.producthunt.com/products/lattics-2
+      added_at: 2026-07-23
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-brand-community-discovery
+    category: marketing
+    audience: 品牌运营、市场营销人员、社群管理者
+    pain_point: 不知道用户在哪些社群讨论自己的品牌
+    topic: Use AI to discover and engage with brand communities across platforms
+    tags: brand-monitoring,community-discovery,ai-marketing,social-listening
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Trovio For Brands
+      original_url: https://www.producthunt.com/products/trovio-brand-dashboard
+      added_at: 2026-07-23
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: claude-mastery-game-based-learning
+    category: ai-tools
+    audience: 想要掌握Claude AI的职场人士和内容创作者
+    pain_point: Claude功能强大但不知道如何系统性学习和应用
+    topic: Master Claude AI through story-driven interactive exercises and
+      real-world scenarios
+    tags: Claude AI, interactive learning, AI mastery, gamified education
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: AGINE Academy
+      original_url: https://www.producthunt.com/products/agine-academy
+      added_at: 2026-07-23
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
