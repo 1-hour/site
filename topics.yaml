@@ -3282,3 +3282,66 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 38
+  - slug: claude-session-persistence
+    category: ai-tools
+    audience: Claude重度用户、内容创作者、产品经理
+    pain_point: Claude对话上下文经常丢失，需要重复解释背景
+    topic: Set up Claude-thermos to maintain persistent AI conversation context
+      across sessions
+    tags: claude,session-management,productivity,ai-workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Show HN: Claude-thermos keeps your Claude session warm for you"
+      original_url: https://news.ycombinator.com/item?id=49024882
+      added_at: 2026-07-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: screenpipe-work-recording-agents
+    category: automation
+    audience: 运营人员、产品经理、内容创作者、副业从业者
+    pain_point: 重复性工作流程无法自动化，工作效率提升困难
+    topic: Set up Screenpipe to record work patterns and create automated AI agents
+      from your workflow
+    tags: automation,ai-agents,productivity,workflow-recording
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Launch HN: Screenpipe (YC S26) – Record how you work and turn
+        that into agents"
+      original_url: https://news.ycombinator.com/item?id=49024620
+      added_at: 2026-07-24
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: podcastorai-ai-host-setup
+    category: creators
+    audience: 内容创作者、播客主播、自媒体从业者
+    pain_point: 录制播客耗时费力，缺乏稳定的主持人形象
+    topic: Create an AI twin to host your video podcast using PodcastorAI platform
+    tags: ai-avatar,podcast,video-content,content-creation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: PodcastorAI
+      original_url: https://www.producthunt.com/products/podcastorai
+      added_at: 2026-07-24
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
