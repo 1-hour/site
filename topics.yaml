@@ -3345,3 +3345,128 @@ queue:
         differentiation: 8
         keyword_demand: 8
       total: 40
+  - slug: claude-5-context-engineering
+    category: ai-tools
+    audience: AI工具使用者、内容创作者、产品经理
+    pain_point: Claude输出质量不稳定，不知道如何优化提示词
+    topic: Master Claude 5 context engineering techniques for better AI outputs
+    tags: claude,ai,prompt-engineering,context
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: The new rules of context engineering for Claude 5 generation models
+      original_url: https://news.ycombinator.com/item?id=49051361
+      added_at: 2026-07-26
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 9
+      total: 41
+  - slug: wisprkey-mac-voice-control
+    category: automation
+    audience: Mac用户、内容创作者、职场人士
+    pain_point: Mac操作效率低，重复性任务耗时
+    topic: Set up voice control for Mac apps using Wisprkey to automate daily
+      workflows
+    tags: Mac productivity, voice control, automation, Wisprkey
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Wisprkey
+      original_url: https://www.producthunt.com/products/wisprkey-mac-ai-assistant
+      added_at: 2026-07-26
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: heard-voice-ai-coding
+    category: ai-tools
+    audience: 程序员、产品经理、AI工具使用者
+    pain_point: AI编程助手交互效率低，需要频繁打字
+    topic: Set up voice interaction with Claude and coding AI using Heard for
+      hands-free development
+    tags: voice coding, Claude, AI assistant, hands-free development
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Heard
+      original_url: https://www.producthunt.com/products/heard-2
+      added_at: 2026-07-26
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: fluentdb-ai-database-client
+    category: ai-tools
+    audience: 产品经理、运营人员、数据分析师
+    pain_point: 数据库操作门槛高，SQL学习成本大
+    topic: Master database queries and management using FluentDB AI client for
+      non-technical users
+    tags: database, AI client, SQL, data analysis, FluentDB
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: FluentDB
+      original_url: https://www.producthunt.com/products/fluentdb-2
+      added_at: 2026-07-26
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 35
+  - slug: ade-coding-agents-sync
+    category: ai-tools
+    audience: 程序员、产品经理、AI工具重度用户
+    pain_point: 多个AI编程助手难以协调，上下文丢失
+    topic: Synchronize and manage multiple AI coding agents across devices using ADE
+      platform
+    tags: coding agents, AI coordination, development workflow, ADE
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: ADE
+      original_url: https://www.producthunt.com/products/ade-agentic-development-environment
+      added_at: 2026-07-26
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: ai-teleprompter-speechius-setup
+    category: creators
+    audience: 短视频创作者、直播主播、内容创作者
+    pain_point: 录制视频时忘词、读稿不自然、眼神飘移影响专业度
+    topic: Set up AI-powered teleprompter workflow for professional video content
+      creation using Speechius
+    tags: teleprompter,video creation,content creator,speechius,AI tools
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Speechius
+      original_url: https://www.producthunt.com/products/speechius
+      added_at: 2026-07-26
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
