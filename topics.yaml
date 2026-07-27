@@ -3470,3 +3470,67 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 38
+  - slug: ai-focus-followthrough-system
+    category: ai-tools
+    audience: 需要提升专注力和执行力的职场人士、自媒体创作者、产品经理
+    pain_point: 容易分心、任务拖延、缺乏持续执行力
+    topic: Build an AI-powered focus and task completion system using ChatGPT/Claude
+      for sustained productivity
+    tags: AI productivity, focus, task management, workflow automation, ChatGPT,
+      Claude
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "The New AI Superpowers: Focus and Followthrough"
+      original_url: https://news.ycombinator.com/item?id=49057877
+      added_at: 2026-07-27
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: purebox-ai-gmail-cleanup-workflow
+    category: automation
+    audience: 职场人士、创业者、高邮件量用户
+    pain_point: Gmail邮箱混乱不堪，重要邮件被淹没，处理效率低下
+    topic: Set up PureBox.ai for intelligent Gmail inbox cleanup and email
+      management automation
+    tags: email management, gmail cleanup, AI automation, productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: PureBox.ai
+      original_url: https://www.producthunt.com/products/purebox-ai
+      added_at: 2026-07-27
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: openbase-voice-ai-agent-management
+    category: ai-tools
+    audience: AI工具重度用户、团队管理者、数字游民
+    pain_point: 管理多个AI代理工具复杂，缺乏语音控制的统一入口
+    topic: Set up Openbase for voice-controlled AI agent team management and
+      workflow orchestration
+    tags: voice control, AI agents, team management, workflow automation
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Openbase
+      original_url: https://www.producthunt.com/products/openbase-2
+      added_at: 2026-07-27
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 35
