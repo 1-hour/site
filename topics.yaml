@@ -3618,3 +3618,128 @@ queue:
         differentiation: 8
         keyword_demand: 7
       total: 38
+  - slug: kimi-k3-long-context-workflow
+    category: ai-tools
+    audience: 内容创作者、研究人员和知识工作者
+    pain_point: 处理长文档和大量信息时缺乏高效的AI工具和工作流程
+    topic: Master Kimi K3's 256k context window for processing long documents and
+      research synthesis
+    tags: kimi,long-context,research,ai-workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Kimi K3-256k
+      original_url: https://news.ycombinator.com/item?id=49101852
+      added_at: 2026-07-30
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: ai-model-cost-optimization
+    category: ai-tools
+    audience: AI工具重度用户、开发者、创业者
+    pain_point: AI API费用过高但不想牺牲输出质量
+    topic: Set up automatic AI model switching system to minimize API costs while
+      maintaining quality
+    tags: AI optimization, cost saving, automation, API management
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Launch HN: Tokenless (YC S26) – Automatic model switching to save money"
+      original_url: https://news.ycombinator.com/item?id=49099143
+      added_at: 2026-07-30
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: claude-agent-team-missions
+    category: ai-tools
+    audience: 产品经理、项目管理者、AI工作流用户
+    pain_point: 复杂项目需要多个AI助手协作但不知如何设置
+    topic: Create and deploy multi-agent Claude Code missions for complex project
+      workflows
+    tags: Claude, multi-agent, project management, AI workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: /mission for Claude Code
+      original_url: https://www.producthunt.com/products/spine-2
+      added_at: 2026-07-30
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: app-monetization-strategy
+    category: side-hustle
+    audience: 独立开发者、副业者、产品经理
+    pain_point: 有了产品原型但不知道如何获得付费用户
+    topic: Transform a prototype app into a revenue-generating product with user
+      acquisition and monetization setup
+    tags: app monetization, user acquisition, product launch, revenue
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Denovo
+      original_url: https://www.producthunt.com/products/denovo-business-manager
+      added_at: 2026-07-30
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: video-feedback-collaboration-workflow
+    category: creators
+    audience: 视频创作者和自媒体团队
+    pain_point: 视频修改反馈沟通效率低下
+    topic: Set up professional video feedback and collaboration system for client
+      projects
+    tags: video editing, collaboration, client feedback, workflow
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: SceneNote
+      original_url: https://www.producthunt.com/products/scenenote-free-video-feedback-tool
+      added_at: 2026-07-30
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
+  - slug: mac-voice-dictation-writing-workflow
+    category: office
+    audience: 内容创作者和职场人士
+    pain_point: 打字效率低下影响创作和工作效率
+    topic: Set up local voice dictation system for polished writing on Mac
+    tags: voice dictation, Mac productivity, writing workflow, local AI
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Epilude
+      original_url: https://www.producthunt.com/products/epilude
+      added_at: 2026-07-30
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
