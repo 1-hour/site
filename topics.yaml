@@ -3743,3 +3743,126 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 38
+  - slug: gpt-5-6-workflow-optimization
+    category: ai-tools
+    audience: 内容创作者、运营人员和产品经理
+    pain_point: AI成本控制与效果平衡困难
+    topic: Build a cost-optimized GPT-5.6 workflow for content creation and business
+      automation
+    tags: GPT-5.6, AI optimization, cost efficiency, workflow
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Advancing the price-performance frontier with GPT‑5.6
+      original_url: https://news.ycombinator.com/item?id=49112867
+      added_at: 2026-07-31
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 8
+        keyword_demand: 9
+      total: 42
+  - slug: ai-business-automation-safeguards
+    category: ai-tools
+    audience: 副业创业者、运营人员和AI工具使用者
+    pain_point: AI自动化业务风险控制困难
+    topic: Build fail-safe AI business automation with monitoring and control systems
+    tags: AI automation, business safeguards, risk management, GPT
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447
+      original_url: https://news.ycombinator.com/item?id=49113059
+      added_at: 2026-07-31
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 8
+        keyword_demand: 9
+      total: 42
+  - slug: llm-2x-coding-productivity-workflow
+    category: ai-tools
+    audience: 开发者、产品经理、技术创业者
+    pain_point: 想用AI提升编程效率但不知道实际可行的工作流程
+    topic: Build a realistic LLM-assisted coding workflow that doubles productivity
+      through smart prompting, code review, and debugging techniques
+    tags: LLM编程,AI辅助开发,编程效率,代码助手,开发工具
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "2x, not 10x: coding with LLMs in 2026"
+      original_url: https://news.ycombinator.com/item?id=49047839
+      added_at: 2026-07-31
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: craftstory-ai-human-video
+    category: creators
+    audience: 短视频创作者、自媒体博主、营销人员
+    pain_point: 缺乏真人出镜视频制作能力和成本
+    topic: Create photorealistic human spokesperson videos using CraftStory AI in 60
+      minutes
+    tags: ai video, human avatar, content creation, marketing video
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: CraftStory
+      original_url: https://www.producthunt.com/products/craftstory
+      added_at: 2026-07-31
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 8
+        keyword_demand: 9
+      total: 42
+  - slug: yap-mac-voice-dictation-setup
+    category: automation
+    audience: Mac用户、内容创作者、职场人士
+    pain_point: 需要隐私安全的本地语音输入解决方案
+    topic: Set up Yap open-source voice dictation for Mac productivity workflow
+    tags: voice dictation, mac, privacy, productivity, open source
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Yap
+      original_url: https://www.producthunt.com/products/yap-5
+      added_at: 2026-07-31
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: product-onboarding-guide-nina
+    category: product
+    audience: 产品经理和运营人员
+    pain_point: 用户首次使用产品时流失率高，缺乏有效的引导机制
+    topic: Create interactive step-by-step user onboarding flows with NINA
+    tags: 用户引导,产品设计,用户体验,转化率优化
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: NINA
+      original_url: https://www.producthunt.com/products/agenq-nina-ai-product-assistant
+      added_at: 2026-07-31
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 36
