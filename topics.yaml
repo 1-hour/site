@@ -3866,3 +3866,105 @@ queue:
         differentiation: 7
         keyword_demand: 6
       total: 36
+  - slug: ai-model-performance-analysis
+    category: ai-tools
+    audience: AI工具使用者、内容创作者、产品经理
+    pain_point: 不知道如何科学评估和选择最适合的AI模型
+    topic: Build a comprehensive AI model comparison framework to evaluate
+      performance, cost, and use cases for DeepSeek V4 Flash vs competitors
+    tags: deepseek,ai-model,performance-analysis,cost-optimization
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis
+      original_url: https://news.ycombinator.com/item?id=49120299
+      added_at: 2026-08-01
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
+  - slug: kimi-k3-local-setup-optimization
+    category: ai-tools
+    audience: AI工具爱好者、内容创作者、技术人员
+    pain_point: 想在本地运行大模型但硬件资源有限
+    topic: Set up and optimize Kimi K3 local deployment for maximum performance with
+      limited RAM resources
+    tags: kimi-k3,local-llm,optimization,ram-efficiency
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Run Kimi K3 using 29 GB of RAM at 0.50 tok/s
+      original_url: https://news.ycombinator.com/item?id=49123386
+      added_at: 2026-08-01
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 39
+  - slug: video-call-fraud-detection
+    category: automation
+    audience: 远程工作者、在线教育者、视频会议重度用户
+    pain_point: 视频通话中难以识别深度伪造和身份欺诈
+    topic: Setting up AI-powered video call fraud detection and verification system
+    tags: video calls,fraud detection,AI,security,deepfake
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Halo by Scam AI
+      original_url: https://www.producthunt.com/products/scam-ai
+      added_at: 2026-08-01
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: mubert-api-music-creation
+    category: creators
+    audience: 短视频创作者和内容制作者
+    pain_point: 找不到合适的背景音乐，版权问题复杂
+    topic: Generate custom background music for content using Mubert API integration
+    tags: AI music, content creation, API integration
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Mubert API
+      original_url: https://www.producthunt.com/products/mubert
+      added_at: 2026-08-01
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: minimax-h3-brand-video-creation
+    category: creators
+    audience: 品牌设计师和视频创作者
+    pain_point: 制作专业品牌视频成本高，技术门槛复杂
+    topic: Create professional brand videos and motion graphics using MiniMax H3 AI
+    tags: AI video, motion design, branding
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: MiniMax H3
+      original_url: https://www.producthunt.com/products/minimax
+      added_at: 2026-08-01
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
