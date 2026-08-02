@@ -3968,3 +3968,87 @@ queue:
         differentiation: 7
         keyword_demand: 8
       total: 38
+  - slug: ai-financial-advisor-prompts
+    category: ai-tools
+    audience: 职场人士、投资新手、理财规划者
+    pain_point: 缺乏专业理财知识，付费咨询成本高，不知道如何有效利用AI获得财务建议
+    topic: Master AI prompting techniques for personal financial planning and
+      investment analysis
+    tags: ai prompting, financial planning, investment, personal finance
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: AI financial advice is surprisingly good if you ask the right questions
+      original_url: https://news.ycombinator.com/item?id=49139102
+      added_at: 2026-08-02
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: ai-email-followup-automation
+    category: ai-tools
+    audience: 销售人员和市场营销专员
+    pain_point: 错过重要邮件机会导致客户流失
+    topic: Set up AI agent to automatically follow up on missed email opportunities
+      and convert leads
+    tags: AI agent, email automation, lead conversion, sales, follow-up
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: NudgeForMe
+      original_url: https://www.producthunt.com/products/nudgeforme
+      added_at: 2026-08-02
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 38
+  - slug: deepseek-v4-workflow-setup
+    category: ai-tools
+    audience: 内容创作者、运营人员和AI工具使用者
+    pain_point: AI模型成本高昂，需要性价比更高的解决方案
+    topic: Set up DeepSeek V4 Flash for cost-effective content creation and
+      automation workflows
+    tags: DeepSeek,AI model,cost optimization,content creation,automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: DeepSeek-V4-Flash-0731
+      original_url: https://www.producthunt.com/products/deepseek
+      added_at: 2026-08-02
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: mobile-ai-coding-workflow
+    category: code
+    audience: 无代码开发者、产品经理和移动办公人员
+    pain_point: 移动设备上无法进行有效的代码编写和AI辅助开发
+    topic: Set up mobile AI coding workflow using Claude and other AI models on
+      smartphone
+    tags: mobile coding,Claude,AI development,smartphone productivity,no-code
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Port22
+      original_url: https://www.producthunt.com/products/port22
+      added_at: 2026-08-02
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
