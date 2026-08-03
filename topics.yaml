@@ -4052,3 +4052,192 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 36
+  - slug: ai-creative-benchmark-testing
+    category: ai-tools
+    audience: AI工具使用者、内容创作者、设计师
+    pain_point: 不知道如何系统性测试和比较不同AI模型的创作能力
+    topic: Create a personal AI model testing framework for creative tasks with
+      measurable outputs
+    tags: AI testing, creative AI, SVG generation, model comparison, benchmarking
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: 'My personal AI benchmark: "Generate an SVG of a frog with a
+        Habsburg jaw."'
+      original_url: https://news.ycombinator.com/item?id=49147622
+      added_at: 2026-08-03
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 36
+  - slug: ai-contest-winning-poster
+    category: ai-tools
+    audience: 平面设计师、AI艺术创作者、参赛者
+    pain_point: 想用AI创作高质量海报参加比赛但不知道如何优化效果
+    topic: Create contest-quality AI-generated posters using advanced prompting and
+      post-processing techniques
+    tags: AI art, poster design, contest submission, Midjourney, DALL-E, competition
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: AI poster wins Ohio State Fair contest
+      original_url: https://news.ycombinator.com/item?id=49149188
+      added_at: 2026-08-03
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: zinley-ai-representative-setup
+    category: automation
+    audience: 忙碌的创业者、高管和自由职业者
+    pain_point: 被重复性沟通和任务占用大量时间
+    topic: Set up Zinley AI representative to handle calls, emails and tasks
+      automatically
+    tags: AI assistant, automation, productivity, calls, email
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Zinley
+      original_url: https://www.producthunt.com/products/zinley
+      added_at: 2026-08-03
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: yoursitee-bio-link-optimization
+    category: creators
+    audience: 小红书博主、抖音创作者、Instagram网红
+    pain_point: bio链接转化率低，无法有效变现流量
+    topic: Create a high-converting bio link page using YourSitee with analytics and
+      monetization
+    tags: bio link, social media, conversion, creators, monetization
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: YourSitee
+      original_url: https://www.producthunt.com/products/yoursitee
+      added_at: 2026-08-03
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 9
+        differentiation: 6
+        keyword_demand: 7
+      total: 38
+  - slug: timeos-client-billing-workflow
+    category: office
+    audience: 自由职业者、咨询师、设计师、代理商
+    pain_point: 时间记录不准确，客户计费流程繁琐
+    topic: Set up TimeOS 2.0 for automated time tracking and professional client
+      billing
+    tags: time tracking, billing, freelance, productivity, clients
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: TimeOS 2.0
+      original_url: https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro
+      added_at: 2026-08-03
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 6
+        keyword_demand: 7
+      total: 36
+  - slug: capptivo-product-demo-creation
+    category: creators
+    audience: 产品经理、SaaS创业者、在线教育创作者
+    pain_point: 制作专业产品演示视频成本高、流程复杂
+    topic: Create professional product demos and tutorials using Capptivo screen
+      recorder and editor
+    tags: screen recording, demo, video editing, product, tutorial
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Capptivo
+      original_url: https://www.producthunt.com/products/capptivo
+      added_at: 2026-08-03
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: finamie-voice-expense-tracking
+    category: office
+    audience: 自由职业者、小企业主、经常出差的职场人士
+    pain_point: 记录报销和支出分析太繁琐，容易遗漏
+    topic: Set up Finamie voice expense tracking system for automatic spending
+      analysis and insights
+    tags: expense tracking, voice input, finance, automation, insights
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Finamie
+      original_url: https://www.producthunt.com/products/finamie-know-your-money-for-real
+      added_at: 2026-08-03
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: zen-whisper-mac-dictation-setup
+    category: office
+    audience: Mac用户、写作者、内容创作者、需要大量文字输入的职场人士
+    pain_point: 打字速度慢，长时间输入手部疲劳，系统自带语音识别不够准确
+    topic: Set up Zen Whisper for seamless voice-to-text dictation across all Mac
+      applications
+    tags: Mac, dictation, voice input, productivity, writing
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Zen Whisper
+      original_url: https://www.producthunt.com/products/zen-whisper
+      added_at: 2026-08-03
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 40
+  - slug: kaneo-project-management-setup
+    category: office
+    audience: 项目经理和小团队负责人
+    pain_point: 现有项目管理工具过于复杂或昂贵
+    topic: Set up Kaneo open-source project management system for team collaboration
+    tags: 项目管理,开源工具,团队协作,敏捷开发
+    priority: P1
+    status: pending
+    _scout:
+      source: github-trending
+      original_title: kaneo
+      original_url: https://github.com/usekaneo/kaneo
+      added_at: 2026-08-03
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 6
+      total: 35
