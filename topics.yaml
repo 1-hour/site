@@ -4451,3 +4451,90 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 39
+  - slug: deepseek-v4-flash-workflow
+    category: ai-tools
+    audience: 中文内容创作者和运营人员
+    pain_point: 需要高性价比的中文AI工具来提高内容生产效率
+    topic: Build a complete content creation workflow using DeepSeek V4 Flash for
+      Chinese market
+    tags: DeepSeek,AI模型,中文内容,工作流
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: DeepSeek V4 Flash 0731
+      original_url: https://news.ycombinator.com/item?id=49214008
+      added_at: 2026-08-08
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 38
+  - slug: website-scraper-protection-system
+    category: automation
+    audience: 网站运营者和内容创作者
+    pain_point: 网站内容被恶意爬取影响收益和性能
+    topic: Build a comprehensive anti-scraping protection system for your website in
+      60 minutes
+    tags: 反爬虫,网站安全,内容保护
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: A year of fighting scrapers on my 1.5 million-page website
+      original_url: https://news.ycombinator.com/item?id=49211386
+      added_at: 2026-08-08
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: stepshot-workflow-guide-creation
+    category: automation
+    audience: 内容创作者、运营人员、培训师需要快速制作操作指南和SOP文档的人群
+    pain_point: 手动制作操作指南费时费力，截图编辑排版工作量大，难以保持文档更新同步
+    topic: Create professional step-by-step workflow guides using StepShot AI by
+      recording your screen actions and generating automated documentation with
+      screenshots and instructions
+    tags: workflow documentation, AI automation, step-by-step guides, SOP creation,
+      screen recording
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: StepShot
+      original_url: https://www.producthunt.com/products/stepshot-2
+      added_at: 2026-08-08
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 9
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: shootclip-ai-video-editing
+    category: creators
+    audience: 短视频创作者、自媒体博主、小红书创作者需要快速剪辑视频内容的人群
+    pain_point: 视频剪辑耗时长，学习专业软件门槛高，重复性工作多影响创作效率
+    topic: Edit and produce a complete short video using ShootClip AI tools
+      including automated cuts, transitions, and effects in under 60 minutes
+    tags: AI video editing, short video creation, content creation, automated
+      editing, video production
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: ShootClip
+      original_url: https://www.producthunt.com/products/shootclip
+      added_at: 2026-08-08
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
