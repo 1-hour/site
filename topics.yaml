@@ -4538,3 +4538,126 @@ queue:
         differentiation: 7
         keyword_demand: 9
       total: 41
+  - slug: claude-system-prompts-mastery
+    category: ai-tools
+    audience: 内容创作者、运营人员、产品经理
+    pain_point: Claude回答不稳定，需要重复解释需求
+    topic: Master Claude system prompts to create consistent AI workflows with
+      custom instructions, role definitions, and output formatting
+    tags: claude,system-prompts,ai-workflow,prompt-engineering
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: "Claude: System Prompts"
+      original_url: https://news.ycombinator.com/item?id=49319556
+      added_at: 2026-08-17
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 9
+      total: 41
+  - slug: ai-credit-resale-business
+    category: side-hustle
+    audience: 副业创业者、AI工具重度用户
+    pain_point: AI工具成本高，想要变现AI使用经验
+    topic: Build an AI credit resale business with pricing strategy, customer
+      acquisition, and automated fulfillment system
+    tags: ai-credits,resale,side-hustle,monetization
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: The AI Credit Resale Economy
+      original_url: https://news.ycombinator.com/item?id=49320611
+      added_at: 2026-08-17
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 7
+        differentiation: 8
+        keyword_demand: 8
+      total: 38
+  - slug: mathcode-ai-agent-setup
+    category: ai-tools
+    audience: 程序员、数据科学家和理工科学生
+    pain_point: 需要快速解决数学计算问题并生成可靠的代码实现
+    topic: Set up MathCode AI agent to solve complex mathematical problems and
+      generate code solutions with step-by-step verification
+    tags: AI编程助手, 数学计算, 代码生成, 自动化
+    priority: P1
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: MathCode, Mathematical Coding Agent
+      original_url: https://news.ycombinator.com/item?id=49322330
+      added_at: 2026-08-17
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-video-call-agent-setup
+    category: ai-tools
+    audience: 客服运营人员、远程工作者、在线教育从业者
+    pain_point: 视频通话中需要AI助手但缺乏简单实现方案
+    topic: Build AI video call agent for FaceTime using Chert/Vapi integration
+    tags: AI客服,视频通话,自动化,远程工作
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Chert
+      original_url: https://www.producthunt.com/products/chert
+      added_at: 2026-08-17
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 8
+        keyword_demand: 8
+      total: 39
+  - slug: smart-sleep-cycle-alarm-setup
+    category: automation
+    audience: 职场人士、学生、追求高效作息的生产力爱好者
+    pain_point: 传统闹钟打断深度睡眠导致起床困难和疲劳
+    topic: Set up smart sleep cycle alarm system for optimal wake times
+    tags: 睡眠优化,生产力,健康管理,智能闹钟
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: AirAlarm
+      original_url: https://www.producthunt.com/products/airalarm
+      added_at: 2026-08-17
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
+  - slug: ai-markdown-documentation-system
+    category: automation
+    audience: 产品经理、技术写作者、内容创作者、团队协作者
+    pain_point: 文档创建和维护效率低下，缺乏AI辅助功能
+    topic: Build AI-powered Markdown documentation system using Blume framework
+    tags: 文档管理,Markdown,AI写作,团队协作
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Blume
+      original_url: https://www.producthunt.com/products/blume-3
+      added_at: 2026-08-17
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 37
