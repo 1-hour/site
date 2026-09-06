@@ -4743,3 +4743,45 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 37
+  - slug: ai-lego-design-workflow
+    category: ai-tools
+    audience: 内容创作者、玩具设计师、亲子博主
+    pain_point: 想制作独特的乐高内容或产品但缺乏设计能力
+    topic: Create custom LEGO sets from text prompts using BrickForgerAI for content
+      and products
+    tags: LEGO design, AI generation, creative content, product design
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: BrickForgerAI
+      original_url: https://www.producthunt.com/products/brickforgerai
+      added_at: 2026-09-06
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 38
+  - slug: voice-to-animated-story-creation
+    category: creators
+    audience: 内容创作者、家庭用户、短视频制作者
+    pain_point: 想要制作有趣的家庭故事视频但缺乏动画技能
+    topic: Create hand-drawn animated story films from family voice recordings using
+      AI
+    tags: voice to video, animated stories, family content, AI animation
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Retold
+      original_url: https://www.producthunt.com/products/retold
+      added_at: 2026-09-06
+      scores:
+        learnable: 7
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 7
+      total: 37
