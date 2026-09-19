@@ -4785,3 +4785,108 @@ queue:
         differentiation: 7
         keyword_demand: 7
       total: 37
+  - slug: claude-agents-md-workflow
+    category: ai-tools
+    audience: 使用Claude进行编程和内容创作的用户
+    pain_point: Claude对话缺乏持续的角色和上下文管理
+    topic: Set up AGENTS.md file system for Claude Code to manage multiple AI agents
+      with specific roles and context
+    tags: claude,agents,workflow,coding,ai-tools
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: Claude Code now reads AGENTS.md if there is no Claude.md
+      original_url: https://news.ycombinator.com/item?id=49760187
+      added_at: 2026-09-19
+      scores:
+        learnable: 7
+        audience: 7
+        structure: 8
+        differentiation: 8
+        keyword_demand: 7
+      total: 37
+  - slug: llm-writing-workflow
+    category: creators
+    audience: 内容创作者、自媒体作者、文案写手
+    pain_point: 不知道如何有效利用AI工具提升写作效率和质量
+    topic: Build a complete LLM-powered writing workflow from research to final
+      draft with quality control checkpoints
+    tags: llm,writing,content-creation,ai-workflow,productivity
+    priority: P0
+    status: pending
+    _scout:
+      source: hn-front
+      original_title: How to Write with an LLM
+      original_url: https://news.ycombinator.com/item?id=49747070
+      added_at: 2026-09-19
+      scores:
+        learnable: 8
+        audience: 9
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 40
+  - slug: mosmos-meeting-voice-workflow
+    category: automation
+    audience: 职场人士和会议频繁的运营/产品经理
+    pain_point: 会议记录效率低下，会前准备和会后整理耗时太多
+    topic: Set up MosMos voice writing system for complete meeting workflow from
+      prep to follow-up
+    tags: voice writing, meeting notes, productivity, workflow automation
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: MosMos
+      original_url: https://www.producthunt.com/products/mosmos
+      added_at: 2026-09-19
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
+  - slug: hands-free-receipt-scanning-workflow
+    category: automation
+    audience: 职场人士和副业从业者
+    pain_point: 手动整理发票报销繁琐，容易丢失凭证
+    topic: Set up automated receipt scanning and expense tracking system using phone
+      and AI tools
+    tags: 发票扫描,报销自动化,手机工具,财务管理,AI识别
+    priority: P1
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: Galactic Receipt Scanner
+      original_url: https://www.producthunt.com/products/galactic-receipt-scanner
+      added_at: 2026-09-19
+      scores:
+        learnable: 8
+        audience: 7
+        structure: 8
+        differentiation: 6
+        keyword_demand: 7
+      total: 36
+  - slug: desktop-voice-shortcuts-productivity
+    category: automation
+    audience: 职场人士、内容创作者和运营人员
+    pain_point: 打字效率低，重复操作浪费时间
+    topic: Set up voice-controlled desktop shortcuts and dictation workflow for 2x
+      productivity boost
+    tags: 语音输入,桌面自动化,生产力工具,快捷键,语音识别
+    priority: P0
+    status: pending
+    _scout:
+      source: producthunt
+      original_title: TypeDash
+      original_url: https://www.producthunt.com/products/typedash-2
+      added_at: 2026-09-19
+      scores:
+        learnable: 8
+        audience: 8
+        structure: 8
+        differentiation: 7
+        keyword_demand: 8
+      total: 39
