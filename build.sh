@@ -62,6 +62,11 @@ fi
 pnpm install --prefer-offline
 
 echo "==> Building static site..."
+# Sync topics.yaml into content so framework can read upcoming counts
+if [ -f topics.yaml ]; then
+  cp topics.yaml content/topics.yaml
+  echo "    synced topics.yaml -> content/"
+fi
 CONTENT_DIR=../content pnpm build
 
 echo "==> Moving output to root..."
