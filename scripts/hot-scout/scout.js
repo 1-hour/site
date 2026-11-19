@@ -358,8 +358,8 @@ If it duplicates an existing tutorial slug, reject (we'll provide the list).
 
 async function evaluateBatch(candidates, existingSlugs) {
   const apiKey = process.env.OPENAI_API_KEY || '09cce955-ab3a-41d6-b209-de3fc697c658';
-  const baseURL = process.env.OPENAI_BASE_URL || 'https://llm-gateway-prod-sgp.corp.kuaishou.com/llm-serve/v1';
-  const model = process.env.OPENAI_MODEL || 'claude-sonnet-4';
+  const baseURL = process.env.OPENAI_BASE_URL || 'https://llm-gateway-sgp-2-api.test.gifshow.com/llm-serve/v1';
+  const model = process.env.OPENAI_MODEL || 'claude-opus-5-5';
 
   // Process in small batches to avoid huge JSON payloads (which the LLM
   // sometimes mangles).
@@ -403,7 +403,7 @@ async function evaluateOneBatch(candidates, existingSlugs, apiKey, baseURL, mode
         { role: 'system', content: EVAL_PROMPT },
         { role: 'user', content: userMsg },
       ],
-      temperature: 0.3,
+      max_tokens: 32000,
     }),
   });
   if (!r.ok) {
@@ -540,6 +540,10 @@ async function main() {
   const indexed = top.map((c, i) => ({ ...c, _idx: i + 1 }));
   const results = await evaluateBatch(indexed, slugs);
   console.log(`  got ${results.length} verdicts`);
+  if (results.length === 0) {
+    console.error('▶ LLM evaluation failed entirely; not marking candidates as seen');
+    process.exit(2);
+  }
 
   // mark seen
   for (const c of top) {
